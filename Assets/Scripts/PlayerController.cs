@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     private Camera _mainCamera;
     private Vector2 _pointerPosition;
     private IInteractable _previousInteractable;
+    [SerializeField] private GameState _gameState;
+    
 
     private void Awake()
     {
@@ -36,7 +38,8 @@ public class PlayerController : MonoBehaviour
 
     private void OnClick(InputAction.CallbackContext context)
     {
-        Debug.Log($"click");
+        if(_gameState.Value is States.DIALOGUE or States.PAUSED) return;
+        //Debug.Log($"click");
         Ray ray = _mainCamera.ScreenPointToRay(_pointerPositionInputAction.ReadValue<Vector2>());
         if (Physics.Raycast(ray, out var hit) && hit.collider.GetComponent<IInteractable>() != null)
         {
@@ -47,6 +50,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if(_gameState.Value is States.DIALOGUE or States.PAUSED) return;
         Ray ray = _mainCamera.ScreenPointToRay(_pointerPositionInputAction.ReadValue<Vector2>());
         if (Physics.Raycast(ray, out var hit))
         {

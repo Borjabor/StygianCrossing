@@ -4,11 +4,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Outline))]
-public class InteractTest : MonoBehaviour, IInteractable
+public class DialogueTrigger : MonoBehaviour, IInteractable
 {
     private Outline _outline;
 
     [SerializeField] private TextAsset _dialogue;
+    [SerializeField] private GameState _gameState;
+    
     
 
     private void Awake()
@@ -19,7 +21,8 @@ public class InteractTest : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        Debug.Log($"Talk");
+        if(_gameState.Value is States.DIALOGUE or States.PAUSED) return;
+        DialogueManager.GetInstance().EnterDialogueMode(_dialogue);
     }
 
     public void ShowPrompt()
