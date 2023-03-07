@@ -3,14 +3,25 @@ using System.Collections;
 using System.Collections.Generic;
 using Ink.Runtime;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
     private static DialogueManager instance;
+
+    [Range(1,10)][SerializeField] private int _textSpeed;
+    private float _typingSpeed;
+    private Coroutine _displayLineCoroutine;
+    private bool _canContinueToNextLine = true;
+    
     [SerializeField] private GameObject _dialoguePanel;
     [SerializeField] private TextMeshProUGUI _dialogueText;
+    private string _fullText;
+    [SerializeField] private Scrollbar _scrollbar;
     [SerializeField] private GameState _gameState;
+    [SerializeField] private GameObject _continueIcon;
     [SerializeField] private GameObject[] _choices;
     private TextMeshProUGUI[] _choicesText;
     
@@ -18,8 +29,8 @@ public class DialogueManager : MonoBehaviour
 
     private Story _currentStory;
     private bool _isDialoguePlaying;
-    
-    
+    private bool _finishText;
+
 
     private void Awake()
     {
@@ -34,6 +45,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Start()
     {
+        _typingSpeed = 0.05f / _textSpeed;
         _isDialoguePlaying = false;
         _dialoguePanel.SetActive(false);
         _choicesText = new TextMeshProUGUI[_choices.Length];
@@ -74,14 +86,72 @@ public class DialogueManager : MonoBehaviour
 
     public void ContinueStory()
     {
+        if(!_canContinueToNextLine) return;
+        _finishText = false;
         if (_currentStory.canContinue)
         {
-            _dialogueText.text = _currentStory.Continue();
-            DisplayChoices();
+            if(_displayLineCoroutine != null) StopCoroutine(_displayLineCoroutine);
+            _displayLineCoroutine = StartCoroutine(DisplayLine(_currentStory.Continue()));
         }
         else
         {
             StartCoroutine(ExitDialogueMode());
+        }
+    }
+
+    private IEnumerator DisplayLine(string line)
+    {
+        _dialogueText.text = "<color=#808080ff>" + _fullText + "</color>";
+
+        _continueIcon.SetActive(false);
+        HideChoices();
+        _canContinueToNextLine = false;
+
+        bool isAddingRichTextTag = false;
+
+        foreach (char letter in line.ToCharArray())
+        {
+            if (_finishText)
+            {
+                _dialogueText.text = "<color=#808080ff>" + _fullText + "</color>" + line;
+                yield return new WaitForSeconds(0.1f);
+                _scrollbar.value = 0;
+                _finishText = false;
+                break;
+            }
+
+            if (letter == '<' || isAddingRichTextTag)
+            {
+                isAddingRichTextTag = true;
+                _dialogueText.text += letter;
+                _scrollbar.value = 0;
+                if (letter == '>') isAddingRichTextTag = false;
+            }
+            else
+            {
+                _dialogueText.text += letter;
+                _scrollbar.value = 0;
+                yield return new WaitForSeconds(_typingSpeed);
+            }
+            
+        }
+
+        _fullText += _dialogueText.text;
+        _continueIcon.SetActive(true);
+        DisplayChoices();
+        _canContinueToNextLine = true;
+    }
+
+    public void FinishText()
+    {
+        _finishText = true;
+    }
+
+    private void HideChoices()
+    {
+        foreach (GameObject choiceButton in _choices)
+        {
+            choiceButton.SetActive(false);
         }
     }
 
