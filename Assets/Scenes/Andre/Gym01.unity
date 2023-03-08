@@ -2683,8 +2683,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e10dc168c3248448c112800a71d5b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: {fileID: 0}
-  _gameState: {fileID: 0}
+  _dialogue: {fileID: 4900000, guid: fd0e8f93af9943f41b89a9a80ae33fbe, type: 3}
+  _gameState: {fileID: 11400000, guid: 4c329863d7a68eb4ba4ae3d4cabf695d, type: 2}
 --- !u!114 &1977857168
 MonoBehaviour:
   m_ObjectHideFlags: 0
