@@ -28,14 +28,14 @@ public class SceneComponent : MonoBehaviour
 
     private void ActiveScene()
     {
-        GetComponentInChildren<SpriteRenderer>().color = Color.white;
-        print("Scene is active now");
-        _isActive = false;
+        Transform overlayTransform = transform.GetChild(0);
+        overlayTransform.GetComponent<Renderer>().enabled = false;
+        print("This scene is active now");
     }
     
     private void InactiveScene()
     {
-        GetComponentInChildren<SpriteRenderer>().color = Color.red;
-        // print("Scene is currently inactive");
+        Transform overlayTransform = transform.GetChild(0);
+        overlayTransform.GetComponent<Renderer>().enabled = true;
     }
 }
