@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using Ink.Runtime;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,8 +14,11 @@ public class DialogueManager : MonoBehaviour
     private float _typingSpeed;
     private Coroutine _displayLineCoroutine;
     private bool _canContinueToNextLine = true;
+
+    [SerializeField] private TextAsset _loadGlobalsJSON;
     
     [SerializeField] private GameObject _dialoguePanel;
+    [SerializeField] private TextMeshProUGUI _speakerName;
     [SerializeField] private TextMeshProUGUI _dialogueText;
     private string _fullText;
     [SerializeField] private Scrollbar _scrollbar;
@@ -25,8 +27,11 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject[] _choices;
     private TextMeshProUGUI[] _choicesText;
     
-    
+    private const string SPEAKER_TAG = "speaker";
+    //private const string PORTRAIT_TAG = "portrait";
 
+    private DialogueVariables _dialogueVariables;
+    
     private Story _currentStory;
     private bool _isDialoguePlaying;
     private bool _finishText;
@@ -36,6 +41,8 @@ public class DialogueManager : MonoBehaviour
     {
         if(instance != null) Debug.Log($"There is another Dialogue Manager");
         instance = this;
+
+        _dialogueVariables = new DialogueVariables(_loadGlobalsJSON);
     }
 
     public static DialogueManager GetInstance()
@@ -69,8 +76,11 @@ public class DialogueManager : MonoBehaviour
     {
         _gameState.Value = States.DIALOGUE;
         _currentStory = new Story(inkJSON.text);
-        //_isDialoguePlaying = true;
+        
+        _dialogueVariables.StartListening(_currentStory);
+        
         _dialoguePanel.SetActive(true);
+        _speakerName.text = "???"; //Default value to detect where it is missing;
 
         ContinueStory();
     }
@@ -79,8 +89,11 @@ public class DialogueManager : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
         _gameState.Value = States.NORMAL;
-        //_isDialoguePlaying = false;
+        
+        _dialogueVariables.StopListening(_currentStory);
+        
         _dialoguePanel.SetActive(false);
+        _fullText = "";
         _dialogueText.text = "";
     }
 
@@ -92,11 +105,37 @@ public class DialogueManager : MonoBehaviour
         {
             if(_displayLineCoroutine != null) StopCoroutine(_displayLineCoroutine);
             _displayLineCoroutine = StartCoroutine(DisplayLine(_currentStory.Continue()));
+            HandleTags(_currentStory.currentTags);
         }
         else
         {
             StartCoroutine(ExitDialogueMode());
         }
+    }
+
+    private void HandleTags(List<string> currentTags)
+    {
+        foreach (string tag in currentTags)
+        {
+            string[] splitTag = tag.Split(':');
+            
+            if(splitTag.Length != 2) Debug.Log($"Tag could not be parsed: {tag}");
+            
+            string tagKey = splitTag[0].Trim();
+            string tagValue = splitTag[1].Trim();
+
+            switch (tagKey) //In the end I just used the speaker tag, so the switch is not necessary. Left it as is in case I want to add stuff later. He used an animator to setup the portraits, but I feel the way I did it makes it more designer friendly, that is, them being called from the DialogueTrigger script
+            {
+                case SPEAKER_TAG:
+                    _speakerName.text = tagValue;
+                    break;
+                default:
+                    Debug.Log($"Tag came but is not currently being handled: {tag}");
+                    break;
+                
+            }
+        }
+        
     }
 
     private IEnumerator DisplayLine(string line)
@@ -184,5 +223,17 @@ public class DialogueManager : MonoBehaviour
     {
         _currentStory.ChooseChoiceIndex(choiceIndex);
         ContinueStory();
+    }
+
+    public Ink.Runtime.Object GetVariableState(string variableName)
+    {
+        Ink.Runtime.Object variableValue = null;
+        _dialogueVariables._variables.TryGetValue(variableName, out variableValue);
+        if (variableValue == null)
+        {
+            Debug.LogWarning($"Ink variable was not found: {variableName}");
+        }
+
+        return variableValue;
     }
 }
