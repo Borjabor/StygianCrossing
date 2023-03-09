@@ -28,13 +28,13 @@ public class DialogueManager : MonoBehaviour
     private TextMeshProUGUI[] _choicesText;
     
     private const string SPEAKER_TAG = "speaker";
-    //private const string PORTRAIT_TAG = "portrait";
 
     private DialogueVariables _dialogueVariables;
     
     private Story _currentStory;
     private bool _isDialoguePlaying;
     private bool _finishText;
+    private bool _isPlayer;
 
 
     private void Awake()
@@ -52,6 +52,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Start()
     {
+        _isPlayer = false;
         _typingSpeed = 0.05f / _textSpeed;
         _isDialoguePlaying = false;
         _dialoguePanel.SetActive(false);
@@ -80,7 +81,7 @@ public class DialogueManager : MonoBehaviour
         _dialogueVariables.StartListening(_currentStory);
         
         _dialoguePanel.SetActive(true);
-        _speakerName.text = "???"; //Default value to detect where it is missing;
+        _speakerName.text = _isPlayer? "Jeff's Inner Thoughts" : "???"; //Default value to detect where it is missing;
 
         ContinueStory();
     }
@@ -103,8 +104,15 @@ public class DialogueManager : MonoBehaviour
         _finishText = false;
         if (_currentStory.canContinue)
         {
-            if(_displayLineCoroutine != null) StopCoroutine(_displayLineCoroutine);
-            _displayLineCoroutine = StartCoroutine(DisplayLine(_currentStory.Continue()));
+            if (_isPlayer)
+            {
+                StartCoroutine(PlayerNotebook());
+            }
+            else
+            {
+                if(_displayLineCoroutine != null) StopCoroutine(_displayLineCoroutine);
+                _displayLineCoroutine = StartCoroutine(DisplayLine(_currentStory.Continue()));
+            }
             HandleTags(_currentStory.currentTags);
         }
         else
@@ -138,13 +146,21 @@ public class DialogueManager : MonoBehaviour
         
     }
 
+    private IEnumerator PlayerNotebook()
+    {
+        _dialogueText.text = _currentStory.Continue();
+        while (_currentStory.canContinue) _dialogueText.text += _currentStory.Continue();
+        yield return new WaitForSeconds(0.1f);
+        _scrollbar.value = 0;
+        DisplayChoices();
+    }
     private IEnumerator DisplayLine(string line)
     {
-        _dialogueText.text = "<color=#808080ff>" + _fullText + "</color>";
-
         _continueIcon.SetActive(false);
         HideChoices();
         _canContinueToNextLine = false;
+        
+        _dialogueText.text = "<color=#808080ff>" + _fullText + "</color>";
 
         bool isAddingRichTextTag = false;
 
@@ -235,5 +251,15 @@ public class DialogueManager : MonoBehaviour
         }
 
         return variableValue;
+    }
+
+    public void SetPlayer()
+    {
+        _isPlayer = true;
+    }
+    
+    public void ClearPlayer()
+    {
+        _isPlayer = false;
     }
 }

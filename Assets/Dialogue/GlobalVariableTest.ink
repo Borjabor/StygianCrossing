@@ -1,9 +1,10 @@
 INCLUDE Globals.ink
-
+#speaker:Professor
 ->main
 
 ===main===
-Choose a new color for the big sphere over there: #speaker:Professor
+This showcase interaction between varibales in dialogues and the environment.
+Choose a new color for the big sphere over there: 
     +[Red]
         ->chosen("Red")
     +[Green]
@@ -13,5 +14,7 @@ Choose a new color for the big sphere over there: #speaker:Professor
         
 ===chosen(color)===
 ~ color_choice = color
+~ knows_nothing = false
+~ variable_dialogue = true
 You chose {color}
-->END
+    ->END
