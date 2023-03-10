@@ -1,4 +1,6 @@
-# ProjectAfterlife
+# Stygian Crossing
+
+You are Charon, the boatman of the River Styx. Navigate the Stygian Crossing, a bar inside a lavish, but decaying, cruise to the afterlife. Talk to people and discrover the stories of two different sould and decide who (if any) should cross the veil into eternal rest.
 
 
 Roles:
