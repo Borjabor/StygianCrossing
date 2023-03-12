@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour
+public class PlayerInteract : MonoBehaviour
 {
     private PlayerInputsActions _playerInputsActions;
     private InputAction _pointerPositionInputAction;
@@ -40,6 +40,7 @@ public class PlayerController : MonoBehaviour
     {
         if(_gameState.Value is States.DIALOGUE or States.PAUSED) return;
         //Debug.Log($"click");
+        //Check distance from player to NPC/Object before letting them interact
         Ray ray = _mainCamera.ScreenPointToRay(_pointerPositionInputAction.ReadValue<Vector2>());
         if (Physics.Raycast(ray, out var hit) && hit.collider.GetComponent<IInteractable>() != null)
         {
@@ -50,6 +51,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        //This is fine, but perhaps having all characters have the prompt when then have new dialogues? Not sure how to do that. Maybe a reference from the dialogue trigger that checks global variables and calls the ShowPrompt in the IInteractable when specific variables change
         if(_gameState.Value is States.DIALOGUE or States.PAUSED) return;
         Ray ray = _mainCamera.ScreenPointToRay(_pointerPositionInputAction.ReadValue<Vector2>());
         if (Physics.Raycast(ray, out var hit))

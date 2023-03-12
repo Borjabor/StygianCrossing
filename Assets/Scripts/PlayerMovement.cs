@@ -9,6 +9,9 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField]
     private PlayerState _playerState;
+
+    [SerializeField] private GameState _gameState;
+    
     
     private bool _isMoving;
 
@@ -35,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if(_gameState.Value is States.PAUSED or States.DIALOGUE) return;
         Movement();
         SpawnSprite();
         AnimationMovement();

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(Outline))]
+//[RequireComponent(typeof(Outline))]
 public class DialogueTrigger : MonoBehaviour, IInteractable
 {
     private Outline _outline;
@@ -15,12 +15,15 @@ public class DialogueTrigger : MonoBehaviour, IInteractable
     [SerializeField] protected Sprite _portraitImage;
     [Tooltip("Drag the Portrait object from within Dialogue Panel > Image > Portrait")]
     [SerializeField] protected Image _portrait;
+
+    [SerializeField] private GameObject _prompt;
+    
     
 
     protected void Awake()
     {
-        _outline = GetComponent<Outline>();
-        _outline.OutlineWidth = 0f;
+        //_outline = GetComponent<Outline>();
+        //_outline.OutlineWidth = 0f;
     }
 
     public virtual void Interact()
@@ -33,12 +36,14 @@ public class DialogueTrigger : MonoBehaviour, IInteractable
 
     public void ShowPrompt()
     {
-        _outline.OutlineColor = Color.yellow;
-        _outline.OutlineWidth = 10f;
+        //_outline.OutlineColor = Color.yellow;
+        //_outline.OutlineWidth = 10f;
+        _prompt.SetActive(true);
     }
 
     public void HidePrompt()
     {
-        _outline.OutlineWidth = 0f;
+        //_outline.OutlineWidth = 0f;
+        _prompt.SetActive(false);
     }
 }
