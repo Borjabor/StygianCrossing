@@ -85,7 +85,9 @@ Grips your hand. &quot;It hurts. It hurts too much. Why does it hurt so much?&qu
 [[&quot;What does she look like?&quot;]]
 [[&quot;I&#39;m not your errand boy.&quot;]]</tw-passagedata><tw-passagedata pid="22" name="&quot;What does she look like?&quot;" tags="" position="550,1875" size="100,100">Old Man: &quot;She&#39;s a baby, sir. Just a baby. Barely has any hair. Soft, thin. Wears a big bow on top.&quot;
 
-[[continue001]]</tw-passagedata><tw-passagedata pid="23" name="&quot;I&#39;m not your errand boy.&quot;" tags="" position="700,1875" size="100,100">Old Man: &quot;I didn&#39;t mean it in that way.&quot; Tries to recompose himself. Wipes a tear. Turns his head to face me straight up. My stomach yirks. &quot;I do apologize. I will not bother you anymore. But I beg of you. She&#39;s a baby. If you see her, let me know...&quot;
+[[continue001]]</tw-passagedata><tw-passagedata pid="23" name="&quot;I&#39;m not your errand boy.&quot;" tags="" position="700,1875" size="100,100">Old Man:
+
+&quot;I didn&#39;t mean it in that way.&quot; Tries to recompose himself. Wipes a tear. Turns his head to face me straight up. My stomach yirks. &quot;I do apologize. I will not bother you anymore. But I beg of you. She&#39;s a baby. If you see her, let me know...&quot;
 
 [[I stay in silence. |continue001]]</tw-passagedata><tw-passagedata pid="24" name="continue001" tags="" position="550,2000" size="100,100">Old Man:
 

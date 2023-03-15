@@ -1,0 +1,211 @@
+:: StoryTitle
+Arthur_SC
+
+
+:: StoryData
+{
+  "ifid": "22482F37-7B41-4F6F-B693-D6C9BDFB507A",
+  "format": "Harlowe",
+  "format-version": "3.3.5",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: \ ch1_004 {"position":"700,800","size":"100,100"}
+The man doesn't say anything, he merely starts bending down towards his shoe, starts looking for something. His quiet moans echo across the pits of your stomach. Sickening.
+
+He brings one hand up.
+
+Old Man: "Here it is." In his dirty open palm, he shows you a single gold coin.
+
+[["I suppose you get to stay in the boat for now." |You get to stay]]
+
+
+:: "I doubt you'll find her in here. This place is for the dead, old man." {"position":"700,1300","size":"100,100"}
+Old Man:
+
+He snivels once over and I notice a tear dropping from his eye. I have never been versed in this. Should I even care?
+
+"Penelope... Penelope... I'm sorry, I'm so sorry." He breaks down onto the table.
+
+[[Start leaving.]]
+[["Please try to recollect yourself."]]
+
+
+:: "I'm not Penelope." {"position":"700,1675","size":"100,100"}
+Old Man: "You're not..." He shrieks quietly. "Of course you're not. The voices. They are so loud. They are so numerous. They are... I can almost hear her voice. Her sweet voice."
+
+[["Who are you talking about?" |"What does she look like?"]]
+
+
+:: "I'm not your errand boy." {"position":"700,1875","size":"100,100"}
+Old Man:
+
+"I didn't mean it in that way." Tries to recompose himself. Wipes a tear. Turns his head to face me straight up. My stomach yirks. "I do apologize. I will not bother you anymore. But I beg of you. She's a baby. If you see her, let me know..."
+
+[[I stay in silence. |continue001]]
+
+
+:: "Is your daughter dead, too?" {"position":"675,2125","size":"100,100"}
+Old Man:
+
+Another tear trickles down his face. "Yes. She passed when she was only two months old." His mouth quakes as he leans down onto his hands once more. "She has to be here somewhere."
+
+[["She's in a better place than here, I assure you."]]
+[["The chances of finding such a small baby in this boat are slim to none."]]
+
+
+:: "It should hurt, you piece of shit." {"position":"700,1550","size":"100,100"}
+Old Man: "I suppose I deserve that. I know. I know you deserved more... Penelope."
+
+[["I'm not Penelope."]]
+[["What your mouth."]]
+
+
+:: "No rest for the wicked." {"position":"575,1675","size":"100,100"}
+Old Man: Moans. "That's why I lost her. My daughter. That's why she's... Gone. I need to find her."
+
+[["What does she look like?"]]
+[["She's definitely not here, dumbass." |"I'm not your errand boy."]]
+
+
+:: "Please try to recollect yourself." {"position":"575,1425","size":"100,100"}
+Old Man: "I can't... I can't... I swear I've tried but it's impossible. It hurts... It hurts too much."
+
+[["I suppose death is a pain, just like any other. It doesn't have to be so complicated." |Death is benign]]
+[["It should hurt, you piece of shit."]]
+
+
+:: "She's in a better place than here, I assure you." {"position":"675,2250","size":"100,100"}
+
+
+
+:: "Sir, do you have your coins on you?" {"position":"700,550","size":"100,100"}
+Creature:
+Rubs its face as if awakening from a dream.
+"Now where did I put it..." It mumbles. "I don't quite... Remember."
+
+[["Sir, I will need to see that you have coins and are adequate to finish your journey." | ch1_004]]
+[["Coins. Now." Slam your fist on the table. |Mean]]
+
+
+:: "The chances of finding such a small baby in this boat are slim to none." {"position":"550,2250","size":"100,100"}
+
+
+
+:: "What are you, another pedophile?" {"position":"550,2125","size":"100,100"}
+Old Man:
+
+"I would never! My daughter. It's my daughter." His words are a little more clear now. "She died... Too. She has to be here somewhere."
+
+[["She's in a better place than here, I assure you."]]
+[["The chances of finding such a small baby in this boat are slim to none."]]
+
+
+:: "What does she look like?" {"position":"550,1875","size":"100,100"}
+Old Man: "She's a baby, sir. Just a baby. Barely has any hair. Soft, thin. Wears a big bow on top."
+
+[[continue001]]
+
+
+:: "What your mouth." {"position":"825,1675","size":"100,100"}
+Old Man: "I'm sorry... It's just... It hurts. I just want to see you again. Penelope. Please. I miss you. I'm so sorry." He inches closer to me, takes a long whiff. Coughs. "Who are you, sir? Can you help me find my daughter?"
+
+[["What does she look like?"]]
+[["I'm not your errand boy."]]
+
+
+:: Approach the man {"position":"700,425","size":"100,100"}
+All you see is a big hat and what looks from afar to be big dreadlocks coming from within. You approach and notice the dreadlocks are firmly gripping the darkened face of the creature that sits before you. The humanoid holds its face between palms, seemingly hiding it.
+
+Will: "As if that's what he should be ashamed of."
+
+[["Sir, do you have your coins on you?"]]
+[[Stand close to him silently, breathing heavily and irregularly take a sip of your drink.]]
+
+
+:: Death is benign {"position":"575,1550","size":"100,100"}
+Old Man: "Nothing can be worse than this." He touches the back of his skull, strokes the dreadlocks carefully. "I disagree... If this is death... It's never-ending. It's badly written. Where is the peace they always said you got at the end? Where's the silence?"
+
+[["No rest for the wicked."]]
+[["Not here. The ship always bustles with information and whatever other nonsense that echoes through your head. You might as well get used to it. |Get used to it]]
+
+
+:: Get used to it {"position":"450,1675","size":"100,100"}
+Old Man: "But the voices... The voices, they are so loud. I just wanted to hear her laugh again. Sir. I miss her. Help me find her, please."
+
+[["What does she look like?"]]
+[["I'm not your errand boy."]]
+
+
+:: Mean {"position":"825,700","size":"100,100"}
+This startles the creature. It shrieks, looks up from its darkened fixture and allows you your first good look at its face. Milky white eyes, widened in shock.
+
+Old Man: "Please, take pity on this poor fool." Now, his hands rise up once again in an attempt to shielf the face.
+
+[["Sir, don't make this harder than it has to be." | ch1_004]]
+[["I will not say it again. | ch1_004]]
+
+
+:: Passagem Sem Nome {"position":"600,675","size":"100,100"}
+He looks up (you see the face)
+
+
+:: Stand close to him silently, breathing heavily and irregularly take a sip of your drink. {"position":"825,550","size":"100,100"}
+The creature wails. You can tell it's in pain.
+
+Will: "Like you when you're hungover, yeah, you piece of shit."
+
+[["Sir, I will need to see that you have coins and are adequate to finish your journey." | ch1_004]]
+[["Coins. Now." Slam your fist on the table top. |Mean]]
+
+
+:: Start {"position":"700,300","size":"100,100"}
+[[Approach the man]]
+
+
+:: Start leaving. {"position":"700,1425","size":"100,100"}
+Old Man:
+
+Grips your hand. "It hurts. It hurts too much. Why does it hurt so much?"
+
+[["It shouldn't hurt more than whatever blinded you." |Death is benign]]
+[[I pull my hand away. |"It should hurt, you piece of shit."]]
+
+
+:: What is this place {"position":"700,1050","size":"100,100"}
+Old Man: "Sir?" He raises his eyes to you. You catch the striking green tint in the eyes. Your stomach rolls over. "Would you mind telling me where I am?"
+
+Will: "Shit, he don't even know what's up. What a delight, getting to tell someone as pathetic as that they are dead."
+
+[["This is Stygian Crossing. The cruise that you never leave behind." |What?]]
+[["You're dead loser, get over it." |What?]]
+
+
+:: What? {"position":"700,1175","size":"100,100"}
+Old Man:
+
+Snivels. Slowly removes the hat to reveal the true nature of those strange dreadlocks. Dark green, spotted, scaly. They are definitely not dreadlocks. I can clearly see the cracks they left in the skull from when they burst out of it.
+
+He scratches the top of his head. Mutters something under his breath.
+
+Old Man: "What?" His eyes roll up once more. "Sir... Please. I need to go. I have to go see my daughter. Penelope. Have you seen her? I need to find her. She's lost... I... I need to find her."
+
+[["I doubt you'll find her in here. This place is for the dead, old man."]]
+
+
+:: You get to stay {"position":"700,925","size":"100,100"}
+Will: "Look at him, he's pathetic. He'll get his coin stolen in no time. Wanna bet?"
+
+[["Hope those dreads can protect you." |What is this place]]
+[["I'll bet in an hour, we'll get to throw him out." |What is this place]]
+
+
+:: continue001 {"position":"550,2000","size":"100,100"}
+Old Man:
+
+"She might be with her mother. My wife... She... She doesn't want to see me. Don't tell her I'm here. Just let me know my Penelope is okay."
+
+[["What are you, another pedophile?"]]
+[["Is your daughter dead, too?"]]
