@@ -128,7 +128,7 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3(1, 1, 1);  
         }
-        else if (currentPosition.x < prevPosition.x)
+        else //if (currentPosition.x < prevPosition.x)
         {
             transform.localScale = new Vector3(-1, 1, 1); 
         }
