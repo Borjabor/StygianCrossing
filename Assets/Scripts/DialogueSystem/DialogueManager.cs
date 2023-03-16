@@ -160,7 +160,8 @@ public class DialogueManager : MonoBehaviour
         HideChoices();
         _canContinueToNextLine = false;
         
-        _dialogueText.text = "<color=#808080ff>" + _fullText + "</color>";
+        //_dialogueText.text = "<color=#808080ff>" + _fullText + "</color>";
+        _dialogueText.text = "";
 
         bool isAddingRichTextTag = false;
 
@@ -168,7 +169,7 @@ public class DialogueManager : MonoBehaviour
         {
             if (_finishText)
             {
-                _dialogueText.text = "<color=#808080ff>" + _fullText + "</color>" + line;
+                _dialogueText.text = /*"<color=#808080ff>" + _fullText + "</color>" +*/ line;
                 yield return new WaitForSeconds(0.1f);
                 _scrollbar.value = 0;
                 _finishText = false;
@@ -191,7 +192,7 @@ public class DialogueManager : MonoBehaviour
             
         }
 
-        _fullText += _dialogueText.text;
+        //_fullText += _dialogueText.text;
         _continueIcon.SetActive(true);
         DisplayChoices();
         _canContinueToNextLine = true;
