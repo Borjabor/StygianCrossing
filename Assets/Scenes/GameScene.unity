@@ -1100,6 +1100,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameState: {fileID: 11400000, guid: 4c329863d7a68eb4ba4ae3d4cabf695d, type: 2}
+--- !u!4 &957998587 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2715919385231121300, guid: 9918987a63c3d314e9179c4a57a8d5ce,
+    type: 3}
+  m_PrefabInstance: {fileID: 2715919385617612411}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &981370411
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,6 +1949,8 @@ MonoBehaviour:
   zoomSpeed: 5
   minZoom: 1
   maxZoom: 5
+  _gameState: {fileID: 11400000, guid: 4c329863d7a68eb4ba4ae3d4cabf695d, type: 2}
+  _playerTransform: {fileID: 957998587}
 --- !u!4 &1776302135 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 428351202559066115, guid: 7ae757d09c1182740b7b815f93096cb0,
