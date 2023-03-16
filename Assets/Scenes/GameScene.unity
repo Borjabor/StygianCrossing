@@ -770,6 +770,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3825487871001953791, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: _choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6036753763952300166, guid: 80a68a6f74db8fa4fada27a8c887be25,
         type: 3}
       propertyPath: m_Name
@@ -795,6 +800,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7324089068402251120, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.00036621094
+      objectReference: {fileID: 0}
     - target: {fileID: 7324089068412735615, guid: 80a68a6f74db8fa4fada27a8c887be25,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -803,6 +813,11 @@ PrefabInstance:
     - target: {fileID: 7324089068412735615, guid: 80a68a6f74db8fa4fada27a8c887be25,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089068412735615, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

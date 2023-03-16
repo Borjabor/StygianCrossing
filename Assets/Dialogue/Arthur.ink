@@ -21,7 +21,7 @@ The creature wails. It's discomforting, to say the least.
         -> mean001
         
 === nice001 ===
-He finally looks up at me. Dried-up skin and milky white eyes that sparkle at me in what I can only categorize as a sadness that is almost aggressive in its imposition.
+He finally looks up at me. Shriveled, dry skin and milky white eyes that sparkle at me in what I can only categorize as a sadness that is almost aggressive in its imposition.
 
 "Hello? Can you hear me?"
     +"What game are you playing? Do you have any coins at all?"
