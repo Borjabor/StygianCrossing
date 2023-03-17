@@ -13,7 +13,6 @@ public class Notebook : DialogueTrigger
     {
         if(_gameState.Value is States.DIALOGUE or States.PAUSED) return;
         DialogueManager.GetInstance().SetPlayer();
-        DialogueManager.GetInstance().EnterDialogueMode(_dialogue);
-        _portrait.sprite = _portraitImage;
+        DialogueManager.GetInstance().EnterDialogue(_dialogue);
     }
 }

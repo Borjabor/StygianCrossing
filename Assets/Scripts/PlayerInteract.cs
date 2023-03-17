@@ -12,7 +12,6 @@ public class PlayerInteract : MonoBehaviour
     private Vector2 _pointerPosition;
     private IInteractable _previousInteractable;
     [SerializeField] private GameState _gameState;
-    
 
     private void Awake()
     {
@@ -44,9 +43,12 @@ public class PlayerInteract : MonoBehaviour
         Ray ray = _mainCamera.ScreenPointToRay(_pointerPositionInputAction.ReadValue<Vector2>());
         if (Physics.Raycast(ray, out var hit) && hit.collider.GetComponent<IInteractable>() != null)
         {
-            if (Vector2.Distance(transform.position, hit.transform.position) < 1.5)
+            IInteractable interactable = hit.collider.GetComponent<IInteractable>();
+            interactable.Interact();
+            Debug.Log($"hit");
+            if (Vector2.Distance(transform.position, hit.transform.position) < 1.5f)
             {
-                IInteractable interactable = hit.collider.GetComponent<IInteractable>();
+                //IInteractable interactable = hit.collider.GetComponent<IInteractable>();
                 interactable.Interact();
             }
         }
