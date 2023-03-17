@@ -376,7 +376,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!136 &557692142
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -470,8 +470,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameState: {fileID: 11400000, guid: 4c329863d7a68eb4ba4ae3d4cabf695d, type: 2}
-  _portraitImage: {fileID: 21300000, guid: fa06d52d225413749aef29afefdc041b, type: 3}
-  _portrait: {fileID: 612534008}
   _prompt: {fileID: 1195197263}
 --- !u!114 &557692147
 MonoBehaviour:
@@ -488,20 +486,8 @@ MonoBehaviour:
   reference:
     instanceId: 0
     referencingMode: 0
-    lowId: 0
-    highId: 0
---- !u!114 &612534008 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7324089066713154270, guid: 80a68a6f74db8fa4fada27a8c887be25,
-    type: 3}
-  m_PrefabInstance: {fileID: 654778376}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+    lowId: 283
+    highId: 16777216
 --- !u!1 &620828170 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3825487871255895417, guid: 80a68a6f74db8fa4fada27a8c887be25,
@@ -520,7 +506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cf8ed35cc4bc9c4baff01b8eccbfea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameState: {fileID: 0}
+  _gameState: {fileID: 11400000, guid: 4c329863d7a68eb4ba4ae3d4cabf695d, type: 2}
 --- !u!1 &631458752
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,8 +620,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameState: {fileID: 11400000, guid: 4c329863d7a68eb4ba4ae3d4cabf695d, type: 2}
-  _portraitImage: {fileID: 21300000, guid: 95feee6e576db6144b4ce448367739ea, type: 3}
-  _portrait: {fileID: 612534008}
   _prompt: {fileID: 1143983517}
 --- !u!114 &631458758
 MonoBehaviour:
@@ -652,7 +636,7 @@ MonoBehaviour:
   reference:
     instanceId: 0
     referencingMode: 0
-    lowId: 701
+    lowId: 289
     highId: 16777216
 --- !u!1001 &654778376
 PrefabInstance:
@@ -720,6 +704,51 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DialogueSystemContainer
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089066568946094, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089066568946094, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089066568946094, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089067004535208, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089067004535208, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089067004535208, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089067004535208, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089067004535208, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089067004535208, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7324089068402251120, guid: 80a68a6f74db8fa4fada27a8c887be25,
         type: 3}

@@ -43,12 +43,11 @@ public class PlayerInteract : MonoBehaviour
         Ray ray = _mainCamera.ScreenPointToRay(_pointerPositionInputAction.ReadValue<Vector2>());
         if (Physics.Raycast(ray, out var hit) && hit.collider.GetComponent<IInteractable>() != null)
         {
-            IInteractable interactable = hit.collider.GetComponent<IInteractable>();
-            interactable.Interact();
-            Debug.Log($"hit");
+            // IInteractable interactable = hit.collider.GetComponent<IInteractable>();
+            // interactable.Interact();
             if (Vector2.Distance(transform.position, hit.transform.position) < 1.5f)
             {
-                //IInteractable interactable = hit.collider.GetComponent<IInteractable>();
+                IInteractable interactable = hit.collider.GetComponent<IInteractable>();
                 interactable.Interact();
             }
         }
