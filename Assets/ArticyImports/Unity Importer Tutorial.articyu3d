@@ -5314,7 +5314,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Hi there. How are things?",
+            "Text": "Hi there. <i>How</i> <b>are</b> <color=#ff1aacff>things</color>?",
             "ExternalId": "",
             "Position": {
               "x": 750.0,
