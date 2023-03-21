@@ -153,4 +153,6 @@ public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
             Destroy(child.gameObject);
         }
     }
+    
+    public 
 }
