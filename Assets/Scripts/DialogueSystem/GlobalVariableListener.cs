@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Articy.Unity;
-using Articy.UnityImporterTutorial.GlobalVariables;
+//using Articy.UnityImporterTutorial.GlobalVariables;
 using UnityEditor;
 using UnityEngine;
 
