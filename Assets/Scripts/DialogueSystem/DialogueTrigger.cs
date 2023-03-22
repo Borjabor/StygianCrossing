@@ -18,8 +18,8 @@ public class DialogueTrigger : MonoBehaviour, IInteractable
     protected void Awake()
     {
         _prompt.SetActive(false);
-        //_dialogue = GetComponent<ArticyReference>().reference.GetObject();
-        _dialogue = _dialogueRef[2].GetObject();
+        _dialogue = GetComponent<ArticyReference>().reference.GetObject();
+        //_dialogue = _dialogueRef[2].GetObject();
     }
 
     public virtual void Interact()
