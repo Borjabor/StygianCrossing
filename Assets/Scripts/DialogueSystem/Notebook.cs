@@ -8,25 +8,27 @@ using UnityEngine.UI;
 
 public class Notebook : DialogueTrigger
 {
-    [SerializeField] private GlobalVariableListener _listener;
+    //Left here for now, just as reference on how to track global variables changing
     
-    private void OnEnable()
-    {
-        _listener.GlobalVariableChanged += Print;
-    }
-    
-    private void OnDisable()
-    {
-        _listener.GlobalVariableChanged -= Print;
-    }
-    
-    private void Print(string arg1, object arg2)
-    {
-        if (arg1 == GlobalVariableListener.GotTip && (bool)arg2)
-        {
-            Debug.Log($"Got Tip");
-        }
-    }
+    // [SerializeField] private GlobalVariableListener _listener;
+    //
+    // private void OnEnable()
+    // {
+    //     _listener.GlobalVariableChanged += Print;
+    // }
+    //
+    // private void OnDisable()
+    // {
+    //     _listener.GlobalVariableChanged -= Print;
+    // }
+    //
+    // private void Print(string arg1, object arg2)
+    // {
+    //     if (arg1 == GlobalVariableListener.GotTip && (bool)arg2)
+    //     {
+    //         Debug.Log($"Got Tip");
+    //     }
+    // }
 
     public override void Interact()
     {
