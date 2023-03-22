@@ -2240,13 +2240,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000001BD",
-                    "Target": "0x01000000000001BA"
+                    "TargetPin": "0x01000000000001C0",
+                    "Target": "0x01000000000001BF"
                   }
                 ]
               }
@@ -2317,9 +2317,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.5764706,
-                      "g": 0.75686276,
-                      "b": 0.8
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
                     },
                     "Label": "",
                     "TargetPin": "0x01000000000003A3",
@@ -2596,62 +2596,6 @@
         {
           "Type": "DialogueFragment",
           "Properties": {
-            "TechnicalName": "DFr_CA7D3B3A",
-            "Id": "0x01000000000001BA",
-            "Parent": "0x01000000000001F1",
-            "MenuText": "",
-            "StageDirections": "",
-            "Speaker": "0x0100000000000127",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
-            },
-            "Text": "Wake up from that void. Wake up. It is time to do your due-diligence and face up to whatever’s calling you. Drunk on the floor like that you will serve no purpose at all. Wake up, the Captain’s calling you.",
-            "ExternalId": "",
-            "Position": {
-              "x": 875.0,
-              "y": 100.0
-            },
-            "ZIndex": 1.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 3397204794,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000001BD",
-                "Owner": "0x01000000000001BA"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000001BE",
-                "Owner": "0x01000000000001BA",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x01000000000001C0",
-                    "Target": "0x01000000000001BF"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
             "TechnicalName": "DFr_E25C9771",
             "Id": "0x01000000000001BF",
             "Parent": "0x01000000000001F1",
@@ -2733,7 +2677,7 @@
             "TechnicalName": "DFr_4E4EF190",
             "Id": "0x01000000000001C9",
             "Parent": "0x01000000000001F1",
-            "MenuText": "",
+            "MenuText": "Hades must be throwing another one of his tantrums.",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -2789,7 +2733,7 @@
             "TechnicalName": "DFr_D6342AA4",
             "Id": "0x01000000000001CE",
             "Parent": "0x01000000000001F1",
-            "MenuText": "",
+            "MenuText": "You've been sittin' on your ass for way too long, eh, Captain?",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -2845,7 +2789,7 @@
             "TechnicalName": "DFr_BC86BFC3",
             "Id": "0x01000000000001FB",
             "Parent": "0x01000000000001F1",
-            "MenuText": "",
+            "MenuText": "She is a pretty old ship, I'd recommend having someone fix the dents.",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -2957,7 +2901,7 @@
             "TechnicalName": "DFr_5F078A46",
             "Id": "0x0100000000000210",
             "Parent": "0x01000000000001F1",
-            "MenuText": "",
+            "MenuText": "Judgement? Why don't you do it?",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -3013,7 +2957,7 @@
             "TechnicalName": "DFr_E985770C",
             "Id": "0x0100000000000217",
             "Parent": "0x01000000000001F1",
-            "MenuText": "",
+            "MenuText": "Are you crazy? We're in open water, how am I supposed to get rid of them?",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -3069,7 +3013,7 @@
             "TechnicalName": "DFr_034E249C",
             "Id": "0x010000000000021E",
             "Parent": "0x01000000000001F1",
-            "MenuText": "",
+            "MenuText": "I try to forget these are the things I must do to remain in existence.",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -3484,7 +3428,7 @@
             "Id": "0x01000000000003AE",
             "Parent": "0x0100000000000377",
             "MenuText": "\"Sir, do you have your coins on you?\"",
-            "StageDirections": "empathetic",
+            "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
             "Color": {
@@ -3492,7 +3436,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "\"Sir, do you have your coins on you?\"",
+            "Text": "",
             "ExternalId": "",
             "Position": {
               "x": 1200.0,
@@ -3539,7 +3483,7 @@
             "TechnicalName": "DFr_4F9AC18C",
             "Id": "0x01000000000003B4",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"Maybe I'll just assume you have no coins and throw you over.\" I laugh, inching menacingly close to him.",
             "StageDirections": "trickster",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -3595,7 +3539,7 @@
             "TechnicalName": "DFr_F058D73E",
             "Id": "0x01000000000003BC",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"Coins, now.\" I slam my fist on the table.",
             "StageDirections": "authoritarian",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -3651,7 +3595,7 @@
             "TechnicalName": "DFr_BDF5D204",
             "Id": "0x01000000000003C3",
             "Parent": "0x0100000000000377",
-            "MenuText": "\"Hello? Can you hear me?\"",
+            "MenuText": "",
             "StageDirections": "",
             "Speaker": "0x010000000000051B",
             "SplitHeight": 64.0,
@@ -3707,7 +3651,7 @@
             "TechnicalName": "DFr_54764FE2",
             "Id": "0x01000000000003CA",
             "Parent": "0x0100000000000377",
-            "MenuText": "\"Please, take pity on this poor fool.\"",
+            "MenuText": "",
             "StageDirections": "",
             "Speaker": "0x010000000000051B",
             "SplitHeight": 64.0,
@@ -3819,7 +3763,7 @@
             "TechnicalName": "DFr_DDA74FEF",
             "Id": "0x01000000000003FD",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"It's a long way down... What is your name, sir?\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -3875,7 +3819,7 @@
             "TechnicalName": "DFr_99A4E21B",
             "Id": "0x0100000000000404",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"Alright. Let's cut to the chase: how did you get here?\"",
             "StageDirections": "authoritarian",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -3987,7 +3931,7 @@
             "TechnicalName": "DFr_940A32CB",
             "Id": "0x0100000000000446",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"We are aboard the Queen Victoria navigating through the river that never ends.\"",
             "StageDirections": "logical",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -4043,7 +3987,7 @@
             "TechnicalName": "DFr_7370AB5A",
             "Id": "0x010000000000044D",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"You're dead, loser, get over it.\"",
             "StageDirections": "authoritarian",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -4099,7 +4043,7 @@
             "TechnicalName": "DFr_908819C9",
             "Id": "0x0100000000000454",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"How terrible must it be to not remember one's last moments.\"",
             "StageDirections": "trickster",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -4155,7 +4099,7 @@
             "TechnicalName": "DFr_225B9441",
             "Id": "0x0100000000000467",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"I suppose death is a pain, just like any other. It doesn't have to be so complicated.\"",
             "StageDirections": "logical",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -4211,7 +4155,7 @@
             "TechnicalName": "DFr_11CF3796",
             "Id": "0x010000000000046E",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"There ain't no rest for the wicked.\"",
             "StageDirections": "authoritarian",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -4267,7 +4211,7 @@
             "TechnicalName": "DFr_D6DDF3CE",
             "Id": "0x0100000000000475",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"Not here. The ship always bustles with whatever garbage echoes through your head. And the others', too.\"",
             "StageDirections": "trickster",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -4379,7 +4323,7 @@
             "TechnicalName": "DFr_5817B180",
             "Id": "0x010000000000053C",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"Can you recall how you got here?\"",
             "StageDirections": "empathetic",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -4435,7 +4379,7 @@
             "TechnicalName": "DFr_0EC9E823",
             "Id": "0x0100000000000557",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"What sort of crazy stuff did you get up to on land?\"",
             "StageDirections": "empathetic",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -4547,7 +4491,7 @@
             "TechnicalName": "DFr_D40CDD71",
             "Id": "0x0100000000000564",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"I know a criminal when I see one. Tell me about your crimes.\"",
             "StageDirections": "authoritarian",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -4659,7 +4603,7 @@
             "TechnicalName": "DFr_EBDBD042",
             "Id": "0x0100000000000571",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"Show me some ID, old man.\"",
             "StageDirections": "authoritarian",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -4771,7 +4715,7 @@
             "TechnicalName": "DFr_727B373F",
             "Id": "0x0100000000000598",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"And what are ya?\"",
             "StageDirections": "trickster",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -4883,7 +4827,7 @@
             "TechnicalName": "DFr_371D3EE2",
             "Id": "0x01000000000005A5",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"Was there anything special about your arrival here or just... Heart failure?\"",
             "StageDirections": "trickster",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -4939,7 +4883,7 @@
             "TechnicalName": "DFr_6F59F51D",
             "Id": "0x010000000000040B",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"I can smell mischief all around you.\" I give him a good whiff.",
             "StageDirections": "trickster",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -5051,7 +4995,7 @@
             "TechnicalName": "DFr_0171C29E",
             "Id": "0x01000000000006A4",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"Ew, what the fuck?\"",
             "StageDirections": "trickster",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -5107,7 +5051,7 @@
             "TechnicalName": "DFr_00F7E916",
             "Id": "0x01000000000006AB",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"What are those?\"",
             "StageDirections": "empathetic",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -5163,7 +5107,7 @@
             "TechnicalName": "DFr_3FFE7ABF",
             "Id": "0x01000000000006B2",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"What the hell happened to you?\"",
             "StageDirections": "authoritarian",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -5577,7 +5521,7 @@
             "TechnicalName": "DFr_37E9051F",
             "Id": "0x0100000000000725",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"Who?\"",
             "StageDirections": "logical",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -5633,7 +5577,7 @@
             "TechnicalName": "DFr_B6BE7ED0",
             "Id": "0x010000000000072C",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"Did someone kill you?\"",
             "StageDirections": "authoritarian",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -5689,7 +5633,7 @@
             "TechnicalName": "DFr_CAD005CD",
             "Id": "0x0100000000000733",
             "Parent": "0x0100000000000377",
-            "MenuText": "",
+            "MenuText": "\"I don't think Hades cares enough to send someone there just to kill you.\"",
             "StageDirections": "trickster",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -7092,11 +7036,6 @@
             "TechnicalName": "Dlg_8EFC0A18",
             "Type": "Dialogue",
             "Children": [
-              {
-                "Id": "0x01000000000001BA",
-                "TechnicalName": "DFr_CA7D3B3A",
-                "Type": "DialogueFragment"
-              },
               {
                 "Id": "0x01000000000001BF",
                 "TechnicalName": "DFr_E25C9771",

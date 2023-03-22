@@ -7,6 +7,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using Articy.Unity;
 using Articy.Unity.Interfaces;
+//using Articy.UnityImporterTutorial;
+
 //using Articy.UnityImporterTutorial; //has to be renamed to project used from Articy
 
 public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
