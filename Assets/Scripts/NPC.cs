@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPC : MonoBehaviour
+public class NPC : GlobalVariableListener
 {
 
     [SerializeField]
@@ -10,12 +10,6 @@ public class NPC : MonoBehaviour
 
     [SerializeField]
     private bool _changePosition;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -26,5 +20,14 @@ public class NPC : MonoBehaviour
         }
 
         _changePosition = false;
+    }
+
+    protected override void OnGlobalVariablesChanged(string aVariableName, object aValue)
+    {
+        if (aVariableName == "GameState.dialogue1Visited" && (bool)aValue == true)
+        {
+            _changePosition = true;
+        }
+        
     }
 }
