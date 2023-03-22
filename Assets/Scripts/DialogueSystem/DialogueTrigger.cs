@@ -11,13 +11,15 @@ public class DialogueTrigger : MonoBehaviour, IInteractable
     protected ArticyObject _dialogue;
     
     [SerializeField] protected GameState _gameState;
-
     [SerializeField] private GameObject _prompt;
+    [SerializeField] private ArticyRef[] _dialogueRef;
+    
 
     protected void Awake()
     {
         _prompt.SetActive(false);
-        _dialogue = GetComponent<ArticyReference>().reference.GetObject();
+        //_dialogue = GetComponent<ArticyReference>().reference.GetObject();
+        _dialogue = _dialogueRef[2].GetObject();
     }
 
     public virtual void Interact()
