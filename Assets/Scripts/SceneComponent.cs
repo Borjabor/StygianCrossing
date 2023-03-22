@@ -30,7 +30,7 @@ public class SceneComponent : MonoBehaviour
     {
         Transform overlayTransform = transform.GetChild(0);
         overlayTransform.GetComponent<Renderer>().enabled = false;
-        print("This scene is active now");
+        //print("This scene is active now");
     }
     
     private void InactiveScene()
