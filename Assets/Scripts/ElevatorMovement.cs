@@ -17,13 +17,7 @@ public class ElevatorMovement : MonoBehaviour
     private float _moveSpeed = 1f;
 
     private int _currentFloor = 1;
-
-    [SerializeField]
-    private enum _floorNumber
-    {
-        1,2,3;
-}
-
+    
     // Start is called before the first frame update
     void Start()
     {
