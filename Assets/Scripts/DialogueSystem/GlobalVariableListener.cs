@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Articy.Unity;
@@ -5,9 +6,10 @@ using Articy.UnityImporterTutorial.GlobalVariables;
 using UnityEditor;
 using UnityEngine;
 
-public abstract class GlobalVariableListener : MonoBehaviour
+public class GlobalVariableListener : MonoBehaviour
 {
-    protected virtual void Start()
+    public event Action<string, object> GlobalVariableChanged; 
+    private void OnEnable()
     {
         // we get the default variable storage from our database and add a listener to the notification manager
         // to call our supplied method every time any Variable inside the namespace "GameState" is changed.
@@ -15,13 +17,13 @@ public abstract class GlobalVariableListener : MonoBehaviour
     }
     
     // here we handle every variable change inside the "GameState" namespace
-    protected virtual void OnGlobalVariablesChanged(string aVariableName, object aValue)
+    private void OnGlobalVariablesChanged(string aVariableName, object aValue)
     {
-        /*if (aVariableName == "VariableSet.VariableName" && (type)aValue == desiredValue)
-        {
-            run desired code;
-        }*/
-
-        
+        GlobalVariableChanged?.Invoke(aVariableName, aValue);
+        // if (aVariableName == "VariableSet.VariableName" && (type)aValue == desiredValue)
+        // {
+        //     run desired code;
+        // }
+    
     }
 }
