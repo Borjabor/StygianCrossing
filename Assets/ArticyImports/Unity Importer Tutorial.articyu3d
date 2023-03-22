@@ -5,7 +5,7 @@
     "set_IncludedNodes": "Settings, Project, GlobalVariables, ObjectDefinitions, Packages, ScriptMethods, Hierarchy, Assets",
     "set_UseScriptSupport": "True",
     "ExportVersion": "1.2",
-    "ObjectDefinitionsHash": "66D4885CEFC2994046BABDCA0D856F00992BE6836081E0ADB187232494889520",
+    "ObjectDefinitionsHash": "79E1B78D4A318413879D0EB77DEC365DE0A348F3B32D896F6E44BBCAB6778C0D",
     "ScriptFragmentsHash": "1990543101"
   },
   "Project": {
@@ -36,6 +36,12 @@
           "Type": "Boolean",
           "Value": "False",
           "Description": "Player talked to the Oracle before"
+        },
+        {
+          "Variable": "ElevatorLevel",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
         }
       ]
     }
