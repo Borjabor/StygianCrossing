@@ -5,8 +5,8 @@
     "set_IncludedNodes": "Settings, Project, GlobalVariables, ObjectDefinitions, Packages, ScriptMethods, Hierarchy, Assets",
     "set_UseScriptSupport": "True",
     "ExportVersion": "1.2",
-    "ObjectDefinitionsHash": "5A82A26AD5C3D3ACF88852F4CEC06AC0C837745332FA00E91422EF7B9AC17A2A",
-    "ScriptFragmentsHash": "0000000000"
+    "ObjectDefinitionsHash": "72BEE0C86E1024D725ACAEC32B020667D8D51A7271666509FAF1B39580EB006F",
+    "ScriptFragmentsHash": "3057080590"
   },
   "Project": {
     "Name": "Stygian Crossing",
@@ -20,22 +20,22 @@
       "Description": "",
       "Variables": [
         {
-          "Variable": "question1",
+          "Variable": "CaptainQuest",
           "Type": "Boolean",
           "Value": "False",
-          "Description": "If you asked his name"
+          "Description": ""
         },
         {
-          "Variable": "question2",
-          "Type": "Boolean",
-          "Value": "False",
-          "Description": "If you asked about his death"
+          "Variable": "ElevatorFloor",
+          "Type": "Integer",
+          "Value": "0",
+          "Description": ""
         },
         {
-          "Variable": "question3",
+          "Variable": "Bottle",
           "Type": "Boolean",
           "Value": "False",
-          "Description": "If you ask about his crimes"
+          "Description": ""
         }
       ]
     }
@@ -2255,31 +2255,12 @@
               {
                 "Text": "",
                 "Id": "0x01000000000002F1",
-                "Owner": "0x01000000000001F1",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x010000000000037A",
-                    "Target": "0x0100000000000377"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x01000000000008BA",
-                    "Target": "0x01000000000008B7"
-                  }
-                ]
+                "Owner": "0x01000000000001F1"
+              },
+              {
+                "Text": "",
+                "Id": "0x0100000000000A79",
+                "Owner": "0x01000000000001F1"
               }
             ]
           }
@@ -2321,7 +2302,7 @@
             "ShortId": 1340957762,
             "InputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.CaptainQuest == true",
                 "Id": "0x010000000000037A",
                 "Owner": "0x0100000000000377",
                 "Connections": [
@@ -2343,20 +2324,7 @@
               {
                 "Text": "",
                 "Id": "0x010000000000037B",
-                "Owner": "0x0100000000000377",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000000381",
-                    "Target": "0x0100000000000380"
-                  }
-                ]
+                "Owner": "0x0100000000000377"
               }
             ]
           }
@@ -2407,20 +2375,7 @@
               {
                 "Text": "",
                 "Id": "0x0100000000000382",
-                "Owner": "0x0100000000000380",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000000389",
-                    "Target": "0x0100000000000388"
-                  }
-                ]
+                "Owner": "0x0100000000000380"
               }
             ]
           }
@@ -2471,20 +2426,7 @@
               {
                 "Text": "",
                 "Id": "0x010000000000038A",
-                "Owner": "0x0100000000000388",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000000391",
-                    "Target": "0x0100000000000390"
-                  }
-                ]
+                "Owner": "0x0100000000000388"
               }
             ]
           }
@@ -2577,7 +2519,7 @@
             "ShortId": 1056166833,
             "InputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.CaptainQuest == true",
                 "Id": "0x01000000000008BA",
                 "Owner": "0x01000000000008B7",
                 "Connections": [
@@ -2600,6 +2542,70 @@
                 "Text": "",
                 "Id": "0x01000000000008BB",
                 "Owner": "0x01000000000008B7"
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Dialogue",
+          "Properties": {
+            "TechnicalName": "Dlg_181F7AA6",
+            "Id": "0x0100000000000A7A",
+            "Parent": "0x0300000043CE43F7",
+            "Attachments": [],
+            "DisplayName": "Elevator",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 767.0,
+              "y": -200.0
+            },
+            "ZIndex": 11.0,
+            "Size": {
+              "w": 291.0,
+              "h": 200.0
+            },
+            "ShortId": 404716198,
+            "InputPins": [
+              {
+                "Text": "GlobalVariables.CaptainQuest == true",
+                "Id": "0x0100000000000A7D",
+                "Owner": "0x0100000000000A7A",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000000A83",
+                    "Target": "0x0100000000000A80"
+                  }
+                ]
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000000A7E",
+                "Owner": "0x0100000000000A7A"
               }
             ]
           }
@@ -2865,7 +2871,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Get your head out of the gutter, boy. The ship is unbalanced and I know very well why. Ye haven't been doin' yer duty. Judgement has not been passed.",
+            "Text": "Get your head out of the gutter, boy. The ship is unbalanced and I know very well why. Ye haven't been doin' yer duty. Judgement has not been passed.\r\n\r\nMy dear Victoria is crying for help. I know of the weight that is being put on her, that’s how well we communicate. Two souls are misplaced here. They must leave. If that doesn't happen soon, we're all bound to sink.",
             "ExternalId": "",
             "Position": {
               "x": 1975.0,
@@ -2893,13 +2899,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x010000000000023D",
-                    "Target": "0x010000000000023C"
+                    "TargetPin": "0x0100000000000235",
+                    "Target": "0x0100000000000233"
                   }
                 ]
               }
@@ -2924,7 +2930,7 @@
             "Text": "Judgement? Why don't you do it?",
             "ExternalId": "",
             "Position": {
-              "x": 3050.0,
+              "x": 2700.0,
               "y": -125.0
             },
             "ZIndex": 3.0,
@@ -2980,7 +2986,7 @@
             "Text": "Are you crazy? We're in open water, how am I supposed to get rid of them?",
             "ExternalId": "",
             "Position": {
-              "x": 3050.0,
+              "x": 2700.0,
               "y": 100.0
             },
             "ZIndex": 3.0,
@@ -3036,7 +3042,7 @@
             "Text": "<size=16>I try to forget these are the things I must do to remain in existence.</size>",
             "ExternalId": "",
             "Position": {
-              "x": 3050.0,
+              "x": 2700.0,
               "y": 325.0
             },
             "ZIndex": 3.0,
@@ -3077,53 +3083,75 @@
         {
           "Type": "DialogueFragment",
           "Properties": {
-            "TechnicalName": "DFr_02D54B12",
-            "Id": "0x010000000000023C",
-            "Parent": "0x01000000000001F1",
+            "TechnicalName": "DFr_0E6E2A6E",
+            "Id": "0x0100000000000A80",
+            "Parent": "0x0100000000000A7A",
             "MenuText": "",
             "StageDirections": "",
-            "Speaker": "0x0100000000000122",
+            "Speaker": "0x0100000000000A87",
             "SplitHeight": 64.0,
             "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
             },
-            "Text": "My dear Victoria is crying for help. I know of the weight that is being put on her, that’s how well we communicate. Two souls are misplaced here. They must leave. If that doesn't happen soon, we're all bound to sink.",
+            "Text": "Where do you wanna go?",
             "ExternalId": "",
             "Position": {
-              "x": 2300.0,
-              "y": 100.0
+              "x": 600.0,
+              "y": -225.0
             },
-            "ZIndex": 1.0,
+            "ZIndex": 12.0,
             "Size": {
               "w": 225.0,
               "h": 200.0
             },
-            "ShortId": 47532818,
+            "ShortId": 242100846,
             "InputPins": [
               {
                 "Text": "",
-                "Id": "0x010000000000023D",
-                "Owner": "0x010000000000023C"
+                "Id": "0x0100000000000A83",
+                "Owner": "0x0100000000000A80"
               }
             ],
             "OutputPins": [
               {
                 "Text": "",
-                "Id": "0x010000000000023E",
-                "Owner": "0x010000000000023C",
+                "Id": "0x0100000000000A84",
+                "Owner": "0x0100000000000A80",
                 "Connections": [
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000000235",
-                    "Target": "0x0100000000000233"
+                    "TargetPin": "0x0100000000000A8D",
+                    "Target": "0x0100000000000A8C"
+                  },
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000000A9A",
+                    "Target": "0x0100000000000A99"
+                  },
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000000A94",
+                    "Target": "0x0100000000000A93"
                   }
                 ]
               }
@@ -3148,7 +3176,7 @@
             "Text": "You do forget I am a mere sailor. I do not hold the name nor the title of one who passes judgement.",
             "ExternalId": "",
             "Position": {
-              "x": 3350.0,
+              "x": 3000.0,
               "y": -125.0
             },
             "ZIndex": 1.0,
@@ -3204,7 +3232,7 @@
             "Text": "Check their coins, Charon. The magic number is two. If the soul has two coins, it docks. One, they have the privilege of spending eternity in this sensational voyage. Zero coins, throw them over. That's it. And lay off the drink while you're at it. You stink.",
             "ExternalId": "",
             "Position": {
-              "x": 3825.0,
+              "x": 3475.0,
               "y": 100.0
             },
             "ZIndex": 1.0,
@@ -3222,7 +3250,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.CaptainQuest = true",
                 "Id": "0x0100000000000256",
                 "Owner": "0x0100000000000254",
                 "Connections": [
@@ -3260,7 +3288,7 @@
             "Text": "Don't play the fool with me, boy. You have a job to do. I will not have you sinking my Victoria with your indolence.",
             "ExternalId": "",
             "Position": {
-              "x": 3350.0,
+              "x": 3000.0,
               "y": 100.0
             },
             "ZIndex": 1.0,
@@ -3316,7 +3344,7 @@
             "Text": "That ain't my business what yer reasons are for being a good-for-nothing drunkard. Fix my Victoria or yer ass is the first one going down.",
             "ExternalId": "",
             "Position": {
-              "x": 3350.0,
+              "x": 3000.0,
               "y": 325.0
             },
             "ZIndex": 1.0,
@@ -8773,6 +8801,174 @@
           }
         },
         {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_1E2EDA9A",
+            "Id": "0x0100000000000A8C",
+            "Parent": "0x0100000000000A7A",
+            "MenuText": "",
+            "StageDirections": "",
+            "Speaker": "0x0100000000000A87",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "Text": "[\t2\t]",
+            "ExternalId": "",
+            "Position": {
+              "x": 1000.0,
+              "y": -225.0
+            },
+            "ZIndex": 12.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 506387098,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000000A8D",
+                "Owner": "0x0100000000000A8C"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "GlobalVariables.ElevatorFloor = 2",
+                "Id": "0x0100000000000A8E",
+                "Owner": "0x0100000000000A8C",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000000A7E",
+                    "Target": "0x0100000000000A7A"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_1FE4602C",
+            "Id": "0x0100000000000A93",
+            "Parent": "0x0100000000000A7A",
+            "MenuText": "",
+            "StageDirections": "",
+            "Speaker": "0x0100000000000A87",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "Text": "[\t1\t]",
+            "ExternalId": "",
+            "Position": {
+              "x": 1000.0,
+              "y": -450.0
+            },
+            "ZIndex": 12.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 535060524,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000000A94",
+                "Owner": "0x0100000000000A93"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "GlobalVariables.ElevatorFloor = 1",
+                "Id": "0x0100000000000A95",
+                "Owner": "0x0100000000000A93",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000000A7E",
+                    "Target": "0x0100000000000A7A"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_6BFB05C7",
+            "Id": "0x0100000000000A99",
+            "Parent": "0x0100000000000A7A",
+            "MenuText": "",
+            "StageDirections": "",
+            "Speaker": "0x0100000000000A87",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "Text": "[\t3\t]",
+            "ExternalId": "",
+            "Position": {
+              "x": 1000.0,
+              "y": 0.0
+            },
+            "ZIndex": 12.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 1811613127,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000000A9A",
+                "Owner": "0x0100000000000A99"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "GlobalVariables.ElevatorFloor = 3",
+                "Id": "0x0100000000000A9B",
+                "Owner": "0x0100000000000A99",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000000A7E",
+                    "Target": "0x0100000000000A7A"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
           "Type": "Hub",
           "Properties": {
             "TechnicalName": "Hub_F9E1C7FD",
@@ -8787,7 +8983,7 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 2625.0,
+              "x": 2275.0,
               "y": 175.0
             },
             "ZIndex": 25.0,
@@ -9628,6 +9824,43 @@
           }
         },
         {
+          "Type": "Entity",
+          "Properties": {
+            "TechnicalName": "Ntt_46847817",
+            "Id": "0x0100000000000A87",
+            "Parent": "0x03000000AC61A2B3",
+            "Attachments": [],
+            "DisplayName": "Elevator",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 120.0,
+              "y": 120.0
+            },
+            "ZIndex": 6.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "ShortId": 1183086615
+          }
+        },
+        {
           "Type": "Asset",
           "AssetRef": "Assets/Images/Arthur.jpg",
           "Category": "Image",
@@ -10108,11 +10341,6 @@
                 "Type": "DialogueFragment"
               },
               {
-                "Id": "0x010000000000023C",
-                "TechnicalName": "DFr_02D54B12",
-                "Type": "DialogueFragment"
-              },
-              {
                 "Id": "0x0100000000000233",
                 "TechnicalName": "Hub_F9E1C7FD",
                 "Type": "Hub"
@@ -10150,6 +10378,33 @@
               {
                 "Id": "0x0100000000000254",
                 "TechnicalName": "DFr_945F9FF0",
+                "Type": "DialogueFragment"
+              }
+            ]
+          },
+          {
+            "Id": "0x0100000000000A7A",
+            "TechnicalName": "Dlg_181F7AA6",
+            "Type": "Dialogue",
+            "Children": [
+              {
+                "Id": "0x0100000000000A80",
+                "TechnicalName": "DFr_0E6E2A6E",
+                "Type": "DialogueFragment"
+              },
+              {
+                "Id": "0x0100000000000A93",
+                "TechnicalName": "DFr_1FE4602C",
+                "Type": "DialogueFragment"
+              },
+              {
+                "Id": "0x0100000000000A8C",
+                "TechnicalName": "DFr_1E2EDA9A",
+                "Type": "DialogueFragment"
+              },
+              {
+                "Id": "0x0100000000000A99",
+                "TechnicalName": "DFr_6BFB05C7",
                 "Type": "DialogueFragment"
               }
             ]
@@ -10708,6 +10963,11 @@
           {
             "Id": "0x0100000000000182",
             "TechnicalName": "Ntt_7F069CDF",
+            "Type": "Entity"
+          },
+          {
+            "Id": "0x0100000000000A87",
+            "TechnicalName": "Ntt_46847817",
             "Type": "Entity"
           },
           {
