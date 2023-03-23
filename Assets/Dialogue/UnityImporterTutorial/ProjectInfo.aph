@@ -1,0 +1,19 @@
+<ProjectInfo Version="1">
+  <Signature>62A7640E8C16D7F9EA1BDE6BD1F3FC4980F13F3733BAB0F650F53BE58824E83B</Signature>
+  <Content>
+    <Project Guid="5073f84d-fd65-40fa-8eca-f3f80ed30882">
+      <DisplayName Value="Unity Importer Tutorial"/>
+      <DetailName Value="articy:draft Importer for Unity tutorial series"/>
+      <MainProjectGuid Value="4d787ff7-c093-4b27-a4b0-a762696323aa"/>
+      <IconType Value="0"/>
+      <IdProjectIcon Value="00000000-0000-0000-0000-000000000000"/>
+      <ScmProviderGuid Value="0745c2ee-abe3-451b-934e-7f597f56c0d7"/>
+      <ScmConfiguration Value=""/>
+      <CreationTimeStamp Value="637629892980742835"/>
+      <PartitionHash Value="AAAAC5D042F35FB57CEE57E9962F94512CDE8B458A62D2312C1E3209ECED39C7"/>
+      <SaveFileVersion Value="56"/>
+      <ProjectType Value="0"/>
+      <IsOnlineProject Value="False"/>
+    </Project>
+  </Content>
+</ProjectInfo>

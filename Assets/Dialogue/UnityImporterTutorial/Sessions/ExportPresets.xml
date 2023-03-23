@@ -1,0 +1,58 @@
+<ExportPresets LastType="XlsxForReimport">
+  <Preset DisplayName="UnityImporterIntro" Type="Unity3DExport">
+    <ExportSettings Type="Unity3DExport">
+      <Filename>D:\Unity_Projects\UnityImporterTutorial_010921\Assets\Unity Importer Tutorial.articyu3d</Filename>
+      <CustomSettings>
+        <Option Name="set_Localization" Value="False"/>
+        <Option Name="set_TextFormatter" Value="Unity"/>
+        <Option Name="set_IncludedNodes" Value="Settings, Project, GlobalVariables, ObjectDefinitions, Packages, ScriptMethods, Hierarchy, Assets"/>
+      </CustomSettings>
+      <PackageStates>
+        <State Id="72057594037928194" Enabled="1"/>
+      </PackageStates>
+      <SelectedRuleSet>72057594037928191</SelectedRuleSet>
+    </ExportSettings>
+  </Preset>
+  <Preset DisplayName="" Type="Unity3DExport">
+    <ExportSettings Type="Unity3DExport">
+      <Filename>D:\UnityProjects\ProjectAfterlife\Assets\ArticyImports\Unity Importer Tutorial.articyu3d</Filename>
+      <CustomSettings>
+        <Option Name="set_Localization" Value="False"/>
+        <Option Name="set_TextFormatter" Value="Unity"/>
+        <Option Name="set_IncludedNodes" Value="Settings, Project, GlobalVariables, ObjectDefinitions, Packages, ScriptMethods, Hierarchy, Assets"/>
+      </CustomSettings>
+      <PackageStates>
+        <State Id="72057594037928194" Enabled="1"/>
+      </PackageStates>
+      <SelectedRuleSet>72057594037928191</SelectedRuleSet>
+    </ExportSettings>
+  </Preset>
+  <Preset DisplayName="" Type="DocxExport">
+    <ExportSettings Type="DocxExport">
+      <Filename>C:\Users\andre\OneDrive\Documentos\Unity Importer Tutorial.docx</Filename>
+      <PageSize>A4</PageSize>
+      <GroupedBy>Folder</GroupedBy>
+      <SortedBy>DisplayName</SortedBy>
+      <HyperlinkOnReferences>1</HyperlinkOnReferences>
+      <ExportMethod>Single</ExportMethod>
+      <IncludeImages>1</IncludeImages>
+      <SideBySideImages>0</SideBySideImages>
+      <InsertTableOfContents>1</InsertTableOfContents>
+      <IncludeTitlePage>1</IncludeTitlePage>
+      <IncludeTechnicalNames>0</IncludeTechnicalNames>
+      <ExportMarkup>1</ExportMarkup>
+      <AutoOpenFile>1</AutoOpenFile>
+      <ExportQueries>1</ExportQueries>
+    </ExportSettings>
+  </Preset>
+  <Preset DisplayName="" Type="XlsxForReimport">
+    <ExportSettings Type="XlsxForReimport">
+      <Filename>C:\Users\andre\Dropbox\Unity Importer Tutorial.xlsx</Filename>
+      <SortObjectsBy>DisplayName</SortObjectsBy>
+      <SelectedProperties></SelectedProperties>
+      <AutoOpenFile>1</AutoOpenFile>
+      <ExportQueries>1</ExportQueries>
+      <MarkupTextFormat>Plain</MarkupTextFormat>
+    </ExportSettings>
+  </Preset>
+</ExportPresets>
