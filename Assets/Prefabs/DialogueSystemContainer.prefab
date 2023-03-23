@@ -477,8 +477,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.41740417, y: 76.5674}
-  m_SizeDelta: {x: 314.2318, y: 287.5002}
+  m_AnchoredPosition: {x: 2.537796, y: 76.5674}
+  m_SizeDelta: {x: 265.98, y: 287.5002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7324089066449896004
 CanvasRenderer:
@@ -590,7 +590,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 325.2119, y: 0}
+  m_SizeDelta: {x: 271.0527, y: 0}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!222 &7324089066493784943
 CanvasRenderer:
@@ -908,8 +908,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 162.19, y: 89.165}
-  m_SizeDelta: {x: 314.23, y: 127.31}
+  m_AnchoredPosition: {x: 136.67, y: 89.165}
+  m_SizeDelta: {x: 263.2, y: 127.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6511791957769126248
 MonoBehaviour:
@@ -1236,8 +1236,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -209, y: 119.5}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -174, y: 176}
+  m_SizeDelta: {x: 78.5437, y: 78.5437}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7324089067556441529
 CanvasRenderer:
@@ -1699,7 +1699,6 @@ MonoBehaviour:
   _gameState: {fileID: 11400000, guid: 4c329863d7a68eb4ba4ae3d4cabf695d, type: 2}
   _prompt: {fileID: 2192389619402737425}
   _dialogueRef: []
-  _listener: {fileID: 0}
 --- !u!114 &7324089067952985219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2492,6 +2491,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7324089066924937091}
     m_Modifications:
+    - target: {fileID: 1029351148714723089, guid: 0d23e34aad3312b428cb4da1429d95a9,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1029351148828527228, guid: 0d23e34aad3312b428cb4da1429d95a9,
         type: 3}
       propertyPath: m_Pivot.x
