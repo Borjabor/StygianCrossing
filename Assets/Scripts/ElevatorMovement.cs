@@ -53,7 +53,7 @@ public class ElevatorMovement : MonoBehaviour
 
     private void Start()
     {
-        _floor = FloorNumber.First;
+        //_floor = FloorNumber.First;
         _as = GetComponent<AudioSource>();
         _currentFloor = 1;
     }
@@ -61,12 +61,46 @@ public class ElevatorMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Movement();
+        //Movement();
+        Transport();
+    }
+
+    private void Transport()
+    {
+        if (_floor == FloorNumber.First)
+        {
+            if (_currentFloor != 1)
+            {
+                _playerTransform.position = _topFloorPosition;
+                _currentFloor = 1;  
+            }
+            
+        }
+        
+        else if (_floor == FloorNumber.Second)
+        {
+            if (_currentFloor != 2)
+            {
+                _playerTransform.position = _baseFloorPosition;
+                _currentFloor = 2;  
+            }
+            
+        }
+        
+        else if (_floor == FloorNumber.Third)
+        {
+            if (_currentFloor != 3)
+            {
+                _playerTransform.position = _base2FloorPosition;
+                _currentFloor = 3;   
+            }
+            
+        }
     }
 
     private void FloorFirst(string arg1, object arg2)
     {
-        if (arg1 == "GameState.ElevatorLevel" && (int)arg2 == 0)
+        if (arg1 == "GlobalVariables.ElevatorFloor" && (int)arg2 == 1)
         {
             _floor = FloorNumber.First;
         }
@@ -74,7 +108,7 @@ public class ElevatorMovement : MonoBehaviour
 
     private void FloorSecond(string arg1, object arg2)
     {
-        if (arg1 == "GameState.ElevatorLevel" && (int)arg2 == 1)
+        if (arg1 == "GlobalVariables.ElevatorFloor" && (int)arg2 == 2)
         {
             _floor = FloorNumber.Second;
         }
@@ -82,7 +116,7 @@ public class ElevatorMovement : MonoBehaviour
 
     private void FloorThird(string arg1, object arg2)
     {
-        if (arg1 == "GameState.ElevatorLevel" && (int)arg2 == 2)
+        if (arg1 == "GlobalVariables.ElevatorFloor" && (int)arg2 == 3)
         {
             _floor = FloorNumber.Third;
         }
