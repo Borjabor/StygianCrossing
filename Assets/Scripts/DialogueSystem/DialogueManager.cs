@@ -18,18 +18,20 @@ public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
     [SerializeField] private GameObject _dialoguePanel;
     [SerializeField] private TextMeshProUGUI _speakerName;
     [SerializeField] private TextMeshProUGUI _dialogueText;
+    private TextMeshProUGUI _fullText;
     [SerializeField] private Scrollbar _scrollbar;
     [SerializeField] private RectTransform _choicesPanel;
     [SerializeField] private GameObject _choicesPrefab;
     [SerializeField] private GameObject _closePrefab;
     [SerializeField] private Image _speakerImage;
     
-    
+
     
     private bool _isPlayer;
     public bool DialogueActive { get; set; }
 
     private ArticyFlowPlayer _flowPlayer;
+    private ArticyObject _currentDialogue;
 
 
     private void Awake()
@@ -91,11 +93,10 @@ public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
 
     public void OnFlowPlayerPaused(IFlowObject aObject)
     {
-        _dialogueText.text = string.Empty;
+        //_dialogueText.text = "<color=#808080ff>" + _fullText + "</color>";
+        //_dialogueText.text = string.Empty;
         _speakerName.text = string.Empty;
         
-        var objectWithText = aObject as IObjectWithText;
-        if (objectWithText != null) _dialogueText.text = objectWithText.Text;
 
         var objectWithSpeaker = aObject as IObjectWithSpeaker;
         if (objectWithSpeaker != null)
@@ -103,6 +104,9 @@ public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
             var speakerEntity = objectWithSpeaker.Speaker as Entity;
             if (speakerEntity != null) _speakerName.text = speakerEntity.DisplayName;
         }
+        
+        var objectWithText = aObject as IObjectWithText;
+        if (objectWithText != null) _dialogueText.text = "<color=#808080ff>" + _dialogueText.text + "</color> \n" /*+ _speakerName.text + ": "*/ + objectWithText.Text;
         
         var dialogueSpeaker = aObject as IObjectWithSpeaker;
         if (dialogueSpeaker != null)
@@ -117,6 +121,14 @@ public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
                 }
             }
         }
+
+        StartCoroutine(ScrollDown());
+    }
+
+    private IEnumerator ScrollDown()
+    {
+        yield return new WaitForSeconds(0.2f);
+        _scrollbar.value = 0;
     }
 
     public void OnBranchesUpdated(IList<Branch> aBranches)
