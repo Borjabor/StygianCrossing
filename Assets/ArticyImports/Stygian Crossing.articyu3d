@@ -8806,7 +8806,7 @@
             "TechnicalName": "DFr_1E2EDA9A",
             "Id": "0x0100000000000A8C",
             "Parent": "0x0100000000000A7A",
-            "MenuText": "[ 2 ]",
+            "MenuText": "2",
             "StageDirections": "",
             "Speaker": "0x0100000000000A87",
             "SplitHeight": 64.0,
@@ -8815,7 +8815,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "[\t2\t]",
+            "Text": "2",
             "ExternalId": "",
             "Position": {
               "x": 1000.0,
@@ -8862,7 +8862,7 @@
             "TechnicalName": "DFr_1FE4602C",
             "Id": "0x0100000000000A93",
             "Parent": "0x0100000000000A7A",
-            "MenuText": "[ 1 ]",
+            "MenuText": "1",
             "StageDirections": "",
             "Speaker": "0x0100000000000A87",
             "SplitHeight": 64.0,
@@ -8871,7 +8871,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "[\t1\t]",
+            "Text": "1",
             "ExternalId": "",
             "Position": {
               "x": 1000.0,
@@ -8918,7 +8918,7 @@
             "TechnicalName": "DFr_6BFB05C7",
             "Id": "0x0100000000000A99",
             "Parent": "0x0100000000000A7A",
-            "MenuText": "[ 3 ]",
+            "MenuText": "3",
             "StageDirections": "",
             "Speaker": "0x0100000000000A87",
             "SplitHeight": 64.0,
@@ -8927,7 +8927,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "[\t3\t]",
+            "Text": "3",
             "ExternalId": "",
             "Position": {
               "x": 1000.0,
