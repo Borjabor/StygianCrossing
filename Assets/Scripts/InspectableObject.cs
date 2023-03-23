@@ -30,7 +30,7 @@ public class InspectableObject : MonoBehaviour
 
     protected virtual void ObjectInteraction(string arg1, object arg2)
     {
-        if (arg1 == $"Investigation.{_name}" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.{_name}" && (bool)arg2)
         {
             _canBeClicked = true;
         }
