@@ -8,6 +8,6 @@ public class Bottle : InspectableObject
 
     protected override void ObjectInteraction(string arg1, object arg2)
     {
-        base.ObjectInteraction("Investigation.question1", true);
+        base.ObjectInteraction("GlobalVariables.Bottle", true);
     }
 }
