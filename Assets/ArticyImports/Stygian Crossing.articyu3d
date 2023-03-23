@@ -9855,7 +9855,7 @@
                 "h": 0.0
               },
               "Mode": "FromAsset",
-              "Asset": "0x0000000000000000"
+              "Asset": "0x0100000000000ABE"
             },
             "ShortId": 1183086615
           }
@@ -10200,6 +10200,44 @@
               "h": 196.0
             },
             "ShortId": 1559905557
+          }
+        },
+        {
+          "Type": "Asset",
+          "AssetRef": "Assets/Images/Elevator.png",
+          "Category": "Image",
+          "Properties": {
+            "TechnicalName": "Ast_ADA3D6B6",
+            "Id": "0x0100000000000ABE",
+            "Parent": "0x0100000000000105",
+            "DisplayName": "Elevator",
+            "Filename": "Elevator(0BBE).png",
+            "OriginalSource": "file:///E:/RapidGameDev1/ProjectAfterlife/Assets/Art/Portraits/Elevator.png",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              }
+            },
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 180.0,
+              "y": 180.0
+            },
+            "ZIndex": 9.0,
+            "Size": {
+              "w": 256.0,
+              "h": 196.0
+            },
+            "ShortId": 2913195702
           }
         },
         {
@@ -11246,6 +11284,11 @@
               {
                 "Id": "0x0100000000000189",
                 "TechnicalName": "Ast_B77BE94B",
+                "Type": "Asset"
+              },
+              {
+                "Id": "0x0100000000000ABE",
+                "TechnicalName": "Ast_ADA3D6B6",
                 "Type": "Asset"
               },
               {
