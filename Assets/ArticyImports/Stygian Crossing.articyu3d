@@ -2658,8 +2658,8 @@
                       "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000001CC",
-                    "Target": "0x01000000000001C9"
+                    "TargetPin": "0x0100000000000AEA",
+                    "Target": "0x0100000000000AE9"
                   },
                   {
                     "Color": {
@@ -2669,8 +2669,8 @@
                       "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000001CF",
-                    "Target": "0x01000000000001CE"
+                    "TargetPin": "0x0100000000000207",
+                    "Target": "0x0100000000000206"
                   },
                   {
                     "Color": {
@@ -2680,8 +2680,8 @@
                       "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000001FC",
-                    "Target": "0x01000000000001FB"
+                    "TargetPin": "0x0100000000000AF1",
+                    "Target": "0x0100000000000AF0"
                   }
                 ]
               }
@@ -2706,8 +2706,8 @@
             "Text": "Hades must be throwing another one of his tantrums.",
             "ExternalId": "",
             "Position": {
-              "x": 1575.0,
-              "y": -125.0
+              "x": 1225.0,
+              "y": 600.0
             },
             "ZIndex": 3.0,
             "Size": {
@@ -2726,20 +2726,7 @@
               {
                 "Text": "",
                 "Id": "0x01000000000001CD",
-                "Owner": "0x01000000000001C9",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000000207",
-                    "Target": "0x0100000000000206"
-                  }
-                ]
+                "Owner": "0x01000000000001C9"
               }
             ]
           }
@@ -2762,8 +2749,8 @@
             "Text": "<size=16>You've been sittin' on your ass for way too long, eh, Captain?</size>",
             "ExternalId": "",
             "Position": {
-              "x": 1575.0,
-              "y": 100.0
+              "x": 1225.0,
+              "y": 825.0
             },
             "ZIndex": 3.0,
             "Size": {
@@ -2782,20 +2769,7 @@
               {
                 "Text": "",
                 "Id": "0x01000000000001D0",
-                "Owner": "0x01000000000001CE",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000000207",
-                    "Target": "0x0100000000000206"
-                  }
-                ]
+                "Owner": "0x01000000000001CE"
               }
             ]
           }
@@ -2818,8 +2792,8 @@
             "Text": "<size=16>She is a pretty old ship, I'd recommend having someone fix the dents.</size>",
             "ExternalId": "",
             "Position": {
-              "x": 1575.0,
-              "y": 325.0
+              "x": 1225.0,
+              "y": 1050.0
             },
             "ZIndex": 3.0,
             "Size": {
@@ -2838,20 +2812,7 @@
               {
                 "Text": "",
                 "Id": "0x01000000000001FD",
-                "Owner": "0x01000000000001FB",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000000207",
-                    "Target": "0x0100000000000206"
-                  }
-                ]
+                "Owner": "0x01000000000001FB"
               }
             ]
           }
@@ -2862,7 +2823,7 @@
             "TechnicalName": "DFr_4DF71323",
             "Id": "0x0100000000000206",
             "Parent": "0x01000000000001F1",
-            "MenuText": "",
+            "MenuText": "You've been sittin' on your ass for way too long, eh, Captain?",
             "StageDirections": "",
             "Speaker": "0x0100000000000122",
             "SplitHeight": 64.0,
@@ -2874,7 +2835,7 @@
             "Text": "Get your head out of the gutter, boy. The ship is unbalanced and I know very well why. Ye haven't been doin' yer duty. Judgement has not been passed.\r\n\r\nMy dear Victoria is crying for help. I know of the weight that is being put on her, that’s how well we communicate. Two souls are misplaced here. They must leave. If that doesn't happen soon, we're all bound to sink.",
             "ExternalId": "",
             "Position": {
-              "x": 1975.0,
+              "x": 1525.0,
               "y": 100.0
             },
             "ZIndex": 1.0,
@@ -2923,15 +2884,15 @@
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
             "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
             },
             "Text": "Judgement? Why don't you do it?",
             "ExternalId": "",
             "Position": {
-              "x": 2700.0,
-              "y": -125.0
+              "x": 2625.0,
+              "y": 650.0
             },
             "ZIndex": 3.0,
             "Size": {
@@ -2950,20 +2911,7 @@
               {
                 "Text": "",
                 "Id": "0x0100000000000212",
-                "Owner": "0x0100000000000210",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x010000000000024D",
-                    "Target": "0x010000000000024C"
-                  }
-                ]
+                "Owner": "0x0100000000000210"
               }
             ]
           }
@@ -2979,15 +2927,15 @@
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
             "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
             },
             "Text": "Are you crazy? We're in open water, how am I supposed to get rid of them?",
             "ExternalId": "",
             "Position": {
-              "x": 2700.0,
-              "y": 100.0
+              "x": 2625.0,
+              "y": 875.0
             },
             "ZIndex": 3.0,
             "Size": {
@@ -3006,20 +2954,7 @@
               {
                 "Text": "",
                 "Id": "0x0100000000000219",
-                "Owner": "0x0100000000000217",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000000279",
-                    "Target": "0x0100000000000278"
-                  }
-                ]
+                "Owner": "0x0100000000000217"
               }
             ]
           }
@@ -3035,15 +2970,15 @@
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
             "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
             },
             "Text": "<size=16>I try to forget these are the things I must do to remain in existence.</size>",
             "ExternalId": "",
             "Position": {
-              "x": 2700.0,
-              "y": 325.0
+              "x": 2625.0,
+              "y": 1100.0
             },
             "ZIndex": 3.0,
             "Size": {
@@ -3062,20 +2997,7 @@
               {
                 "Text": "",
                 "Id": "0x0100000000000220",
-                "Owner": "0x010000000000021E",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000000281",
-                    "Target": "0x0100000000000280"
-                  }
-                ]
+                "Owner": "0x010000000000021E"
               }
             ]
           }
@@ -3086,7 +3008,7 @@
             "TechnicalName": "DFr_4C05AC3A",
             "Id": "0x010000000000024C",
             "Parent": "0x01000000000001F1",
-            "MenuText": "",
+            "MenuText": "Judgement? Why don't you do it?",
             "StageDirections": "",
             "Speaker": "0x0100000000000122",
             "SplitHeight": 64.0,
@@ -3098,7 +3020,7 @@
             "Text": "You do forget I am a mere sailor. I do not hold the name nor the title of one who passes judgement.",
             "ExternalId": "",
             "Position": {
-              "x": 3000.0,
+              "x": 2700.0,
               "y": -125.0
             },
             "ZIndex": 1.0,
@@ -3154,7 +3076,7 @@
             "Text": "Check their coins, Charon. The magic number is two. If the soul has two coins, it docks. One, they have the privilege of spending eternity in this sensational voyage. Zero coins, throw them over. That's it. And lay off the drink while you're at it. You stink.",
             "ExternalId": "",
             "Position": {
-              "x": 3475.0,
+              "x": 3175.0,
               "y": 100.0
             },
             "ZIndex": 1.0,
@@ -3198,7 +3120,7 @@
             "TechnicalName": "DFr_F9F88E9A",
             "Id": "0x0100000000000278",
             "Parent": "0x01000000000001F1",
-            "MenuText": "",
+            "MenuText": "Are you crazy? We're in open water, how am I supposed to get rid of them?",
             "StageDirections": "",
             "Speaker": "0x0100000000000122",
             "SplitHeight": 64.0,
@@ -3210,7 +3132,7 @@
             "Text": "Don't play the fool with me, boy. You have a job to do. I will not have you sinking my Victoria with your indolence.",
             "ExternalId": "",
             "Position": {
-              "x": 3000.0,
+              "x": 2700.0,
               "y": 100.0
             },
             "ZIndex": 1.0,
@@ -3254,7 +3176,7 @@
             "TechnicalName": "DFr_151F7908",
             "Id": "0x0100000000000280",
             "Parent": "0x01000000000001F1",
-            "MenuText": "",
+            "MenuText": "I try to forget these are the things I must do to remain in existence.",
             "StageDirections": "",
             "Speaker": "0x0100000000000122",
             "SplitHeight": 64.0,
@@ -3266,7 +3188,7 @@
             "Text": "That ain't my business what yer reasons are for being a good-for-nothing drunkard. Fix my Victoria or yer ass is the first one going down.",
             "ExternalId": "",
             "Position": {
-              "x": 3000.0,
+              "x": 2700.0,
               "y": 325.0
             },
             "ZIndex": 1.0,
@@ -8969,6 +8891,118 @@
           }
         },
         {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_5914A841",
+            "Id": "0x0100000000000AE9",
+            "Parent": "0x01000000000001F1",
+            "MenuText": "Hades must be throwing another one of his tantrums.",
+            "StageDirections": "",
+            "Speaker": "0x0100000000000122",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "Text": "Get your head out of the gutter, boy. The ship is unbalanced and I know very well why. Ye haven't been doin' yer duty. Judgement has not been passed.\r\n\r\nMy dear Victoria is crying for help. I know of the weight that is being put on her, that’s how well we communicate. Two souls are misplaced here. They must leave. If that doesn't happen soon, we're all bound to sink.",
+            "ExternalId": "",
+            "Position": {
+              "x": 1525.0,
+              "y": -125.0
+            },
+            "ZIndex": 1.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 1494526017,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000000AEA",
+                "Owner": "0x0100000000000AE9"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000000AEB",
+                "Owner": "0x0100000000000AE9",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000000235",
+                    "Target": "0x0100000000000233"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_42A4EB2B",
+            "Id": "0x0100000000000AF0",
+            "Parent": "0x01000000000001F1",
+            "MenuText": "She is a pretty old ship, I'd recommend having someone fix the dents.",
+            "StageDirections": "",
+            "Speaker": "0x0100000000000122",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "Text": "Get your head out of the gutter, boy. The ship is unbalanced and I know very well why. Ye haven't been doin' yer duty. Judgement has not been passed.\r\n\r\nMy dear Victoria is crying for help. I know of the weight that is being put on her, that’s how well we communicate. Two souls are misplaced here. They must leave. If that doesn't happen soon, we're all bound to sink.",
+            "ExternalId": "",
+            "Position": {
+              "x": 1525.0,
+              "y": 325.0
+            },
+            "ZIndex": 1.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 1118104363,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000000AF1",
+                "Owner": "0x0100000000000AF0"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000000AF2",
+                "Owner": "0x0100000000000AF0",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000000235",
+                    "Target": "0x0100000000000233"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
           "Type": "Hub",
           "Properties": {
             "TechnicalName": "Hub_F9E1C7FD",
@@ -9008,35 +9042,35 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000000218",
-                    "Target": "0x0100000000000217"
+                    "TargetPin": "0x010000000000024D",
+                    "Target": "0x010000000000024C"
                   },
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000000211",
-                    "Target": "0x0100000000000210"
+                    "TargetPin": "0x0100000000000279",
+                    "Target": "0x0100000000000278"
                   },
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x010000000000021F",
-                    "Target": "0x010000000000021E"
+                    "TargetPin": "0x0100000000000281",
+                    "Target": "0x0100000000000280"
                   }
                 ]
               }
@@ -10374,8 +10408,18 @@
                 "Type": "DialogueFragment"
               },
               {
+                "Id": "0x0100000000000AE9",
+                "TechnicalName": "DFr_5914A841",
+                "Type": "DialogueFragment"
+              },
+              {
                 "Id": "0x0100000000000206",
                 "TechnicalName": "DFr_4DF71323",
+                "Type": "DialogueFragment"
+              },
+              {
+                "Id": "0x0100000000000AF0",
+                "TechnicalName": "DFr_42A4EB2B",
                 "Type": "DialogueFragment"
               },
               {
