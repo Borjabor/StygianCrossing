@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Movement()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
             _targetPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             _targetPosition.y = transform.position.y;
@@ -63,6 +63,13 @@ public class PlayerMovement : MonoBehaviour
             _playerState.Value = PlayerStates.WALKING;
             print(_playerState.Value);
         }
+
+        // if (Input.GetKey(KeyCode.A) || (Input.GetKey(KeyCode.D)))
+        // {
+        //     float Move = Input.GetAxis ("Horizontal") * _moveSpeed;
+        //
+        //     transform.Translate(new Vector3(transform.position.x, Move) * Time.deltaTime);
+        // }
 
         if (_isMoving)
         {
