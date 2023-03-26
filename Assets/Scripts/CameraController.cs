@@ -18,6 +18,13 @@ public class CameraController : MonoBehaviour
 
     void Update()
     {
+        //PanAndZoom();
+        MoveCameraToCenter();
+        FollowPlayer();
+    }
+
+    private void PanAndZoom()
+    {
         //pan
         if (Input.GetMouseButtonDown(2))
         {
@@ -35,16 +42,13 @@ public class CameraController : MonoBehaviour
         float scroll = Input.GetAxis("Mouse ScrollWheel");
         float zoomAmount = Mathf.Clamp(Camera.main.orthographicSize - scroll * zoomSpeed, minZoom, maxZoom);
         Camera.main.orthographicSize = zoomAmount;
-
-        //MoveCameraToCenter();
-        FollowPlayer();
     }
 
     private void MoveCameraToCenter()
     {
         if (_gameState.Value == States.DIALOGUE)
         {
-            transform.position = new Vector3(_playerTransform.position.x + 3f, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x + 3f, transform.position.y, transform.position.z);
         }
     }
 
