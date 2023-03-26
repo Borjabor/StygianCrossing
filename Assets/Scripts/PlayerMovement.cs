@@ -55,13 +55,25 @@ public class PlayerMovement : MonoBehaviour
 
     private void Movement()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButton(0))
         {
             _targetPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             _targetPosition.y = transform.position.y;
             _isMoving = true;
             _playerState.Value = PlayerStates.WALKING;
             print(_playerState.Value);
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.position += -transform.right * (Time.deltaTime * _moveSpeed);
+            _playerState.Value = PlayerStates.WALKING;
+        }
+        
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.position += transform.right * (Time.deltaTime * _moveSpeed);
+            _playerState.Value = PlayerStates.WALKING;
         }
 
         if (_isMoving)
