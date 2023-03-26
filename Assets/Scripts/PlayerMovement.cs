@@ -64,12 +64,17 @@ public class PlayerMovement : MonoBehaviour
             print(_playerState.Value);
         }
 
-        // if (Input.GetKey(KeyCode.A) || (Input.GetKey(KeyCode.D)))
-        // {
-        //     float Move = Input.GetAxis ("Horizontal") * _moveSpeed;
-        //
-        //     transform.Translate(new Vector3(transform.position.x, Move) * Time.deltaTime);
-        // }
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.position += -transform.right * (Time.deltaTime * _moveSpeed);
+            _playerState.Value = PlayerStates.WALKING;
+        }
+        
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.position += transform.right * (Time.deltaTime * _moveSpeed);
+            _playerState.Value = PlayerStates.WALKING;
+        }
 
         if (_isMoving)
         {
