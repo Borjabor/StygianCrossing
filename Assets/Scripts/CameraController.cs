@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -16,11 +17,25 @@ public class CameraController : MonoBehaviour
 
     private Vector3 dragOrigin;
 
+    private bool _inDialogue = false;
+    private float _moveSpeed = 1f;
+
+    private Vector3 _targetPosition;
+
+    private void Start()
+    {
+        _targetPosition = new Vector3(transform.position.x + 3f, transform.position.y, transform.position.z);
+    }
+
     void Update()
     {
         //PanAndZoom();
         MoveCameraToCenter();
-        FollowPlayer();
+        
+        if (!_inDialogue)
+        {
+            FollowPlayer();  
+        }
     }
 
     private void PanAndZoom()
@@ -46,14 +61,24 @@ public class CameraController : MonoBehaviour
 
     private void MoveCameraToCenter()
     {
+        float step = _moveSpeed * Time.deltaTime;
+        
+        
         if (_gameState.Value == States.DIALOGUE)
         {
-            transform.position = new Vector3(transform.position.x + 3f, transform.position.y, transform.position.z);
+            _inDialogue = true;
+            transform.position = Vector3.MoveTowards(transform.position, _targetPosition, step);
+        }
+        
+        if (_gameState.Value == States.NORMAL)
+        {
+            _inDialogue = false;
         }
     }
 
     private void FollowPlayer()
     {
-        transform.position = new Vector3(_playerTransform.position.x, transform.position.y, transform.position.z);
+        var position = _playerTransform.position;
+        transform.position = new Vector3(position.x, position.y, transform.position.z);
     }
 }
