@@ -26,4 +26,14 @@ public class GlobalVariableListener : MonoBehaviour
         // }
     
     }
+    
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            Debug.Log("press");
+            
+            ArticyDatabase.DefaultGlobalVariables.SetVariableByString("GlobalVariables.Bottle", true); //This modifies global variables through code
+        }
+    }
 }
