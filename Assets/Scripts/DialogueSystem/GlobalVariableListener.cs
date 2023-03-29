@@ -14,6 +14,7 @@ public class GlobalVariableListener : MonoBehaviour
         // we get the default variable storage from our database and add a listener to the notification manager
         // to call our supplied method every time any Variable inside the namespace "GameState" is changed.
         ArticyDatabase.DefaultGlobalVariables.Notifications.AddListener("GlobalVariables.*", OnGlobalVariablesChanged);
+        ArticyDatabase.DefaultGlobalVariables
     }
     
     // here we handle every variable change inside the "GameState" namespace
