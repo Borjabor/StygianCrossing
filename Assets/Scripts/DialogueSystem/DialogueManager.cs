@@ -18,18 +18,20 @@ public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
     [SerializeField] private GameObject _dialoguePanel;
     [SerializeField] private TextMeshProUGUI _speakerName;
     [SerializeField] private TextMeshProUGUI _dialogueText;
+    private TextMeshProUGUI _fullText;
     [SerializeField] private Scrollbar _scrollbar;
     [SerializeField] private RectTransform _choicesPanel;
     [SerializeField] private GameObject _choicesPrefab;
     [SerializeField] private GameObject _closePrefab;
     [SerializeField] private Image _speakerImage;
     
-    
+
     
     private bool _isPlayer;
     public bool DialogueActive { get; set; }
 
     private ArticyFlowPlayer _flowPlayer;
+    private ArticyObject _currentDialogue;
 
 
     private void Awake()
@@ -91,32 +93,62 @@ public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
 
     public void OnFlowPlayerPaused(IFlowObject aObject)
     {
-        _dialogueText.text = string.Empty;
+        //_dialogueText.text = "<color=#808080ff>" + _fullText + "</color>";
+        //_dialogueText.text = string.Empty;
         _speakerName.text = string.Empty;
         
-        var objectWithText = aObject as IObjectWithText;
-        if (objectWithText != null) _dialogueText.text = objectWithText.Text;
 
         var objectWithSpeaker = aObject as IObjectWithSpeaker;
+        var speakerEntity = objectWithSpeaker.Speaker as Entity;
         if (objectWithSpeaker != null)
         {
-            var speakerEntity = objectWithSpeaker.Speaker as Entity;
-            if (speakerEntity != null) _speakerName.text = speakerEntity.DisplayName;
-        }
-        
-        var dialogueSpeaker = aObject as IObjectWithSpeaker;
-        if (dialogueSpeaker != null)
-        {
-            var speaker = dialogueSpeaker.Speaker;
-            if (speaker != null)
+            //if (speakerEntity != null) _speakerName.text = speakerEntity.DisplayName;
+            if (speakerEntity != null)
             {
-                var speakerAsset = ((speaker as IObjectWithPreviewImage).PreviewImage.Asset as Asset);
+                _speakerName.text = speakerEntity.DisplayName;
+                var speakerAsset = ((speakerEntity as IObjectWithPreviewImage).PreviewImage.Asset as Asset);
                 if (speakerAsset != null)
                 {
                     _speakerImage.sprite = speakerAsset.LoadAssetAsSprite();
                 }
             }
         }
+        var objectWithMenuText = aObject as IObjectWithMenuText;
+        
+        var objectWithText = aObject as IObjectWithText;
+        if (objectWithText != null)
+        {
+            if (objectWithMenuText.MenuText == string.Empty)
+            {
+                _dialogueText.text = _dialogueText.text == string.Empty? $"{speakerEntity.DisplayName}: {objectWithText.Text}" : $"<color=#808080ff>{_dialogueText.text}\n  </color>{speakerEntity.DisplayName}: {objectWithText.Text}";
+            }
+            else
+            {
+                _dialogueText.text = _dialogueText.text == string.Empty? $"{speakerEntity.DisplayName}: {objectWithText.Text}" : $"<color=#808080ff>{_dialogueText.text}\n <color=#521407f2>Charon:</color> {objectWithMenuText.MenuText}\n </color>{speakerEntity.DisplayName}: {objectWithText.Text}";
+            }
+        }
+        
+        // var dialogueSpeaker = aObject as IObjectWithSpeaker;
+        // if (dialogueSpeaker != null)
+        // {
+        //     var speaker = dialogueSpeaker.Speaker;
+        //     if (speaker != null)
+        //     {
+        //         var speakerAsset = ((speaker as IObjectWithPreviewImage).PreviewImage.Asset as Asset);
+        //         if (speakerAsset != null)
+        //         {
+        //             _speakerImage.sprite = speakerAsset.LoadAssetAsSprite();
+        //         }
+        //     }
+        // }
+
+        StartCoroutine(ScrollDown());
+    }
+
+    private IEnumerator ScrollDown()
+    {
+        yield return new WaitForSeconds(0.2f);
+        _scrollbar.value = 0;
     }
 
     public void OnBranchesUpdated(IList<Branch> aBranches)

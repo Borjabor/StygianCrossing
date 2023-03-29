@@ -1,0 +1,729 @@
+fileFormatVersion: 2
+guid: 793118c42453a0c4e82339d2b59a593b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: StygianCrossingParts_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 4821
+        width: 154
+        height: 1003
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d584008a77c5341b42b53a95c5f7e0
+      internalID: 1857354650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 4775
+        width: 2129
+        height: 1049
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62942e8bff9a6794ab75b812f8f63ed8
+      internalID: 1185035956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_2
+      rect:
+        serializedVersion: 2
+        x: 7844
+        y: 4784
+        width: 3113
+        height: 1040
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c545ac00e9d61c4684c702e2eb70f22
+      internalID: -515904244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_3
+      rect:
+        serializedVersion: 2
+        x: 11052
+        y: 4784
+        width: 147
+        height: 1033
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185aa61d622b62641a7659c428e5dcd5
+      internalID: -206111436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_4
+      rect:
+        serializedVersion: 2
+        x: 13140
+        y: 2476
+        width: 432
+        height: 3377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c7b842d3816f54494774494bab995a
+      internalID: -18304048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_5
+      rect:
+        serializedVersion: 2
+        x: 13828
+        y: 2352
+        width: 850
+        height: 3648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0ef57568f14ad4590152bc312ed354
+      internalID: -1475485057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 3632
+        width: 3041
+        height: 1070
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f72a008c9ac60a449ce1cebdaa09b75
+      internalID: 1564080784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_7
+      rect:
+        serializedVersion: 2
+        x: 9089
+        y: 3634
+        width: 3157
+        height: 1047
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc9bd8fdc3421b4bbb91836434fa9af
+      internalID: 1094738369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_8
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 3136
+        width: 740
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1f4ed78e752374cac0537d409d25e9
+      internalID: -2075983035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_9
+      rect:
+        serializedVersion: 2
+        x: 2314
+        y: 3282
+        width: 9895
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa1651e4ab25644d82ad23af3f30c46
+      internalID: -1131949929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2842
+        width: 271
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9066fda7fd4c94693b9bec805e955b
+      internalID: -1574088253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 2967
+        width: 30
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b53e0c8b2d96c4b92ff08d9a7e4e39
+      internalID: -359009337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_12
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 2842
+        width: 916
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4933918b358068469e28a739f097dd0
+      internalID: 437681459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_13
+      rect:
+        serializedVersion: 2
+        x: 6101
+        y: 2403
+        width: 3003
+        height: 806
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61e8b10cf7995449a8d6aa8d64c4d32
+      internalID: 2101305899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_14
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 2513
+        width: 930
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d436f50bc26bf418575e005babbc7f
+      internalID: -102150064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2183
+        width: 849
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ad070c1c2bfaf4f8f6a74b9c190def
+      internalID: 582881103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_16
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 2088
+        width: 37
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0736472734b53c04893f2a7592ba378d
+      internalID: -540644950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_17
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1963
+        width: 315
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc925914dfb59e4fad4ff8d6cc59b42
+      internalID: -4628094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_18
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 81
+        width: 11843
+        height: 2256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7ea60ca3f8b404180ad2f33b372fd2
+      internalID: -2028229699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_19
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1963
+        width: 1062
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3380fcb87a36345b17da794a7a073d
+      internalID: -1760595741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1604
+        width: 1076
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f383813cbec8b247babeb16f9e8bdfb
+      internalID: -1755189291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_21
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 286
+        width: 1143
+        height: 981
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ae7125a17e96743b6463d539989eb3
+      internalID: -689010017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_22
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 549
+        width: 395
+        height: 455
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62680bd2a52272642a3ab4b47ca31a67
+      internalID: 1863097097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_23
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 4773
+        width: 4617
+        height: 1055
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb40eb8aba9879545b595bda96266363
+      internalID: -1193784512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_24
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 3626
+        width: 5904
+        height: 1090
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890a69dd03f1ffe4da181446857a7f7f
+      internalID: -1753026215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_25
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 4798
+        width: 632
+        height: 1054
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0e30c46abc8834594bbc3630a9ba68
+      internalID: -817450623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_26
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 3604
+        width: 574
+        height: 1122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf75f52c365c0b64f9bf66ff81a47b4d
+      internalID: 2014569684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7b2f8f55ccf371c468ef7833b3d9ccbf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      StygianCrossingParts_20: -1755189291
+      StygianCrossingParts_13: 2101305899
+      StygianCrossingParts_24: -1753026215
+      StygianCrossingParts_7: 1094738369
+      StygianCrossingParts_14: -102150064
+      StygianCrossingParts_21: -689010017
+      StygianCrossingParts_17: -4628094
+      StygianCrossingParts_4: -18304048
+      StygianCrossingParts_18: -2028229699
+      StygianCrossingParts_1: 1185035956
+      StygianCrossingParts_2: -515904244
+      StygianCrossingParts_25: -817450623
+      StygianCrossingParts_8: -2075983035
+      StygianCrossingParts_23: -1193784512
+      StygianCrossingParts_5: -1475485057
+      StygianCrossingParts_3: -206111436
+      StygianCrossingParts_15: 582881103
+      StygianCrossingParts_16: -540644950
+      StygianCrossingParts_22: 1863097097
+      StygianCrossingParts_11: -359009337
+      StygianCrossingParts_9: -1131949929
+      StygianCrossingParts_26: 2014569684
+      StygianCrossingParts_0: 1857354650
+      StygianCrossingParts_6: 1564080784
+      StygianCrossingParts_12: 437681459
+      StygianCrossingParts_19: -1760595741
+      StygianCrossingParts_10: -1574088253
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
