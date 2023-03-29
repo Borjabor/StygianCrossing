@@ -1,0 +1,26 @@
+<ExportPresets LastType="XmlContentExport">
+  <Preset DisplayName="" Type="Unity3DExport">
+    <ExportSettings Type="Unity3DExport">
+      <Filename>C:\GitLab\ProjectAfterlife\Assets\ArticyImports\Margaret_1.articyu3d</Filename>
+      <CustomSettings>
+        <Option Name="set_Localization" Value="False"/>
+        <Option Name="set_TextFormatter" Value="Unity"/>
+        <Option Name="set_IncludedNodes" Value="Settings, Project, GlobalVariables, ObjectDefinitions, Packages, ScriptMethods, Hierarchy, Assets"/>
+      </CustomSettings>
+      <PackageStates>
+        <State Id="72057594037928194" Enabled="1"/>
+      </PackageStates>
+      <SelectedRuleSet>72057594037928191</SelectedRuleSet>
+    </ExportSettings>
+  </Preset>
+  <Preset DisplayName="" Type="XmlContentExport">
+    <ExportSettings Type="XmlContentExport">
+      <Filename>C:\Users\Moncef\Documents\Margaret.xml</Filename>
+      <ExportMarkup>1</ExportMarkup>
+      <ExportQueries>1</ExportQueries>
+      <ApplyTransformations>0</ApplyTransformations>
+      <WriteNamespace>1</WriteNamespace>
+      <WriteAllVariables>0</WriteAllVariables>
+    </ExportSettings>
+  </Preset>
+</ExportPresets>
