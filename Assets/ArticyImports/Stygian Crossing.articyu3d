@@ -6,7 +6,7 @@
     "set_UseScriptSupport": "True",
     "ExportVersion": "1.2",
     "ObjectDefinitionsHash": "13326BE13F012D4A74221C41DDF7ED1E61D894272FFBE41137CB23463798FAD6",
-    "ScriptFragmentsHash": "3320349971"
+    "ScriptFragmentsHash": "3639772185"
   },
   "Project": {
     "Name": "Stygian Crossing",
@@ -3242,7 +3242,7 @@
             "ShortId": 27138094,
             "InputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.CaptainQuest == true",
                 "Id": "0x0100000000001896",
                 "Owner": "0x0100000000001893",
                 "Connections": [
@@ -3542,7 +3542,7 @@
             "ShortId": 2915437375,
             "InputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.WaltConvo2 == true",
                 "Id": "0x0100000000001A10",
                 "Owner": "0x0100000000001A0D",
                 "Connections": [
@@ -3842,7 +3842,7 @@
             "ShortId": 3377319293,
             "InputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.MargaretConvo1 == true",
                 "Id": "0x0100000000001C1F",
                 "Owner": "0x0100000000001C1C"
               }
