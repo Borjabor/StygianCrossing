@@ -61,6 +61,7 @@ public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
     public void EnterDialogue(IArticyObject aObject)
     {
         _gameState.Value = States.DIALOGUE;
+        _dialogueText.text = string.Empty;
         DialogueActive = true;
         _dialoguePanel.SetActive(DialogueActive);
         _flowPlayer.StartOn = aObject;
