@@ -6,7 +6,7 @@
     "set_UseScriptSupport": "True",
     "ExportVersion": "1.2",
     "ObjectDefinitionsHash": "13326BE13F012D4A74221C41DDF7ED1E61D894272FFBE41137CB23463798FAD6",
-    "ScriptFragmentsHash": "2134815959"
+    "ScriptFragmentsHash": "3320349971"
   },
   "Project": {
     "Name": "Stygian Crossing",
@@ -2596,7 +2596,7 @@
             "ShortId": 1957908,
             "InputPins": [
               {
-                "Text": "GlobalVariables.ArthurConvo1 == true",
+                "Text": "GlobalVariables.ArthurConvo1 == true\n&&\nGlobalVariables.JackConvo2 == true",
                 "Id": "0x0100000000000381",
                 "Owner": "0x0100000000000380"
               }
