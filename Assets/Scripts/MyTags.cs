@@ -5,4 +5,6 @@ public static class MyTags
    public static string LevelNavigator = "LevelNavigator";
 
    public static string Scene = "Scene";
+   
+   public static string InspectableObject = "InspectableObject";
 }

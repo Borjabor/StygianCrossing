@@ -16,6 +16,15 @@ public class InspectableObject : MonoBehaviour
     [SerializeField]
     private string _name;
 
+    // [SerializeField]
+    // private Sprite _sprite;
+    //
+    // [SerializeField]
+    // private GameObject _objectContainerUI;
+    //
+    // [SerializeField]
+    // private GameObject _variableObject;
+
     private bool _canBeClicked = false;
 
     private void OnEnable()
@@ -42,6 +51,7 @@ public class InspectableObject : MonoBehaviour
         {
             print($"picking up {_name}");
             gameObject.SetActive(false);
+
         }
     }
 
