@@ -6109,7 +6109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _listener: {fileID: 2052510740}
   _playerTransform: {fileID: 957998575}
-  _topFloorPosition: {x: -7.53, y: 4.0066, z: 0.11330815}
+  _topFloorPosition: {x: -7.53, y: 7.76, z: 0.11330815}
   _baseFloorPosition: {x: -7.53, y: 4.1, z: 0.11330815}
   _base2FloorPosition: {x: -7.53, y: -0.29, z: 0.11330815}
   _moveSpeed: 1
@@ -6946,7 +6946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _listener: {fileID: 2052510740}
   _playerTransform: {fileID: 957998575}
-  _topFloorPosition: {x: -7.53, y: 4.0066, z: 0.11330815}
+  _topFloorPosition: {x: -7.53, y: 7.76, z: 0.11330815}
   _baseFloorPosition: {x: -7.53, y: 4.1, z: 0.11330815}
   _base2FloorPosition: {x: -7.53, y: -0.29, z: 0.11330815}
   _moveSpeed: 1
@@ -16576,7 +16576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _listener: {fileID: 2052510740}
   _playerTransform: {fileID: 957998575}
-  _topFloorPosition: {x: -7.53, y: 4.0066, z: 0.11330815}
+  _topFloorPosition: {x: -7.53, y: 7.76, z: 0.11330815}
   _baseFloorPosition: {x: -7.53, y: 4.1, z: 0.11330815}
   _base2FloorPosition: {x: -7.53, y: -0.29, z: 0.11330815}
   _moveSpeed: 1
