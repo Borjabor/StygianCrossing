@@ -12,7 +12,7 @@ public class DialogueTrigger : MonoBehaviour, IInteractable
     
     [SerializeField] protected GameState _gameState;
     [SerializeField] private GameObject _prompt;
-    [SerializeField] private ArticyRef[] _dialogueRef;
+    //[SerializeField] private ArticyRef[] _dialogueRef;
     
 
     protected void Awake()
