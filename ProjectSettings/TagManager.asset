@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LevelNavigator
   - Scene
+  - InspectableObject
   layers:
   - Default
   - TransparentFX
