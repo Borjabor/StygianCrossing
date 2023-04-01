@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Articy.Unity;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class InspectableObject : MonoBehaviour
 {
@@ -15,6 +16,15 @@ public class InspectableObject : MonoBehaviour
 
     [SerializeField]
     private string _name;
+
+    [SerializeField]
+    private GameObject _objectContainer;
+
+    [SerializeField]
+    private Sprite _iconSprite;
+    
+    [SerializeField]
+    private GameObject _UIIconPrefab;
 
     // [SerializeField]
     // private Sprite _sprite;
@@ -51,7 +61,11 @@ public class InspectableObject : MonoBehaviour
         {
             print($"picking up {_name}");
             gameObject.SetActive(false);
-
+            
+            var UIObject =  Instantiate(_UIIconPrefab);
+            UIObject.transform.parent = _objectContainer.transform;
+            var imageRenderer = UIObject.GetComponent<Image>();
+            imageRenderer.sprite = _iconSprite;
         }
     }
 
