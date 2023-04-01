@@ -22,6 +22,7 @@ public class UIContainer : MonoBehaviour
         {
             if (gameObject.transform.CompareTag(MyTags.InspectableObject))
             {
+                print("Clicked on an object");
                 Instantiate(_variableObject);
             } 
         }
