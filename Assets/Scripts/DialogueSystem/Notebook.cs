@@ -4,9 +4,10 @@ using System.Collections.Generic;
 using Ink.Runtime;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.UI;
 
-public class Notebook : DialogueTrigger
+public class Notebook : MonoBehaviour
 {
 
     [SerializeField]
@@ -20,37 +21,76 @@ public class Notebook : DialogueTrigger
     
     private bool _notebookReveal = false;
 
+    private int _notificationCount = 0;
 
-    private void Start()
+    [SerializeField]
+    private TextMeshProUGUI _notificationCountText;
+
+    [SerializeField]
+    private GlobalVariableListener _listener;
+
+    [SerializeField]
+    private GameObject[] _objectives;
+    
+    
+    private void OnEnable()
     {
-        // _originalPosition = transform.position;
+        _listener.GlobalVariableChanged += ObjectiveReveal;
+    }
+    
+    private void OnDisable()
+    {
+        _listener.GlobalVariableChanged -= ObjectiveReveal;
     }
 
-    // [SerializeField] private GlobalVariableListener _listener;
-    //
-    // private void OnEnable()
-    // {
-    //     _listener.GlobalVariableChanged += Print;
-    // }
-    //
-    // private void OnDisable()
-    // {
-    //     _listener.GlobalVariableChanged -= Print;
-    // }
-    //
-    // private void Print(string arg1, object arg2)
-    // {
-    //     if (arg1 == "GameState.gotTip" && (bool)arg2)
-    //     {
-    //         Debug.Log($"Got Tip");
-    //     }
-    // }
-
-    public override void Interact()
+    private void Update()
     {
-        if(_gameState.Value is States.DIALOGUE or States.PAUSED) return;
-        DialogueManager.GetInstance().SetPlayer();
-        DialogueManager.GetInstance().EnterDialogue(_dialogue);
+        _notificationCountText.text = _notificationCount.ToString();
+    }
+
+    protected virtual void ObjectiveReveal(string arg1, object arg2)
+    {
+        if (arg1 == $"GlobalVariables.ArthurEvidence1" && (bool)arg2)
+        {
+            _objectives[0].SetActive(true);
+            _notificationCount++;
+        }
+        
+        if (arg1 == $"GlobalVariables.ArthurEvidence1" && (bool)arg2)
+        {
+            _objectives[0].SetActive(true);
+            _notificationCount++;
+        }
+        
+        // if (arg1 == $"GlobalVariables.ArthurEvidence1" && (bool)arg2)
+        // {
+        //     _objectives[0].SetActive(true);
+        //     _notificationCount++;
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.ArthurEvidence1" && (bool)arg2)
+        // {
+        //     _objectives[0].SetActive(true);
+        //     _notificationCount++;
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.ArthurEvidence1" && (bool)arg2)
+        // {
+        //     _objectives[0].SetActive(true);
+        //     _notificationCount++;
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.ArthurEvidence1" && (bool)arg2)
+        // {
+        //     _objectives[0].SetActive(true);
+        //     _notificationCount++;
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.ArthurEvidence1" && (bool)arg2)
+        // {
+        //     _objectives[0].SetActive(true);
+        //     _notificationCount++;
+        // }
     }
 
     public void NotebookReveal()
@@ -62,7 +102,8 @@ public class Notebook : DialogueTrigger
         if (!_notebookReveal)
         {
             _notebook.position = _targetPosition.position;
-            _notebookReveal = true;   
+            _notebookReveal = true;
+            _notificationCount = 0;
         }
 
         else
@@ -72,11 +113,8 @@ public class Notebook : DialogueTrigger
         }
         
     }
-
-    public void NotebookHide()
-    {
-        
-    }
+    
+    
     
     
 }
