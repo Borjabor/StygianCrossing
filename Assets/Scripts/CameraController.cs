@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -31,24 +32,24 @@ public class CameraController : MonoBehaviour
 
     int value = 0;
 
-    private float _moveSpeed = 1f;
+    private float _moveSpeed = 7f;
 
     private Vector3 _targetPosition;
 
+    private Camera _cam;
+
     private void Start()
     {
+        _cam = GetComponent<Camera>();
     }
 
     void Update()
     {
         //PanAndZoom();
 
-        MoveCameraToCenter();
+        ZoomInToCharacter();
 
-        if (!_inDialogue)
-        {
-            FollowPlayer();
-        }
+        FollowPlayer();
     }
 
     private void PanAndZoom()
@@ -73,19 +74,27 @@ public class CameraController : MonoBehaviour
     }
 
 
-    private void MoveCameraToCenter()
+    private void ZoomInToCharacter()
     {
-        float step = _moveSpeed * Time.deltaTime;
-        
+
         if (_gameState.Value == States.DIALOGUE)
         {
-            _targetPosition = new Vector3(transform.position.x + 5f, transform.position.y, transform.position.z);
-            transform.position = Vector3.MoveTowards(transform.position, _targetPosition, step);
+            
+            // _targetPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z + 5f);
+            // transform.position = Vector3.MoveTowards(transform.position, _targetPosition, step);
+
+            // var newValue = Mathf.MoveTowards(5f, 3.8f, step);
+            _cam.orthographicSize = 3.8f;
+            _inDialogue = true;
         }
 
         if (_gameState.Value == States.NORMAL)
         {
-            _inDialogue = false;
+            // if (_inDialogue)
+            // {
+                // var newValue = Mathf.MoveTowards(3.8f, 5f, step);
+                _cam.orthographicSize = 5f;
+            // }
         }
     }
 
