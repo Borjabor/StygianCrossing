@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -55,6 +56,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Movement()
     {
+
+        if (EventSystem.current.IsPointerOverGameObject()) return;
+        
         if (Input.GetMouseButton(0))
         {
             _targetPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
