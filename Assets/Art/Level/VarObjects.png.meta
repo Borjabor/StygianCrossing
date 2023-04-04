@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -120,8 +120,8 @@ TextureImporter:
       name: VarObjects_0
       rect:
         serializedVersion: 2
-        x: 113
-        y: 1208
+        x: 53
+        y: 1256
         width: 351
         height: 743
       alignment: 0
@@ -141,8 +141,8 @@ TextureImporter:
       name: VarObjects_1
       rect:
         serializedVersion: 2
-        x: 910
-        y: 1252
+        x: 625
+        y: 1243
         width: 223
         height: 620
       alignment: 0
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05d3fe44bee91234daccd8362fa2b196
-      internalID: -1132203880
+      spriteID: 4db6ab309ff620c43b270b419faf9f74
+      internalID: -678400037
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
       name: VarObjects_2
       rect:
         serializedVersion: 2
-        x: 1546
-        y: 1194
+        x: 1024
+        y: 1311
         width: 251
         height: 507
       alignment: 0
@@ -173,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74f649148f9840f4594ef777de8e06f7
-      internalID: 1997719175
+      spriteID: d62d2f3195c79584dab7ba9c3487d61e
+      internalID: 577012058
       vertices: []
       indices: 
       edges: []
@@ -183,8 +183,8 @@ TextureImporter:
       name: VarObjects_3
       rect:
         serializedVersion: 2
-        x: 216
-        y: 235
+        x: 1644
+        y: 1333
         width: 217
         height: 553
       alignment: 0
@@ -194,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e1b4f648de4a3a48badcdc546de33dc
-      internalID: 1650889303
+      spriteID: c0428e07212f95f4faa77e0b380a33de
+      internalID: -1218306106
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
       name: VarObjects_4
       rect:
         serializedVersion: 2
-        x: 716
-        y: 285
-        width: 637
-        height: 522
+        x: 130
+        y: 344
+        width: 745
+        height: 611
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc87dcc41b3d2d74fba9b614f7b547e1
-      internalID: -2129708863
+      spriteID: 21f656f5dc5a0cb49bb80358155fc373
+      internalID: 1846675851
       vertices: []
       indices: 
       edges: []
@@ -225,10 +225,10 @@ TextureImporter:
       name: VarObjects_5
       rect:
         serializedVersion: 2
-        x: 1456
-        y: 341
-        width: 453
-        height: 238
+        x: 1299
+        y: 809
+        width: 656
+        height: 345
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,8 +236,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9d108f71915a4148b7d8bc32cc228b3
-      internalID: -2031875787
+      spriteID: 24cd0ad882e060f47a8d2def4e87454b
+      internalID: 2124244461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VarObjects_6
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 60
+        width: 609
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e73375f64fadb489bc6b4f74ebd1b6
+      internalID: -1912486891
       vertices: []
       indices: 
       edges: []
@@ -253,12 +274,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      VarObjects_5: -2031875787
-      VarObjects_2: 1997719175
-      VarObjects_3: 1650889303
+      VarObjects_5: 2124244461
+      VarObjects_2: 577012058
+      VarObjects_3: -1218306106
       VarObjects_0: -908618404
-      VarObjects_4: -2129708863
-      VarObjects_1: -1132203880
+      VarObjects_4: 1846675851
+      VarObjects_1: -678400037
+      VarObjects_6: -1912486891
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
