@@ -40010,7 +40010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameState: {fileID: 11400000, guid: 4c329863d7a68eb4ba4ae3d4cabf695d, type: 2}
-  _prompt: {fileID: 0}
+  _prompt: {fileID: 492033059}
 --- !u!114 &2006431662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40026,7 +40026,7 @@ MonoBehaviour:
   reference:
     instanceId: 0
     referencingMode: 0
-    lowId: 11992
+    lowId: 6551
     highId: 16777216
 --- !u!1001 &2010733324
 PrefabInstance:

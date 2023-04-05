@@ -6,7 +6,7 @@
     "set_UseScriptSupport": "True",
     "ExportVersion": "1.2",
     "ObjectDefinitionsHash": "64CE4317A9DC50A4E9E2202F6C09C479DF253DD7BBEB67BFB446DC04A2212923",
-    "ScriptFragmentsHash": "3906826390"
+    "ScriptFragmentsHash": "1204359463"
   },
   "Project": {
     "Name": "Stygian Crossing",
@@ -2706,7 +2706,7 @@
             "ShortId": 1641962286,
             "InputPins": [
               {
-                "Text": "GlobalVariables.WaltConvo1== true",
+                "Text": "",
                 "Id": "0x0100000000001998",
                 "Owner": "0x0100000000001997",
                 "Connections": [
@@ -2718,8 +2718,8 @@
                       "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000002EDB",
-                    "Target": "0x0100000000002ED8"
+                    "TargetPin": "0x0100000000002F50",
+                    "Target": "0x0100000000002F4E"
                   }
                 ]
               }
@@ -3897,8 +3897,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": -208.0,
-              "y": 950.0
+              "x": 192.0,
+              "y": 1100.0
             },
             "ZIndex": 14.0,
             "Size": {
@@ -3930,7 +3930,20 @@
               {
                 "Text": "GlobalVariables.WaltConvo1 = true",
                 "Id": "0x0100000000001897",
-                "Owner": "0x0100000000001893"
+                "Owner": "0x0100000000001893",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000022CB",
+                    "Target": "0x01000000000022C7"
+                  }
+                ]
               }
             ]
           }
@@ -3963,8 +3976,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 17.0,
-              "y": 675.0
+              "x": 167.0,
+              "y": 825.0
             },
             "ZIndex": 15.0,
             "Size": {
@@ -3994,7 +4007,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "GlobalVariables.WaltConvo2 = true",
+                "Text": "",
                 "Id": "0x01000000000018FE",
                 "Owner": "0x01000000000018FA",
                 "Connections": [
@@ -4006,8 +4019,8 @@
                       "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000002F32",
-                    "Target": "0x0100000000002F30"
+                    "TargetPin": "0x01000000000022CB",
+                    "Target": "0x01000000000022C7"
                   }
                 ]
               }
@@ -4042,8 +4055,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 767.0,
-              "y": 750.0
+              "x": 492.0,
+              "y": 600.0
             },
             "ZIndex": 17.0,
             "Size": {
@@ -24636,7 +24649,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.WaltConvo2 = true",
                 "Id": "0x0100000000002CB1",
                 "Owner": "0x0100000000002CAD",
                 "Connections": [
@@ -31753,6 +31766,62 @@
           }
         },
         {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_F5A14FD7",
+            "Id": "0x0100000000002F44",
+            "Parent": "0x0100000000001997",
+            "MenuText": "",
+            "StageDirections": "",
+            "Speaker": "0x0100000000000182",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "Text": "Oh Whisky!",
+            "ExternalId": "",
+            "Position": {
+              "x": -525.0,
+              "y": 1000.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 4120989655,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F45",
+                "Owner": "0x0100000000002F44"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "GlobalVariables.Bottle = false",
+                "Id": "0x0100000000002F46",
+                "Owner": "0x0100000000002F44",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000001999",
+                    "Target": "0x0100000000001997"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
           "Type": "Hub",
           "Properties": {
             "TechnicalName": "Hub_4986B2BB",
@@ -35562,8 +35631,8 @@
                       "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000018FD",
-                    "Target": "0x01000000000018FA"
+                    "TargetPin": "0x0100000000002F32",
+                    "Target": "0x0100000000002F30"
                   }
                 ]
               },
@@ -35598,8 +35667,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 450.0,
-              "y": 700.0
+              "x": -200.0,
+              "y": 750.0
             },
             "ZIndex": 8.0,
             "Size": {
@@ -35642,7 +35711,92 @@
               {
                 "Text": "",
                 "Id": "0x0100000000002F34",
-                "Owner": "0x0100000000002F30"
+                "Owner": "0x0100000000002F30",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000018FD",
+                    "Target": "0x01000000000018FA"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_7A6CC750",
+            "Id": "0x0100000000002F4E",
+            "Parent": "0x0100000000001997",
+            "DisplayName": "GlobalVariables.WaltConvo1 == true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": -925.0,
+              "y": 925.0
+            },
+            "ZIndex": 5.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 2053949264,
+            "Expression": "GlobalVariables.WaltConvo1 == true\n",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F50",
+                "Owner": "0x0100000000002F4E"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F51",
+                "Owner": "0x0100000000002F4E",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000002EDB",
+                    "Target": "0x0100000000002ED8"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x0100000000002F52",
+                "Owner": "0x0100000000002F4E",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000002F45",
+                    "Target": "0x0100000000002F44"
+                  }
+                ]
               }
             ]
           }
@@ -37069,8 +37223,18 @@
             "Type": "Dialogue",
             "Children": [
               {
+                "Id": "0x0100000000002F4E",
+                "TechnicalName": "Cnd_7A6CC750",
+                "Type": "Condition"
+              },
+              {
                 "Id": "0x0100000000002ED8",
                 "TechnicalName": "DFr_B2A7547A",
+                "Type": "DialogueFragment"
+              },
+              {
+                "Id": "0x0100000000002F44",
+                "TechnicalName": "DFr_F5A14FD7",
                 "Type": "DialogueFragment"
               }
             ]
@@ -38629,91 +38793,9 @@
                 "Type": "Condition"
               },
               {
-                "Id": "0x0100000000001893",
-                "TechnicalName": "Dlg_019E182E",
-                "Type": "Dialogue",
-                "Children": [
-                  {
-                    "Id": "0x0100000000002A2C",
-                    "TechnicalName": "DFr_5A73BEE7",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002A18",
-                    "TechnicalName": "DFr_BE85DE16",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x010000000000189F",
-                    "TechnicalName": "DFr_1DFFC7AE",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002A11",
-                    "TechnicalName": "DFr_FF23D5FE",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002A21",
-                    "TechnicalName": "DFr_ACBDF1A1",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x01000000000018AD",
-                    "TechnicalName": "DFr_99E5354E",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x01000000000018B5",
-                    "TechnicalName": "DFr_668F0D8A",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x01000000000018BB",
-                    "TechnicalName": "DFr_4FDE18AF",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002A9D",
-                    "TechnicalName": "DFr_3BF86721",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002A95",
-                    "TechnicalName": "DFr_77EE9FDE",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002AAC",
-                    "TechnicalName": "DFr_5B84FFE4",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002B3F",
-                    "TechnicalName": "DFr_BDC1AB81",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002B17",
-                    "TechnicalName": "DFr_CCCBA71C",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002B1D",
-                    "TechnicalName": "DFr_DBC2D083",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002B2F",
-                    "TechnicalName": "DFr_41C131ED",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002B27",
-                    "TechnicalName": "DFr_5156D22D",
-                    "Type": "DialogueFragment"
-                  }
-                ]
+                "Id": "0x0100000000002F30",
+                "TechnicalName": "Cnd_B6CFC20D",
+                "Type": "Condition"
               },
               {
                 "Id": "0x01000000000018FA",
@@ -38828,9 +38910,91 @@
                 ]
               },
               {
-                "Id": "0x0100000000002F30",
-                "TechnicalName": "Cnd_B6CFC20D",
-                "Type": "Condition"
+                "Id": "0x0100000000001893",
+                "TechnicalName": "Dlg_019E182E",
+                "Type": "Dialogue",
+                "Children": [
+                  {
+                    "Id": "0x0100000000002A2C",
+                    "TechnicalName": "DFr_5A73BEE7",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000002A18",
+                    "TechnicalName": "DFr_BE85DE16",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x010000000000189F",
+                    "TechnicalName": "DFr_1DFFC7AE",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000002A11",
+                    "TechnicalName": "DFr_FF23D5FE",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000002A21",
+                    "TechnicalName": "DFr_ACBDF1A1",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x01000000000018AD",
+                    "TechnicalName": "DFr_99E5354E",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x01000000000018B5",
+                    "TechnicalName": "DFr_668F0D8A",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x01000000000018BB",
+                    "TechnicalName": "DFr_4FDE18AF",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000002A9D",
+                    "TechnicalName": "DFr_3BF86721",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000002A95",
+                    "TechnicalName": "DFr_77EE9FDE",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000002AAC",
+                    "TechnicalName": "DFr_5B84FFE4",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000002B3F",
+                    "TechnicalName": "DFr_BDC1AB81",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000002B17",
+                    "TechnicalName": "DFr_CCCBA71C",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000002B1D",
+                    "TechnicalName": "DFr_DBC2D083",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000002B2F",
+                    "TechnicalName": "DFr_41C131ED",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000002B27",
+                    "TechnicalName": "DFr_5156D22D",
+                    "Type": "DialogueFragment"
+                  }
+                ]
               },
               {
                 "Id": "0x010000000000199F",
