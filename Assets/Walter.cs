@@ -10,6 +10,9 @@ public class Walter : MonoBehaviour
     
     [SerializeField]
     private GlobalVariableListener _listener;
+
+    [SerializeField]
+    private string _variableName = "WaltConvo1";
     
     // Start is called before the first frame update
     void Start()
@@ -35,7 +38,7 @@ public class Walter : MonoBehaviour
 
     protected virtual void WalterInteraction(string arg1, object arg2)
     {
-        if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.{_variableName}" && (bool)arg2)
         {
             transform.position = _newPos;
             print("Moving Walter");
