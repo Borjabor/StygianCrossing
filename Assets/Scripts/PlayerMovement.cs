@@ -132,7 +132,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (velocity.magnitude > 0)
         {
-            _anim.SetBool("isRunning", true);
+            _anim.SetBool("isRunning",true);
         }
 
         else
