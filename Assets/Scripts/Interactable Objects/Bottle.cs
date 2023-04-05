@@ -46,7 +46,7 @@ public class Bottle : MonoBehaviour
 
     protected virtual void ObjectInteraction(string arg1, object arg2)
     {
-        if (arg1 == $"GlobalVariables.Bottle" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
         {
             _canBeClicked = true;
             gameObject.GetComponent<BoxCollider>().enabled = true;

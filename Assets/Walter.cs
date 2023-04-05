@@ -12,7 +12,7 @@ public class Walter : MonoBehaviour
     private GlobalVariableListener _listener;
 
     [SerializeField]
-    private string _variableName = "WaltConvo1";
+    private string _variableName = "WaltConvo2";
     
     // Start is called before the first frame update
     void Start()
