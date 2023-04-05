@@ -1613,7 +1613,7 @@ MonoBehaviour:
   _SceneLights: []
   _playSound: 0
   _listener: {fileID: 516148662}
-  _variableName: WaltConvo1
+  _variableName: WaltConvo2
   _lockedOverlay: {fileID: 29990025}
 --- !u!1 &48320030
 GameObject:
@@ -39889,6 +39889,8 @@ GameObject:
   - component: {fileID: 2006431660}
   - component: {fileID: 2006431659}
   - component: {fileID: 2006431658}
+  - component: {fileID: 2006431662}
+  - component: {fileID: 2006431661}
   m_Layer: 0
   m_Name: Bottle
   m_TagString: InspectableObject
@@ -39995,6 +39997,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2006431661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006431656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e10dc168c3248448c112800a71d5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameState: {fileID: 11400000, guid: 4c329863d7a68eb4ba4ae3d4cabf695d, type: 2}
+  _prompt: {fileID: 0}
+--- !u!114 &2006431662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006431656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 461291041, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reference:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 11992
+    highId: 16777216
 --- !u!1001 &2010733324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41927,7 +41960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _newPos: {x: -2.76, y: 3.01, z: 0}
   _listener: {fileID: 516148662}
-  _variableName: WaltConvo1
+  _variableName: WaltConvo2
 --- !u!114 &2107632352
 MonoBehaviour:
   m_ObjectHideFlags: 0
