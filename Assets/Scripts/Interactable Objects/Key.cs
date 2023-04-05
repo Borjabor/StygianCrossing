@@ -51,6 +51,7 @@ public class Key : MonoBehaviour
         if (arg1 == $"GlobalVariables.StorageKey" && (bool)arg2)
         {
             _canBeClicked = true;
+            gameObject.GetComponent<BoxCollider>().enabled = true;
             print("Variable" + "key" + "checked");
         }
     }

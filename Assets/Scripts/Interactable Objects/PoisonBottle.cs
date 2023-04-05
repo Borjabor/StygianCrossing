@@ -51,6 +51,7 @@ public class PoisonBottle : MonoBehaviour
         if (arg1 == $"GlobalVariables.PoisonBottle" && (bool)arg2)
         {
             _canBeClicked = true;
+            gameObject.GetComponent<BoxCollider>().enabled = true;
             print("Variable" + "poison" + "checked");
         }
     }

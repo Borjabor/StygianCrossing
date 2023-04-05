@@ -51,6 +51,7 @@ public class Eggs : MonoBehaviour
         if (arg1 == $"GlobalVariables.ArthurEvidence2" && (bool)arg2)
         {
             _canBeClicked = true;
+            gameObject.GetComponent<BoxCollider>().enabled = true;
             print("Variable" + "eggs" + "checked");
         }
     }

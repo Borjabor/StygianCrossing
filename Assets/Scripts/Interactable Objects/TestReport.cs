@@ -51,7 +51,8 @@ public class TestReport : MonoBehaviour
         if (arg1 == $"GlobalVariables.ArthurEvidence1" && (bool)arg2)
         {
             _canBeClicked = true;
-            print("Variable" + "bottle" + "checked");
+            gameObject.GetComponent<BoxCollider>().enabled = true;
+            print("Variable" + "reports" + "checked");
         }
     }
 

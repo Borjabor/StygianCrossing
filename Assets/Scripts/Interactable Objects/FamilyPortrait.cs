@@ -51,6 +51,7 @@ public class FamilyPortrait : MonoBehaviour
         if (arg1 == $"GlobalVariables.FamilyPortrait" && (bool)arg2)
         {
             _canBeClicked = true;
+            gameObject.GetComponent<BoxCollider>().enabled = true;
             print("Variable" + "portrait" + "checked");
         }
     }

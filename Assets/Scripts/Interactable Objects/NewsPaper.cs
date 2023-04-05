@@ -49,6 +49,7 @@ public class NewsPaper : MonoBehaviour
         if (arg1 == $"GlobalVariables.newsPaper" && (bool)arg2)
         {
             _canBeClicked = true;
+            gameObject.GetComponent<BoxCollider>().enabled = true;
             print("Variable" + "newspaper" + "checked");
         }
     }
