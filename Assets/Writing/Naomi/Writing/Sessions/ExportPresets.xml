@@ -1,7 +1,7 @@
 <ExportPresets LastType="Unity3DExport">
   <Preset DisplayName="" Type="Unity3DExport">
     <ExportSettings Type="Unity3DExport">
-      <Filename>C:\GitLab\ProjectAfterlife\Assets\ArticyImports\Stygian Crossing.articyu3d</Filename>
+      <Filename>E:\RapidGameDev1\ProjectAfterlife\Assets\ArticyImports\Stygian Crossing.articyu3d</Filename>
       <CustomSettings>
         <Option Name="set_Localization" Value="False"/>
         <Option Name="set_TextFormatter" Value="Unity"/>
