@@ -3369,6 +3369,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2191534, y: 1.3442318, z: 0.2}
   m_Center: {x: 0.021514416, y: -0.0143431425, z: 0}
+--- !u!114 &303161673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303161665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69badcd1de5fea5448cbb0e3464f2289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _newPos: {x: -2.76, y: 3.01, z: 0}
+  _listener: {fileID: 971655629}
+  _variableName: WaltConvo1
 --- !u!1 &310332674
 GameObject:
   m_ObjectHideFlags: 0
@@ -14937,12 +14952,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1487335434}
+  - component: {fileID: 1487335435}
   - component: {fileID: 1487335432}
   - component: {fileID: 1487335431}
   - component: {fileID: 1487335430}
   - component: {fileID: 1487335429}
   - component: {fileID: 1487335428}
-  - component: {fileID: 1487335435}
   - component: {fileID: 1487335427}
   m_Layer: 2
   m_Name: Player
@@ -15026,7 +15041,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.5}
+  m_Offset: {x: 0, y: 0.6608031}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -15037,7 +15052,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.58, y: 1.42}
+  m_Size: {x: 0.58, y: 1.0983939}
   m_EdgeRadius: 0
 --- !u!50 &1487335432
 Rigidbody2D:
@@ -15068,7 +15083,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487335424}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.281, y: 6.68, z: 0}
+  m_LocalPosition: {x: 18.281, y: 6.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15101,7 +15116,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1487335424}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -23340,7 +23355,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 7684433389475840714}
   m_Bounds:
-    m_Center: {x: 0.00006374717, y: 0.67804486, z: 0}
+    m_Center: {x: 0.00006374717, y: 0.67804533, z: 0}
     m_Extent: {x: 0.09391623, y: 0.19971752, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -23606,7 +23621,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 1835294838738533717}
   m_Bounds:
-    m_Center: {x: 0, y: 0.6812261, z: 0}
+    m_Center: {x: 0, y: 0.6812256, z: 0}
     m_Extent: {x: 0.12375001, y: 0.21252376, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -25243,7 +25258,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 8452394661657765357}
   m_Bounds:
-    m_Center: {x: 0.0011355951, y: 0.6798806, z: 0}
+    m_Center: {x: 0.0011355951, y: 0.6798811, z: 0}
     m_Extent: {x: 0.0951125, y: 0.16894129, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -25296,7 +25311,7 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 6669140353731637177}
   m_Bounds:
-    m_Center: {x: 0.0004644096, y: 0.6804223, z: 0}
+    m_Center: {x: 0.0004644096, y: 0.6804228, z: 0}
     m_Extent: {x: 0.26992494, y: 0.35957748, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1

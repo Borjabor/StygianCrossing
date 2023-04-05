@@ -45,7 +45,7 @@ public class PlayerInteract : MonoBehaviour
         {
             // IInteractable interactable = hit.collider.GetComponent<IInteractable>();
             // interactable.Interact();
-            if (Vector2.Distance(transform.position, hit.transform.position) < 1.5f)
+            if (Vector2.Distance(transform.position, hit.transform.position) < 2.5f)
             {
                 IInteractable interactable = hit.collider.GetComponent<IInteractable>();
                 interactable.Interact();
