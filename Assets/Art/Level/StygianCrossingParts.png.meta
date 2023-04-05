@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 16384
     resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
@@ -582,8 +582,8 @@ TextureImporter:
       name: StygianCrossingParts_22
       rect:
         serializedVersion: 2
-        x: 1919
-        y: 549
+        x: 1928
+        y: 745
         width: 395
         height: 455
       alignment: 0
@@ -650,7 +650,7 @@ TextureImporter:
         width: 632
         height: 1054
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -671,7 +671,7 @@ TextureImporter:
         width: 574
         height: 1122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -679,6 +679,27 @@ TextureImporter:
       bones: []
       spriteID: cf75f52c365c0b64f9bf66ff81a47b4d
       internalID: 2014569684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: StygianCrossingParts_27
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 95
+        width: 452
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbff4ec8350efea45a5b44545fe3093f
+      internalID: 1041722446
       vertices: []
       indices: 
       edges: []
@@ -710,6 +731,7 @@ TextureImporter:
       StygianCrossingParts_23: -1193784512
       StygianCrossingParts_5: -1475485057
       StygianCrossingParts_3: -206111436
+      StygianCrossingParts_27: 1041722446
       StygianCrossingParts_15: 582881103
       StygianCrossingParts_16: -540644950
       StygianCrossingParts_22: 1863097097

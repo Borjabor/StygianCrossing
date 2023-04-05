@@ -33,27 +33,27 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
-  nPOTScale: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,18 +115,234 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: AssetsUpperDeck_0
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 990
+        width: 623
+        height: 875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a20269fa108e1b43abd6c23f9b3d786
+      internalID: -182293033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsUpperDeck_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1268
+        width: 442
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8e00878d76cca438c8659ee599ab03
+      internalID: 17997690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsUpperDeck_9
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1251
+        width: 442
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f021e849f05095049a4ea2e7116a70ae
+      internalID: -1892894624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsUpperDeck_10
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1241
+        width: 709
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc119472c495ec248a829715b170882b
+      internalID: 1297804547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsUpperDeck_11
+      rect:
+        serializedVersion: 2
+        x: 3775
+        y: 1771
+        width: 36
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346e0b2a640bc31478d1e1319b65ba76
+      internalID: 1755875995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsUpperDeck_14
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 734
+        width: 474
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dda7d54df320134ba090331ed4e682d
+      internalID: -1239330146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsUpperDeck_15
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 734
+        width: 579
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacd99db23f9c4641ab733ec565c0068
+      internalID: 995954904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsUpperDeck_20
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 247
+        width: 267
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7b10b924eb5da489e25b0ec051edbf
+      internalID: 396156280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsUpperDeck_26
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 151
+        width: 856
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c4b2fbd57c989408645150b897a36e
+      internalID: -1636478126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 71475004ada01ab43ac170fa5286fefc
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AssetsUpperDeck_16: -2060632432
+      AssetsUpperDeck_22: -2079742521
+      AssetsUpperDeck_12: -162047419
+      AssetsUpperDeck_2: 2024518931
+      AssetsUpperDeck_0: -182293033
+      AssetsUpperDeck_10: 1297804547
+      AssetsUpperDeck_26: -1636478126
+      AssetsUpperDeck_8: 17997690
+      AssetsUpperDeck_14: -1239330146
+      AssetsUpperDeck_24: 1473556479
+      AssetsUpperDeck_6: -2014061292
+      AssetsUpperDeck_20: 396156280
+      AssetsUpperDeck_3: 1629611734
+      AssetsUpperDeck_4: -386646495
+      AssetsUpperDeck_9: -1892894624
+      AssetsUpperDeck_7: -219524118
+      AssetsUpperDeck_18: 1014401484
+      AssetsUpperDeck_17: 980633438
+      AssetsUpperDeck_15: 995954904
+      AssetsUpperDeck_19: -1190097341
+      AssetsUpperDeck_23: -75642175
+      AssetsUpperDeck_11: 1755875995
+      AssetsUpperDeck_5: -1856162945
+      AssetsUpperDeck_25: 1477371710
+      AssetsUpperDeck_13: -76330846
+      AssetsUpperDeck_21: 502272908
+      AssetsUpperDeck_1: 1373711174
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
