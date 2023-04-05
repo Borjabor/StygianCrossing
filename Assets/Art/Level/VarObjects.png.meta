@@ -120,10 +120,10 @@ TextureImporter:
       name: VarObjects_0
       rect:
         serializedVersion: 2
-        x: 53
-        y: 1256
-        width: 351
-        height: 743
+        x: 112
+        y: 1244
+        width: 321
+        height: 679
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +141,10 @@ TextureImporter:
       name: VarObjects_1
       rect:
         serializedVersion: 2
-        x: 625
-        y: 1243
-        width: 223
-        height: 620
+        x: 637
+        y: 1335
+        width: 205
+        height: 567
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +162,10 @@ TextureImporter:
       name: VarObjects_2
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 1311
-        width: 251
-        height: 507
+        x: 1072
+        y: 1407
+        width: 230
+        height: 464
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +183,10 @@ TextureImporter:
       name: VarObjects_3
       rect:
         serializedVersion: 2
-        x: 1644
-        y: 1333
-        width: 217
-        height: 553
+        x: 1615
+        y: 1351
+        width: 199
+        height: 506
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: VarObjects_4
       rect:
         serializedVersion: 2
-        x: 130
-        y: 344
-        width: 745
-        height: 611
+        x: 100
+        y: 449
+        width: 682
+        height: 559
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: VarObjects_5
       rect:
         serializedVersion: 2
-        x: 1299
-        y: 809
-        width: 656
-        height: 345
+        x: 998
+        y: 784
+        width: 229
+        height: 414
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: VarObjects_6
       rect:
         serializedVersion: 2
-        x: 1093
-        y: 60
-        width: 609
-        height: 601
+        x: 1376
+        y: 796
+        width: 600
+        height: 316
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,6 +259,27 @@ TextureImporter:
       bones: []
       spriteID: 93e73375f64fadb489bc6b4f74ebd1b6
       internalID: -1912486891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VarObjects_7
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 59
+        width: 557
+        height: 549
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e237fe62ed2635442b62b466e459ca0f
+      internalID: -275810596
       vertices: []
       indices: 
       edges: []
@@ -275,6 +296,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       VarObjects_5: 2124244461
+      VarObjects_7: -275810596
       VarObjects_2: 577012058
       VarObjects_3: -1218306106
       VarObjects_0: -908618404
