@@ -132,12 +132,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (velocity.magnitude > 0)
         {
-            _anim.SetBool("isRun", true);
+            _anim.SetBool("isRunning", true);
         }
 
         else
         {
-            _anim.SetBool("isRun",false);
+            _anim.SetBool("isRunning",false);
         }
 
         if (currentPosition.x > prevPosition.x)

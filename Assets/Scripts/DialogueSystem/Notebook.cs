@@ -50,8 +50,9 @@ public class Notebook : MonoBehaviour
 
     protected virtual void ObjectiveReveal(string arg1, object arg2)
     {
-        if (arg1 == $"GlobalVariables.ArthurEvidence1" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.CaptainQuest" && (bool)arg2)
         {
+            print("Captain Convo Called");
             _objectives[0].SetActive(true);
             _notificationCount++;
         }
