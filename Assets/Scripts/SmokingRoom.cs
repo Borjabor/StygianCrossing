@@ -4,12 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
-public class SceneComponent : MonoBehaviour
+public class SmokingRoom : MonoBehaviour
 {
     public bool _isActive;
 
     [SerializeField]
-    private bool _isLocked = false;
+    private bool _isLocked = true;
 
     [SerializeField]
     private Light[] _SceneLights;
@@ -19,6 +19,35 @@ public class SceneComponent : MonoBehaviour
     public bool _playSound = false;
 
     private Collider2D _collider;
+
+    [SerializeField]
+    private GlobalVariableListener _listener;
+
+    [SerializeField]
+    private string _variableName = "WaltConvo1";
+
+    [SerializeField]
+    private GameObject _lockedOverlay;
+
+    private void OnEnable()
+    {
+        _listener.GlobalVariableChanged += RoomInteraction;
+    }
+
+    private void OnDisable()
+    {
+        _listener.GlobalVariableChanged -= RoomInteraction;
+    }
+
+    protected virtual void RoomInteraction(string arg1, object arg2)
+    {
+        if (arg1 == $"GlobalVariables.{_variableName}" && (bool)arg2)
+        {
+            _isLocked = false;
+            _lockedOverlay.SetActive(false);
+            print("Variable" + $"{_variableName}" + "checked");
+        }
+    }
 
     private void Start()
     {
@@ -81,6 +110,7 @@ public class SceneComponent : MonoBehaviour
 
     private void LockedScene()
     {
+        _lockedOverlay.SetActive(true);
         _collider.isTrigger = true;
     }
 }
