@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
-public class SmokingRoom : MonoBehaviour
+public class StorageRoom : MonoBehaviour
 {
     public bool _isActive;
 
@@ -24,7 +24,7 @@ public class SmokingRoom : MonoBehaviour
     private GlobalVariableListener _listener;
 
     [SerializeField]
-    private string _variableName = "WaltConvo1";
+    private string _variableName = "StorageKey";
 
     [SerializeField]
     private GameObject _lockedOverlay;
@@ -44,8 +44,8 @@ public class SmokingRoom : MonoBehaviour
         if (arg1 == $"GlobalVariables.{_variableName}" && (bool)arg2)
         {
             _isLocked = false;
-            _collider.isTrigger = true;
             _lockedOverlay.SetActive(false);
+            _collider.isTrigger = true;
             print("Variable" + $"{_variableName}" + "checked");
         }
     }
