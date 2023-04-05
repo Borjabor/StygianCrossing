@@ -52,6 +52,7 @@ public class InspectableObject : MonoBehaviour
         if (arg1 == $"GlobalVariables.{_name}" && (bool)arg2)
         {
             _canBeClicked = true;
+            //print("Variable" + _name + "checked");
         }
     }
 
