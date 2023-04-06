@@ -119,14 +119,15 @@ public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
         var objectWithText = aObject as IObjectWithText;
         if (objectWithText != null)
         {
-            if (objectWithMenuText.MenuText == string.Empty)
-            {
-                _dialogueText.text = _dialogueText.text == string.Empty? $"{speakerEntity.DisplayName}: {objectWithText.Text}" : $"<color=#808080ff>{_dialogueText.text}\n  </color>{speakerEntity.DisplayName}: {objectWithText.Text}";
-            }
-            else
-            {
-                _dialogueText.text = _dialogueText.text == string.Empty? $"{speakerEntity.DisplayName}: {objectWithText.Text}" : $"<color=#808080ff>{_dialogueText.text}\n <color=#521407f2>Charon:</color> {objectWithMenuText.MenuText}\n </color>{speakerEntity.DisplayName}: {objectWithText.Text}";
-            }
+            _dialogueText.text = _dialogueText.text == string.Empty? $"<color=#521407f2>{speakerEntity.DisplayName}</color>: {objectWithText.Text}" : $"<color=#808080ff>{_dialogueText.text}\n  </color><color=#521407f2>{speakerEntity.DisplayName}</color>: {objectWithText.Text}";
+            // if (objectWithMenuText.MenuText == string.Empty)
+            // {
+            //     _dialogueText.text = _dialogueText.text == string.Empty? $"{speakerEntity.DisplayName}: {objectWithText.Text}" : $"<color=#808080ff>{_dialogueText.text}\n  </color>{speakerEntity.DisplayName}: {objectWithText.Text}";
+            // }
+            // else
+            // {
+            //     _dialogueText.text = _dialogueText.text == string.Empty? $"{speakerEntity.DisplayName}: {objectWithText.Text}" : $"<color=#808080ff>{_dialogueText.text}\n <color=#521407f2>Charon:</color> {objectWithMenuText.MenuText}\n </color>{speakerEntity.DisplayName}: {objectWithText.Text}";
+            // }
         }
         
         // var dialogueSpeaker = aObject as IObjectWithSpeaker;
