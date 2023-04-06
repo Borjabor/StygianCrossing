@@ -1424,7 +1424,7 @@ GameObject:
   - component: {fileID: 47867703}
   m_Layer: 0
   m_Name: SmokingSaloon
-  m_TagString: Scene
+  m_TagString: SmokingRoom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41815,7 +41815,7 @@ GameObject:
   - component: {fileID: 2027723443}
   m_Layer: 0
   m_Name: Storage
-  m_TagString: Scene
+  m_TagString: StorageRoom
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
