@@ -52,76 +52,73 @@ public class Notebook : MonoBehaviour
     {
         if (arg1 == $"GlobalVariables.CaptainQuest" && (bool)arg2)
         {
-            print("Captain Convo Called");
+            print("Captain Convo Completed");
             _objectives[0].SetActive(true);
             _notificationCount++;
         }
         
-        if (arg1 == $"GlobalVariables.DisturbingThePeace" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
         {
             _objectives[1].SetActive(true);
             _notificationCount++;
         }
         
-        if (arg1 == $"GlobalVariables.Bottle" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.WaltConvo2" && (bool)arg2)
         {
             _objectives[2].SetActive(true);
             _notificationCount++;
         }
         
-        if (arg1 == $"GlobalVariables.Cigarettes" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.MargaretConvo1" && (bool)arg2)
         {
             _objectives[3].SetActive(true);
             _notificationCount++;
         }
         
-        if (arg1 == $"GlobalVariables.JackLocked" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.JackConvo1" && (bool)arg2)
         {
             _objectives[4].SetActive(true);
             _notificationCount++;
         }
+        //end of first page
         
-        if (arg1 == $"GlobalVariables.StorageKey" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.JeanKeyConvo" && (bool)arg2)
         {
             _objectives[5].SetActive(true);
             _notificationCount++;
         }
         
-        if (arg1 == $"GlobalVariables.KeySaloonBalcony" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.JackConvo2" && (bool)arg2)
         {
             _objectives[6].SetActive(true);
             _notificationCount++;
         }
         
-        if (arg1 == $"GlobalVariables.TestReports" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.JackConvo2" && (bool)arg2)
         {
             _objectives[7].SetActive(true);
             _notificationCount++;
         }
         
-        if (arg1 == $"GlobalVariables.FamilyPortrait" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.MargaretConvo2" && (bool)arg2)
         {
             _objectives[8].SetActive(true);
             _notificationCount++;
         }
         
-        if (arg1 == $"GlobalVariables.newsPaper" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.JackConvo3" && (bool)arg2)
         {
             _objectives[9].SetActive(true);
             _notificationCount++;
         }
         
-        if (arg1 == $"GlobalVariables.Eggs" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.ArthurConvo3" && (bool)arg2)
+            //arthur and margaret final convo
         {
             _objectives[10].SetActive(true);
             _notificationCount++;
         }
         
-        if (arg1 == $"GlobalVariables.Final" && (bool)arg2)
-        {
-            _objectives[11].SetActive(true);
-            _notificationCount++;
-        }
     }
 
     public void NotebookReveal()
