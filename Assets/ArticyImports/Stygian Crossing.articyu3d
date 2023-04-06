@@ -6,7 +6,7 @@
     "set_UseScriptSupport": "True",
     "ExportVersion": "1.2",
     "ObjectDefinitionsHash": "64CE4317A9DC50A4E9E2202F6C09C479DF253DD7BBEB67BFB446DC04A2212923",
-    "ScriptFragmentsHash": "2688265530"
+    "ScriptFragmentsHash": "1419892684"
   },
   "Project": {
     "Name": "Stygian Crossing",
@@ -2962,27 +2962,27 @@
             "ShortId": 4190325781,
             "InputPins": [
               {
-                "Text": "GlobalVariables.JackConvo2 == true",
+                "Text": "",
                 "Id": "0x0100000000001C59",
                 "Owner": "0x0100000000001C37",
                 "Connections": [
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000002F06",
-                    "Target": "0x0100000000002F03"
+                    "TargetPin": "0x0100000000002F8A",
+                    "Target": "0x0100000000002F88"
                   }
                 ]
               }
             ],
             "OutputPins": [
               {
-                "Text": "GlobalVariables.FamilyPortrait = true\n",
+                "Text": "",
                 "Id": "0x0100000000001C5A",
                 "Owner": "0x0100000000001C37"
               }
@@ -4579,7 +4579,7 @@
             "ExternalId": "",
             "Position": {
               "x": 867.0,
-              "y": 450.0
+              "y": 425.0
             },
             "ZIndex": 24.0,
             "Size": {
@@ -4611,7 +4611,20 @@
               {
                 "Text": "GlobalVariables.JackConvo2 = true",
                 "Id": "0x0100000000001C26",
-                "Owner": "0x0100000000001C24"
+                "Owner": "0x0100000000001C24",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000022E0",
+                    "Target": "0x01000000000022DC"
+                  }
+                ]
               }
             ]
           }
@@ -5631,8 +5644,8 @@
             "Text": "The pictures shows a man with his wife and kid. The man, with his tidy hair and suit, bares the most minor resemblance to Jack. The screeching blue eyes.",
             "ExternalId": "",
             "Position": {
-              "x": 1475.0,
-              "y": 700.0
+              "x": 1425.0,
+              "y": 600.0
             },
             "ZIndex": 15.0,
             "Size": {
@@ -5649,7 +5662,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.FamilyPortrait = true",
                 "Id": "0x0100000000002F07",
                 "Owner": "0x0100000000002F03",
                 "Connections": [
@@ -30356,7 +30369,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.JackConvo2 = true",
                 "Id": "0x010000000000262F",
                 "Owner": "0x010000000000262D",
                 "Connections": [
@@ -31654,7 +31667,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.JackConvo3 = true",
                 "Id": "0x01000000000025E5",
                 "Owner": "0x01000000000025E3",
                 "Connections": [
@@ -36010,6 +36023,78 @@
           }
         },
         {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_A9C651C3",
+            "Id": "0x0100000000002F88",
+            "Parent": "0x0100000000001C37",
+            "DisplayName": "GlobalVariables.JackConvo2 == true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 1050.0,
+              "y": 775.0
+            },
+            "ZIndex": 3.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 2848346563,
+            "Expression": "GlobalVariables.JackConvo2 == true",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F8A",
+                "Owner": "0x0100000000002F88"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F8B",
+                "Owner": "0x0100000000002F88",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000002F06",
+                    "Target": "0x0100000000002F03"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x0100000000002F8C",
+                "Owner": "0x0100000000002F88",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000001C5A",
+                    "Target": "0x0100000000001C37"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
           "Type": "Comment",
           "Properties": {
             "TechnicalName": "CMT_72057594037930701",
@@ -40317,6 +40402,11 @@
             "TechnicalName": "Dlg_F9C34C15",
             "Type": "Dialogue",
             "Children": [
+              {
+                "Id": "0x0100000000002F88",
+                "TechnicalName": "Cnd_A9C651C3",
+                "Type": "Condition"
+              },
               {
                 "Id": "0x0100000000002F03",
                 "TechnicalName": "DFr_76269704",

@@ -16798,8 +16798,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e10dc168c3248448c112800a71d5b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameState: {fileID: 0}
-  _prompt: {fileID: 0}
+  _gameState: {fileID: 11400000, guid: 4c329863d7a68eb4ba4ae3d4cabf695d, type: 2}
+  _prompt: {fileID: 548312067}
 --- !u!114 &793597509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16815,8 +16815,8 @@ MonoBehaviour:
   reference:
     instanceId: 0
     referencingMode: 0
-    lowId: 0
-    highId: 0
+    lowId: 7223
+    highId: 16777216
 --- !u!1 &793634664
 GameObject:
   m_ObjectHideFlags: 0
