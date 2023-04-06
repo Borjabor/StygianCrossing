@@ -9883,6 +9883,8 @@ GameObject:
   - component: {fileID: 510208754}
   - component: {fileID: 510208753}
   - component: {fileID: 510208752}
+  - component: {fileID: 510208756}
+  - component: {fileID: 510208755}
   m_Layer: 0
   m_Name: NewsPaper
   m_TagString: InspectableObject
@@ -9989,6 +9991,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &510208755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510208750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e10dc168c3248448c112800a71d5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameState: {fileID: 0}
+  _prompt: {fileID: 0}
+--- !u!114 &510208756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 510208750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 461291041, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reference:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 0
+    highId: 0
 --- !u!1 &510847838
 GameObject:
   m_ObjectHideFlags: 0
@@ -10353,7 +10386,7 @@ MonoBehaviour:
   reference:
     instanceId: 0
     referencingMode: 0
-    lowId: 6669
+    lowId: 8914
     highId: 16777216
 --- !u!65 &527585365
 BoxCollider:
@@ -10547,6 +10580,8 @@ GameObject:
   - component: {fileID: 535432112}
   - component: {fileID: 535432111}
   - component: {fileID: 535432110}
+  - component: {fileID: 535432114}
+  - component: {fileID: 535432113}
   m_Layer: 0
   m_Name: PosionBottle
   m_TagString: InspectableObject
@@ -10653,6 +10688,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &535432113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535432108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e10dc168c3248448c112800a71d5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameState: {fileID: 0}
+  _prompt: {fileID: 0}
+--- !u!114 &535432114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535432108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 461291041, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reference:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 0
+    highId: 0
 --- !u!1 &537610138
 GameObject:
   m_ObjectHideFlags: 0
@@ -10749,6 +10815,8 @@ GameObject:
   - component: {fileID: 545183511}
   - component: {fileID: 545183510}
   - component: {fileID: 545183509}
+  - component: {fileID: 545183513}
+  - component: {fileID: 545183512}
   m_Layer: 0
   m_Name: TestReport
   m_TagString: InspectableObject
@@ -10855,6 +10923,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &545183512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545183507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e10dc168c3248448c112800a71d5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameState: {fileID: 0}
+  _prompt: {fileID: 0}
+--- !u!114 &545183513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545183507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 461291041, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reference:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 0
+    highId: 0
 --- !u!1 &547318964
 GameObject:
   m_ObjectHideFlags: 0
@@ -16438,6 +16537,8 @@ GameObject:
   - component: {fileID: 793597507}
   - component: {fileID: 793597506}
   - component: {fileID: 793597505}
+  - component: {fileID: 793597509}
+  - component: {fileID: 793597508}
   m_Layer: 0
   m_Name: FamilyPortrait
   m_TagString: InspectableObject
@@ -16544,6 +16645,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &793597508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793597503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e10dc168c3248448c112800a71d5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameState: {fileID: 0}
+  _prompt: {fileID: 0}
+--- !u!114 &793597509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793597503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 461291041, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reference:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 0
+    highId: 0
 --- !u!1 &793634664
 GameObject:
   m_ObjectHideFlags: 0
@@ -34538,6 +34670,8 @@ GameObject:
   - component: {fileID: 1699191086}
   - component: {fileID: 1699191085}
   - component: {fileID: 1699191084}
+  - component: {fileID: 1699191088}
+  - component: {fileID: 1699191087}
   m_Layer: 0
   m_Name: Key
   m_TagString: InspectableObject
@@ -34644,6 +34778,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1699191087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699191082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e10dc168c3248448c112800a71d5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameState: {fileID: 11400000, guid: 4c329863d7a68eb4ba4ae3d4cabf695d, type: 2}
+  _prompt: {fileID: 492033059}
+--- !u!114 &1699191088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699191082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 461291041, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reference:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 6932
+    highId: 16777216
 --- !u!1 &1700692149
 GameObject:
   m_ObjectHideFlags: 0
@@ -37390,6 +37555,8 @@ GameObject:
   - component: {fileID: 1797402305}
   - component: {fileID: 1797402304}
   - component: {fileID: 1797402303}
+  - component: {fileID: 1797402307}
+  - component: {fileID: 1797402306}
   m_Layer: 0
   m_Name: Eggs
   m_TagString: InspectableObject
@@ -37496,6 +37663,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1797402306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797402301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e10dc168c3248448c112800a71d5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gameState: {fileID: 0}
+  _prompt: {fileID: 0}
+--- !u!114 &1797402307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797402301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 461291041, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reference:
+    instanceId: 0
+    referencingMode: 0
+    lowId: 0
+    highId: 0
 --- !u!1 &1799915227
 GameObject:
   m_ObjectHideFlags: 0
