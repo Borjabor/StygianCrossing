@@ -11521,7 +11521,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 562902024}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -0.065, z: -2.3518512}
+  m_LocalPosition: {x: -0.02, y: -0.017, z: -2.3518512}
   m_LocalScale: {x: 1, y: 0.700829, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11596,7 +11596,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.65
+  orthographic size: 0.92
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -23304,7 +23304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1089891557}
   - component: {fileID: 1089891558}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24681,7 +24681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1161940066}
   - component: {fileID: 1161940067}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BarBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26817,7 +26817,7 @@ SpriteRenderer:
   m_SortingOrder: -4
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -31894,7 +31894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1543423595
 Transform:
   m_ObjectHideFlags: 0
@@ -31904,7 +31904,7 @@ Transform:
   m_GameObject: {fileID: 1543423594}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.08, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99263126, y: 0.99263126, z: 0.99263126}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1089891557}
@@ -40094,7 +40094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1886378620}
   - component: {fileID: 1886378621}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AssetsMiddle_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43961,7 +43961,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2111679963}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.0293, z: -2.3518512}
+  m_LocalPosition: {x: 0.003, y: -0.033, z: -2.3518512}
   m_LocalScale: {x: 1, y: 0.700829, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44036,7 +44036,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.66
+  orthographic size: 0.86
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
