@@ -7,6 +7,8 @@ TagManager:
   - LevelNavigator
   - Scene
   - InspectableObject
+  - StorageRoom
+  - SmokingRoom
   layers:
   - Default
   - TransparentFX

@@ -4,30 +4,31 @@ using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float _moveSpeed = 5f;
+    [SerializeField]
+    private float _moveSpeed = 5f;
 
     private Vector2 _targetPosition;
 
     [SerializeField]
     private PlayerState _playerState;
 
-    [SerializeField] private GameState _gameState;
-    
-    
+    [SerializeField]
+    private GameState _gameState;
+
+
     private bool _isMoving;
 
 
     [SerializeField]
     private GameObject _sprite;
-  
+
     public float spriteScale = 0.5f;
-    
+
     private Camera mainCamera;
 
     [Space, Header("Animation")]
+    private Animator _anim;
 
-    private Animator _anim; 
-    
     private Vector3 prevPosition;
 
     private void Awake()
@@ -39,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if(_gameState.Value is States.PAUSED or States.DIALOGUE) return;
+        if (_gameState.Value is States.PAUSED or States.DIALOGUE) return;
         Movement();
         SpawnSprite();
         AnimationMovement();
@@ -56,9 +57,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Movement()
     {
-
         if (EventSystem.current.IsPointerOverGameObject()) return;
-        
+
         if (Input.GetMouseButton(0))
         {
             _targetPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
@@ -73,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
             transform.position += -transform.right * (Time.deltaTime * _moveSpeed);
             _playerState.Value = PlayerStates.WALKING;
         }
-        
+
         if (Input.GetKey(KeyCode.D))
         {
             transform.position += transform.right * (Time.deltaTime * _moveSpeed);
@@ -93,14 +93,13 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     }
-    
+
     private void SpawnSprite()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            
             Vector3 clickPosition = GetClickPosition();
-            
+
             // _sprite.transform.position = clickPosition;
             // _sprite.transform.localScale = new Vector3(spriteScale, spriteScale, spriteScale);
             // Instantiate(_sprite, clickPosition, Quaternion.identity);
@@ -109,8 +108,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 GetClickPosition()
     {
-        Vector3 clickPosition = Vector3.zero;
         
+        Vector3 clickPosition = Vector3.zero;
+
         if (Input.touchCount > 0)
         {
             clickPosition = mainCamera.ScreenToWorldPoint(Input.GetTouch(0).position);
@@ -130,27 +130,34 @@ public class PlayerMovement : MonoBehaviour
         Vector3 currentPosition = transform.position;
         Vector3 velocity = (currentPosition - prevPosition) / Time.deltaTime;
 
-        if (velocity.magnitude > 0)
+        if (_gameState.Value == States.DIALOGUE)
         {
-            _anim.SetBool("isRunning",true);
-        }
-
-        else
-        {
-            _anim.SetBool("isRunning",false);
-        }
-
-        if (currentPosition.x > prevPosition.x)
-        {
-            transform.localScale = new Vector3(1, 1, 1);  
-        }
-        else //if (currentPosition.x < prevPosition.x)
-        {
-            transform.localScale = new Vector3(-1, 1, 1); 
+            _anim.SetBool("isRunnning", false);
         }
         
+        else
+        {
+            if (velocity.magnitude > 0 && _gameState.Value != States.DIALOGUE)
+            {
+                _anim.SetBool("isRunning", true);
+            }
+
+            else
+            {
+                _anim.SetBool("isRunning", false);
+            }
+
+            if (currentPosition.x > prevPosition.x)
+            {
+                transform.localScale = new Vector3(1, 1, 1);
+            }
+            else //if (currentPosition.x < prevPosition.x)
+            {
+                transform.localScale = new Vector3(-1, 1, 1);
+            }
+        }
+
 
         prevPosition = currentPosition;
     }
-
 }
