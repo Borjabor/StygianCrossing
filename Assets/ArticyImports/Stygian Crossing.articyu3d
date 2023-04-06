@@ -6,7 +6,7 @@
     "set_UseScriptSupport": "True",
     "ExportVersion": "1.2",
     "ObjectDefinitionsHash": "64CE4317A9DC50A4E9E2202F6C09C479DF253DD7BBEB67BFB446DC04A2212923",
-    "ScriptFragmentsHash": "1204359463"
+    "ScriptFragmentsHash": "1419892684"
   },
   "Project": {
     "Name": "Stygian Crossing",
@@ -2834,27 +2834,27 @@
             "ShortId": 2284919410,
             "InputPins": [
               {
-                "Text": "GlobalVariables.JeanKeyConvo == true",
+                "Text": "",
                 "Id": "0x0100000000001B36",
                 "Owner": "0x0100000000001B14",
                 "Connections": [
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000002EFE",
-                    "Target": "0x0100000000002EFB"
+                    "TargetPin": "0x0100000000002F71",
+                    "Target": "0x0100000000002F6F"
                   }
                 ]
               }
             ],
             "OutputPins": [
               {
-                "Text": "GlobalVariables.StorageKey = true\n",
+                "Text": "",
                 "Id": "0x0100000000001B37",
                 "Owner": "0x0100000000001B14"
               }
@@ -2962,27 +2962,27 @@
             "ShortId": 4190325781,
             "InputPins": [
               {
-                "Text": "GlobalVariables.JackConvo2 == true",
+                "Text": "",
                 "Id": "0x0100000000001C59",
                 "Owner": "0x0100000000001C37",
                 "Connections": [
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000002F06",
-                    "Target": "0x0100000000002F03"
+                    "TargetPin": "0x0100000000002F8A",
+                    "Target": "0x0100000000002F88"
                   }
                 ]
               }
             ],
             "OutputPins": [
               {
-                "Text": "GlobalVariables.FamilyPortrait = true\n",
+                "Text": "",
                 "Id": "0x0100000000001C5A",
                 "Owner": "0x0100000000001C37"
               }
@@ -4150,13 +4150,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001A10",
-                    "Target": "0x0100000000001A0D"
+                    "TargetPin": "0x0100000000002F69",
+                    "Target": "0x0100000000002F67"
                   }
                 ]
               }
@@ -4198,8 +4198,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 567.0,
-              "y": 525.0
+              "x": 542.0,
+              "y": 675.0
             },
             "ZIndex": 19.0,
             "Size": {
@@ -4243,17 +4243,6 @@
                     "Label": "",
                     "TargetPin": "0x0100000000001B41",
                     "Target": "0x0100000000001B3E"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000001AD3",
-                    "Target": "0x0100000000001AD0"
                   }
                 ]
               }
@@ -4288,8 +4277,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 1167.0,
-              "y": 400.0
+              "x": 892.0,
+              "y": 350.0
             },
             "ZIndex": 20.0,
             "Size": {
@@ -4299,7 +4288,7 @@
             "ShortId": 3627694737,
             "InputPins": [
               {
-                "Text": "GlobalVariables.JackConvo1 == true",
+                "Text": "GlobalVariables.JackConvo1 == true\n&&GlobalVariables.JeanConvo1 == true",
                 "Id": "0x0100000000001AD3",
                 "Owner": "0x0100000000001AD0",
                 "Connections": [
@@ -4367,8 +4356,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 1167.0,
-              "y": 650.0
+              "x": 1142.0,
+              "y": 725.0
             },
             "ZIndex": 22.0,
             "Size": {
@@ -4462,13 +4451,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001C1F",
-                    "Target": "0x0100000000001C1C"
+                    "TargetPin": "0x0100000000002F79",
+                    "Target": "0x0100000000002F77"
                   }
                 ]
               }
@@ -4510,8 +4499,8 @@
             "Text": "Someone (Jack) is stuck in the storage room. Jack gives you a description of who it is and you go look for them to get the key.",
             "ExternalId": "",
             "Position": {
-              "x": 575.0,
-              "y": 391.0
+              "x": 467.0,
+              "y": 550.0
             },
             "ZIndex": 24.0,
             "Size": {
@@ -4548,13 +4537,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001C25",
-                    "Target": "0x0100000000001C24"
+                    "TargetPin": "0x01000000000022E0",
+                    "Target": "0x01000000000022DC"
                   }
                 ]
               }
@@ -4589,8 +4578,8 @@
             "Text": "Jack is set free, but he prefers to just stay in that floor, away from the lady who locked him up in the first place. You have a quick introduction and asking of Jack's coins.",
             "ExternalId": "",
             "Position": {
-              "x": 925.0,
-              "y": 391.0
+              "x": 867.0,
+              "y": 425.0
             },
             "ZIndex": 24.0,
             "Size": {
@@ -4627,13 +4616,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001C2D",
-                    "Target": "0x0100000000001C2C"
+                    "TargetPin": "0x01000000000022E0",
+                    "Target": "0x01000000000022DC"
                   }
                 ]
               }
@@ -4668,8 +4657,8 @@
             "Text": "Jack starts to remember more about his living days and a have information on Margaret dying on beach chair and patients from the science experiments.",
             "ExternalId": "",
             "Position": {
-              "x": 1300.0,
-              "y": 391.0
+              "x": 1167.0,
+              "y": 200.0
             },
             "ZIndex": 24.0,
             "Size": {
@@ -5432,7 +5421,7 @@
             "ExternalId": "",
             "Position": {
               "x": -525.0,
-              "y": 775.0
+              "y": 725.0
             },
             "ZIndex": 0.0,
             "Size": {
@@ -5543,8 +5532,8 @@
             "Text": "A dirty, rusty key. It's not a natural thing for it to still work on the lock.",
             "ExternalId": "",
             "Position": {
-              "x": 1550.0,
-              "y": 475.0
+              "x": 1525.0,
+              "y": 375.0
             },
             "ZIndex": 15.0,
             "Size": {
@@ -5561,7 +5550,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.StorageKey = true\n",
                 "Id": "0x0100000000002EFF",
                 "Owner": "0x0100000000002EFB",
                 "Connections": [
@@ -5655,8 +5644,8 @@
             "Text": "The pictures shows a man with his wife and kid. The man, with his tidy hair and suit, bares the most minor resemblance to Jack. The screeching blue eyes.",
             "ExternalId": "",
             "Position": {
-              "x": 1475.0,
-              "y": 700.0
+              "x": 1425.0,
+              "y": 600.0
             },
             "ZIndex": 15.0,
             "Size": {
@@ -5673,7 +5662,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.FamilyPortrait = true",
                 "Id": "0x0100000000002F07",
                 "Owner": "0x0100000000002F03",
                 "Connections": [
@@ -18245,7 +18234,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.MargaretConvo1 = true",
                 "Id": "0x01000000000016C3",
                 "Owner": "0x01000000000016BF",
                 "Connections": [
@@ -26227,7 +26216,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.JeanConvo1 = true",
                 "Id": "0x010000000000272F",
                 "Owner": "0x010000000000272D",
                 "Connections": [
@@ -27402,7 +27391,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.JeanKeyConvo = true",
                 "Id": "0x0100000000002ECB",
                 "Owner": "0x0100000000002EC7",
                 "Connections": [
@@ -29418,7 +29407,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.JeanConvo2 = true",
                 "Id": "0x01000000000028EC",
                 "Owner": "0x01000000000028EA",
                 "Connections": [
@@ -29474,7 +29463,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.JeanConvo2 = true",
                 "Id": "0x01000000000028F3",
                 "Owner": "0x01000000000028F1",
                 "Connections": [
@@ -29888,7 +29877,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.JackConvo1 = true",
                 "Id": "0x01000000000026CA",
                 "Owner": "0x01000000000026C8",
                 "Connections": [
@@ -30380,7 +30369,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.JackConvo2 = true",
                 "Id": "0x010000000000262F",
                 "Owner": "0x010000000000262D",
                 "Connections": [
@@ -31678,7 +31667,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.JackConvo3 = true",
                 "Id": "0x01000000000025E5",
                 "Owner": "0x01000000000025E3",
                 "Connections": [
@@ -31759,62 +31748,6 @@
                     "Label": "",
                     "TargetPin": "0x01000000000025D2",
                     "Target": "0x01000000000025D1"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
-            "TechnicalName": "DFr_F5A14FD7",
-            "Id": "0x0100000000002F44",
-            "Parent": "0x0100000000001997",
-            "MenuText": "",
-            "StageDirections": "",
-            "Speaker": "0x0100000000000182",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.5764706,
-              "g": 0.75686276,
-              "b": 0.8
-            },
-            "Text": "Oh Whisky!",
-            "ExternalId": "",
-            "Position": {
-              "x": -525.0,
-              "y": 1000.0
-            },
-            "ZIndex": 0.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 4120989655,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000002F45",
-                "Owner": "0x0100000000002F44"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "GlobalVariables.Bottle = false",
-                "Id": "0x0100000000002F46",
-                "Owner": "0x0100000000002F44",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.5764706,
-                      "g": 0.75686276,
-                      "b": 0.8
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000001999",
-                    "Target": "0x0100000000001997"
                   }
                 ]
               }
@@ -35793,8 +35726,368 @@
                       "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000002F45",
-                    "Target": "0x0100000000002F44"
+                    "TargetPin": "0x0100000000001999",
+                    "Target": "0x0100000000001997"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_C9DAC741",
+            "Id": "0x0100000000002F67",
+            "Parent": "0x01000000000022D2",
+            "DisplayName": "GlobalVariables.JackConvo1 == true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 200.0,
+              "y": 475.0
+            },
+            "ZIndex": 8.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 3386558273,
+            "Expression": "GlobalVariables.JackConvo1 == true",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F69",
+                "Owner": "0x0100000000002F67"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F6A",
+                "Owner": "0x0100000000002F67",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000001AD3",
+                    "Target": "0x0100000000001AD0"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x0100000000002F6B",
+                "Owner": "0x0100000000002F67",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000001A10",
+                    "Target": "0x0100000000001A0D"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_9C8195AF",
+            "Id": "0x0100000000002F6F",
+            "Parent": "0x0100000000001B14",
+            "DisplayName": "GlobalVariables.JeanKeyConvo == true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 1150.0,
+              "y": 625.0
+            },
+            "ZIndex": 3.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 2625738159,
+            "Expression": "GlobalVariables.JeanKeyConvo == true",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F71",
+                "Owner": "0x0100000000002F6F"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F72",
+                "Owner": "0x0100000000002F6F",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000002EFE",
+                    "Target": "0x0100000000002EFB"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x0100000000002F73",
+                "Owner": "0x0100000000002F6F",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000001B37",
+                    "Target": "0x0100000000001B14"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_E6D8A84E",
+            "Id": "0x0100000000002F77",
+            "Parent": "0x01000000000022DC",
+            "DisplayName": "GlobalVariables.StorageKey == true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 150.0,
+              "y": 325.0
+            },
+            "ZIndex": 7.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 3872958542,
+            "Expression": "GlobalVariables.StorageKey == true",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F79",
+                "Owner": "0x0100000000002F77"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F7A",
+                "Owner": "0x0100000000002F77",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000002F81",
+                    "Target": "0x0100000000002F80"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x0100000000002F7B",
+                "Owner": "0x0100000000002F77",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000001C1F",
+                    "Target": "0x0100000000001C1C"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_909A8BC8",
+            "Id": "0x0100000000002F80",
+            "Parent": "0x01000000000022DC",
+            "DisplayName": "GlobalVariables.JackConvo2 == true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 475.0,
+              "y": 325.0
+            },
+            "ZIndex": 7.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 2426047432,
+            "Expression": "GlobalVariables.JackConvo2 == true\n&&\nGlobalVariables.FamilyPortrait == true",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F81",
+                "Owner": "0x0100000000002F80"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F82",
+                "Owner": "0x0100000000002F80",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000001C2D",
+                    "Target": "0x0100000000001C2C"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x0100000000002F83",
+                "Owner": "0x0100000000002F80",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000001C25",
+                    "Target": "0x0100000000001C24"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_A9C651C3",
+            "Id": "0x0100000000002F88",
+            "Parent": "0x0100000000001C37",
+            "DisplayName": "GlobalVariables.JackConvo2 == true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 1050.0,
+              "y": 775.0
+            },
+            "ZIndex": 3.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 2848346563,
+            "Expression": "GlobalVariables.JackConvo2 == true",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F8A",
+                "Owner": "0x0100000000002F88"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000002F8B",
+                "Owner": "0x0100000000002F88",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000002F06",
+                    "Target": "0x0100000000002F03"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x0100000000002F8C",
+                "Owner": "0x0100000000002F88",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000001C5A",
+                    "Target": "0x0100000000001C37"
                   }
                 ]
               }
@@ -37230,11 +37523,6 @@
               {
                 "Id": "0x0100000000002ED8",
                 "TechnicalName": "DFr_B2A7547A",
-                "Type": "DialogueFragment"
-              },
-              {
-                "Id": "0x0100000000002F44",
-                "TechnicalName": "DFr_F5A14FD7",
                 "Type": "DialogueFragment"
               }
             ]
@@ -39400,6 +39688,11 @@
             "Type": "Dialogue",
             "Children": [
               {
+                "Id": "0x0100000000002F67",
+                "TechnicalName": "Cnd_C9DAC741",
+                "Type": "Condition"
+              },
+              {
                 "Id": "0x0100000000001A0D",
                 "TechnicalName": "Dlg_ADC60B3F",
                 "Type": "Dialogue",
@@ -39853,6 +40146,11 @@
             "Type": "Dialogue",
             "Children": [
               {
+                "Id": "0x0100000000002F77",
+                "TechnicalName": "Cnd_E6D8A84E",
+                "Type": "Condition"
+              },
+              {
                 "Id": "0x0100000000001C1C",
                 "TechnicalName": "Dlg_C94DCD7D",
                 "Type": "Dialogue",
@@ -39893,6 +40191,11 @@
                     "Type": "DialogueFragment"
                   }
                 ]
+              },
+              {
+                "Id": "0x0100000000002F80",
+                "TechnicalName": "Cnd_909A8BC8",
+                "Type": "Condition"
               },
               {
                 "Id": "0x0100000000001C24",
@@ -40083,6 +40386,11 @@
             "Type": "Dialogue",
             "Children": [
               {
+                "Id": "0x0100000000002F6F",
+                "TechnicalName": "Cnd_9C8195AF",
+                "Type": "Condition"
+              },
+              {
                 "Id": "0x0100000000002EFB",
                 "TechnicalName": "DFr_B33EE9E2",
                 "Type": "DialogueFragment"
@@ -40094,6 +40402,11 @@
             "TechnicalName": "Dlg_F9C34C15",
             "Type": "Dialogue",
             "Children": [
+              {
+                "Id": "0x0100000000002F88",
+                "TechnicalName": "Cnd_A9C651C3",
+                "Type": "Condition"
+              },
               {
                 "Id": "0x0100000000002F03",
                 "TechnicalName": "DFr_76269704",
