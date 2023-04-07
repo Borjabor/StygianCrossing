@@ -107,11 +107,11 @@ public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
             if (speakerEntity != null)
             {
                 _speakerName.text = speakerEntity.DisplayName;
-                var speakerAsset = ((speakerEntity as IObjectWithPreviewImage).PreviewImage.Asset as Asset);
-                if (speakerAsset != null)
-                {
-                    _speakerImage.sprite = speakerAsset.LoadAssetAsSprite();
-                }
+                // var speakerAsset = ((speakerEntity as IObjectWithPreviewImage).PreviewImage.Asset as Asset);
+                // if (speakerAsset != null)
+                // {
+                //     _speakerImage.sprite = speakerAsset.LoadAssetAsSprite();
+                // }
             }
         }
         var objectWithMenuText = aObject as IObjectWithMenuText;
