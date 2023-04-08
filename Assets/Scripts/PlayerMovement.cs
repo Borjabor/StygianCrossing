@@ -100,9 +100,9 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector3 clickPosition = GetClickPosition();
 
-            // _sprite.transform.position = clickPosition;
-            // _sprite.transform.localScale = new Vector3(spriteScale, spriteScale, spriteScale);
-            // Instantiate(_sprite, clickPosition, Quaternion.identity);
+            _sprite.transform.position = clickPosition;
+            _sprite.transform.localScale = new Vector3(spriteScale, spriteScale, spriteScale);
+            Instantiate(_sprite, clickPosition, Quaternion.identity);
         }
     }
 
