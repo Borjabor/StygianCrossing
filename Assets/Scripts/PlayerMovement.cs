@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (_gameState.Value is States.PAUSED or States.DIALOGUE) return;
+        // if (_gameState.Value is States.PAUSED or States.DIALOGUE) return;
         Movement();
         SpawnSprite();
         AnimationMovement();
@@ -132,7 +132,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (_gameState.Value == States.DIALOGUE)
         {
-            _anim.SetBool("isRunnning", false);
+            _anim.SetBool("isRunning", false);
         }
         
         else
