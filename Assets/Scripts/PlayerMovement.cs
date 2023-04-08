@@ -40,10 +40,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        AnimationMovement();
         if (_gameState.Value is States.PAUSED or States.DIALOGUE) return;
         Movement();
         SpawnSprite();
-        AnimationMovement();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -53,10 +53,26 @@ public class PlayerMovement : MonoBehaviour
             _isMoving = false;
             _playerState.Value = PlayerStates.IDLE;
         }
+
+        if (other.CompareTag(MyTags.NotAccessible))
+        {
+            _isMoving = false;
+            _playerState.Value = PlayerStates.IDLE;
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag(MyTags.NotAccessible))
+        {
+            _isMoving = false;
+            _playerState.Value = PlayerStates.IDLE;
+        }
     }
 
     private void Movement()
     {
+        
         if (EventSystem.current.IsPointerOverGameObject()) return;
 
         if (Input.GetMouseButton(0))
@@ -68,19 +84,19 @@ public class PlayerMovement : MonoBehaviour
             print(_playerState.Value);
         }
 
-        if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A))
         {
             transform.position += -transform.right * (Time.deltaTime * _moveSpeed);
             _playerState.Value = PlayerStates.WALKING;
         }
 
-        if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D))
         {
             transform.position += transform.right * (Time.deltaTime * _moveSpeed);
             _playerState.Value = PlayerStates.WALKING;
         }
 
-        if (_isMoving)
+        if (_isMoving && _playerState.Value == PlayerStates.WALKING)
         {
             float step = _moveSpeed * Time.deltaTime;
             transform.position = Vector2.MoveTowards(transform.position, _targetPosition, step);
@@ -100,9 +116,9 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector3 clickPosition = GetClickPosition();
 
-            // _sprite.transform.position = clickPosition;
-            // _sprite.transform.localScale = new Vector3(spriteScale, spriteScale, spriteScale);
-            // Instantiate(_sprite, clickPosition, Quaternion.identity);
+            _sprite.transform.position = clickPosition;
+            _sprite.transform.localScale = new Vector3(spriteScale, spriteScale, spriteScale);
+            Instantiate(_sprite, clickPosition, Quaternion.identity);
         }
     }
 
@@ -132,12 +148,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (_gameState.Value == States.DIALOGUE)
         {
-            _anim.SetBool("isRunnning", false);
+            _anim.SetBool("isRunning", false);
         }
         
         else
         {
-            if (velocity.magnitude > 0 && _gameState.Value != States.DIALOGUE)
+            if (velocity.magnitude > 0.5f && _gameState.Value != States.DIALOGUE)
             {
                 _anim.SetBool("isRunning", true);
             }
@@ -151,12 +167,11 @@ public class PlayerMovement : MonoBehaviour
             {
                 transform.localScale = new Vector3(1, 1, 1);
             }
-            else //if (currentPosition.x < prevPosition.x)
+            else if (currentPosition.x < prevPosition.x)
             {
                 transform.localScale = new Vector3(-1, 1, 1);
             }
         }
-
 
         prevPosition = currentPosition;
     }
