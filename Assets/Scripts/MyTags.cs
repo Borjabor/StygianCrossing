@@ -11,6 +11,8 @@ public static class MyTags
    public static string StorageRoom = "StorageRoom";
    
    public static string SmokingRoom = "SmokingRoom";
-   
-   
+
+   public static string NotAccessible = "NotAccessible";
+
+
 }

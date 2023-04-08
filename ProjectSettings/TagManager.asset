@@ -9,6 +9,7 @@ TagManager:
   - InspectableObject
   - StorageRoom
   - SmokingRoom
+  - NotAccessible
   layers:
   - Default
   - TransparentFX

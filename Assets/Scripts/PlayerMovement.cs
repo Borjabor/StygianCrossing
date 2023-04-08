@@ -40,10 +40,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // if (_gameState.Value is States.PAUSED or States.DIALOGUE) return;
+        AnimationMovement();
+        if (_gameState.Value is States.PAUSED or States.DIALOGUE) return;
         Movement();
         SpawnSprite();
-        AnimationMovement();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -53,10 +53,26 @@ public class PlayerMovement : MonoBehaviour
             _isMoving = false;
             _playerState.Value = PlayerStates.IDLE;
         }
+
+        if (other.CompareTag(MyTags.NotAccessible))
+        {
+            _isMoving = false;
+            _playerState.Value = PlayerStates.IDLE;
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag(MyTags.NotAccessible))
+        {
+            _isMoving = false;
+            _playerState.Value = PlayerStates.IDLE;
+        }
     }
 
     private void Movement()
     {
+        
         if (EventSystem.current.IsPointerOverGameObject()) return;
 
         if (Input.GetMouseButton(0))
@@ -80,7 +96,7 @@ public class PlayerMovement : MonoBehaviour
             _playerState.Value = PlayerStates.WALKING;
         }
 
-        if (_isMoving)
+        if (_isMoving && _playerState.Value == PlayerStates.WALKING)
         {
             float step = _moveSpeed * Time.deltaTime;
             transform.position = Vector2.MoveTowards(transform.position, _targetPosition, step);
@@ -156,7 +172,6 @@ public class PlayerMovement : MonoBehaviour
                 transform.localScale = new Vector3(-1, 1, 1);
             }
         }
-
 
         prevPosition = currentPosition;
     }
