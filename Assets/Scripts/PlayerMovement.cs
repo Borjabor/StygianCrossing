@@ -68,13 +68,13 @@ public class PlayerMovement : MonoBehaviour
             print(_playerState.Value);
         }
 
-        if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A))
         {
             transform.position += -transform.right * (Time.deltaTime * _moveSpeed);
             _playerState.Value = PlayerStates.WALKING;
         }
 
-        if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D))
         {
             transform.position += transform.right * (Time.deltaTime * _moveSpeed);
             _playerState.Value = PlayerStates.WALKING;
@@ -137,7 +137,7 @@ public class PlayerMovement : MonoBehaviour
         
         else
         {
-            if (velocity.magnitude > 0 && _gameState.Value != States.DIALOGUE)
+            if (velocity.magnitude > 0.5f && _gameState.Value != States.DIALOGUE)
             {
                 _anim.SetBool("isRunning", true);
             }
@@ -151,7 +151,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 transform.localScale = new Vector3(1, 1, 1);
             }
-            else //if (currentPosition.x < prevPosition.x)
+            else if (currentPosition.x < prevPosition.x)
             {
                 transform.localScale = new Vector3(-1, 1, 1);
             }
