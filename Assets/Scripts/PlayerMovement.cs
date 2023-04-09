@@ -81,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
             _targetPosition.y = transform.position.y;
             _isMoving = true;
             _playerState.Value = PlayerStates.WALKING;
-            print(_playerState.Value);
+            //print(_playerState.Value);
         }
 
         else if (Input.GetKey(KeyCode.A))
@@ -105,7 +105,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 _isMoving = false;
                 _playerState.Value = PlayerStates.IDLE;
-                print(_playerState.Value);
+                //print(_playerState.Value);
             }
         }
     }
