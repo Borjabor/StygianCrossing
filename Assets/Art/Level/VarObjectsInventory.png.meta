@@ -163,9 +163,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 933
-        y: 1218
-        width: 465
-        height: 727
+        y: 1282
+        width: 464
+        height: 663
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: VarObjectsInventory_4
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 730
-        width: 848
-        height: 515
+        x: 1308
+        y: 721
+        width: 740
+        height: 524
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,12 +234,12 @@ TextureImporter:
       name: VarObjectsInventory_5
       rect:
         serializedVersion: 2
-        x: 1017
+        x: 1222
         y: 0
         width: 800
         height: 725
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,11 +256,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 212
-        width: 1001
+        y: 219
+        width: 920
         height: 876
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -268,6 +268,27 @@ TextureImporter:
       bones: []
       spriteID: b10ea36b154adba4e95d6ad54a8592d7
       internalID: -1139282900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VarObjectsInventory_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 680
+        width: 415
+        height: 599
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7447b53f99b53894c815e34fa62e4048
+      internalID: 873867124
       vertices: []
       indices: 
       edges: []
@@ -288,6 +309,7 @@ TextureImporter:
       VarObjectsInventory_2: 2041941438
       VarObjectsInventory_4: 305679708
       VarObjectsInventory_6: -1139282900
+      VarObjectsInventory_7: 873867124
       VarObjectsInventory_3: 13509754
       VarObjectsInventory_1: 1876665618
   spritePackingTag: 

@@ -59,12 +59,13 @@ public class Bottle : MonoBehaviour
         if (_canBeClicked == true)
         {
             print($"picking up {_name}");
-            gameObject.SetActive(false);
-
+            Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
             var UIObject = Instantiate(_UIIconPrefab);
             UIObject.transform.parent = _objectContainer.transform;
             var imageRenderer = UIObject.GetComponent<Image>();
             imageRenderer.sprite = _iconSprite;
+            
+            gameObject.SetActive(false);
         }
     }
 
