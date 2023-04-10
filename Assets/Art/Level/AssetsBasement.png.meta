@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: d42b6c79e070493489ade6b75ee740c3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AssetsBasement_0
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 3106
+        width: 508
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0cb47cd2eedb44bae10aae7e05a90a
+      internalID: -176067881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_1
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 3588
+        width: 630
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bfca32dac9c2c4fa364abec100bf77
+      internalID: -1759457585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_2
+      rect:
+        serializedVersion: 2
+        x: 2908
+        y: 3452
+        width: 790
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84608d08eaa842e4699d66529b900f1c
+      internalID: 194772545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_3
+      rect:
+        serializedVersion: 2
+        x: 3992
+        y: 3502
+        width: 270
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e6346b19203c14eb824804506c4404
+      internalID: 2066283909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_4
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 3462
+        width: 306
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e2b5fd11c447a478e6a1658bee83df
+      internalID: -25275108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_5
+      rect:
+        serializedVersion: 2
+        x: 5098
+        y: 3204
+        width: 790
+        height: 780
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37deee3ce6b217649b1743432b5a2486
+      internalID: 1863974814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_6
+      rect:
+        serializedVersion: 2
+        x: 6256
+        y: 2028
+        width: 1930
+        height: 2050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a52eb40ecb6bf438d460a053801e7c
+      internalID: -1893921098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_9
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 3094
+        width: 646
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378657e573228044f8147e62c3b4a029
+      internalID: 2059853343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_10
+      rect:
+        serializedVersion: 2
+        x: 2908
+        y: 3012
+        width: 836
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951ffcab0f59f6847968439d8593d30a
+      internalID: -1666753418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_11
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 2916
+        width: 296
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce78e9ebefe96324eb186921084ef3c2
+      internalID: -2051360044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_12
+      rect:
+        serializedVersion: 2
+        x: 4380
+        y: 2904
+        width: 328
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378aa6b6fdbf6694185ff9f8f3a25158
+      internalID: 1699524330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_13
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1712
+        width: 872
+        height: 1178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b442dc580c844489171abc4557bbb6
+      internalID: -1568434273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_16
+      rect:
+        serializedVersion: 2
+        x: 5248
+        y: 2628
+        width: 468
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb43a89d66f8a1445befe28908527dfd
+      internalID: -476433232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_17
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 2460
+        width: 700
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e17a59184e8fa0489fefc4c1e0ef9c5
+      internalID: 1559911492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_18
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 2410
+        width: 996
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d16a75554a5174ea25fa08c69fdfd2
+      internalID: 482354079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_19
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1948
+        width: 506
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913ea67e1ec2a654ea50ff96bd41bad8
+      internalID: 1501634281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_22
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 464
+        width: 672
+        height: 1342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458e31cd63f17b548a39e7f7d835ed49
+      internalID: -403123593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_23
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 528
+        width: 512
+        height: 1076
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c7fbf1159ba34489d5c91ee297fb64
+      internalID: -1922722814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_24
+      rect:
+        serializedVersion: 2
+        x: 4132
+        y: 1146
+        width: 470
+        height: 574
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a44adee198e9c54bbc695c25bb32695
+      internalID: 1534543261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_25
+      rect:
+        serializedVersion: 2
+        x: 4810
+        y: 1512
+        width: 1298
+        height: 690
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679fe728da4c11741a3623c241881cf4
+      internalID: -537994742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_28
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 106
+        width: 894
+        height: 1428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c5b0435515fc34cb10f123672cc5d5
+      internalID: -1376551425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_30
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 304
+        width: 448
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af070a79fc9246b41b73661ee1daa27c
+      internalID: -1753950122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_31
+      rect:
+        serializedVersion: 2
+        x: 5214
+        y: 342
+        width: 426
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89edfb27f2a0fab41bb8c47eb8f17e8f
+      internalID: -1310361767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetsBasement_32
+      rect:
+        serializedVersion: 2
+        x: 6054
+        y: 408
+        width: 720
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1d09a4b257b6b4c9b73682d9b6eb3f
+      internalID: -617547719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a5b3d5c3d3c1905448fea5d2bbb8fb95
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AssetsBasement_18: 482354079
+      AssetsBasement_28: -1376551425
+      AssetsBasement_13: -1568434273
+      AssetsBasement_24: 1534543261
+      AssetsBasement_26: 1982278798
+      AssetsBasement_3: 2066283909
+      AssetsBasement_32: -617547719
+      AssetsBasement_2: 194772545
+      AssetsBasement_1: -1759457585
+      AssetsBasement_5: 1863974814
+      AssetsBasement_16: -476433232
+      AssetsBasement_6: -1893921098
+      AssetsBasement_15: -1882565302
+      AssetsBasement_17: 1559911492
+      AssetsBasement_9: 2059853343
+      AssetsBasement_25: -537994742
+      AssetsBasement_14: 298317182
+      AssetsBasement_8: 282243966
+      AssetsBasement_12: 1699524330
+      AssetsBasement_20: 981172125
+      AssetsBasement_30: -1753950122
+      AssetsBasement_0: -176067881
+      AssetsBasement_21: 1798676679
+      AssetsBasement_29: -1398729880
+      AssetsBasement_10: -1666753418
+      AssetsBasement_31: -1310361767
+      AssetsBasement_22: -403123593
+      AssetsBasement_7: 1625789866
+      AssetsBasement_11: -2051360044
+      AssetsBasement_19: 1501634281
+      AssetsBasement_27: -160671073
+      AssetsBasement_23: -1922722814
+      AssetsBasement_4: -25275108
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
