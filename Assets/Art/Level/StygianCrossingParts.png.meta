@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -68,7 +68,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 16384
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -348,27 +348,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StygianCrossingParts_11
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 2967
-        width: 30
-        height: 117
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2b53e0c8b2d96c4b92ff08d9a7e4e39
-      internalID: -359009337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: StygianCrossingParts_12
       rect:
         serializedVersion: 2
@@ -394,9 +373,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 6101
-        y: 2403
-        width: 3003
-        height: 806
+        y: 2328
+        width: 3004
+        height: 881
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -453,27 +432,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: StygianCrossingParts_16
-      rect:
-        serializedVersion: 2
-        x: 1428
-        y: 2088
-        width: 37
-        height: 117
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0736472734b53c04893f2a7592ba378d
-      internalID: -540644950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: StygianCrossingParts_17
       rect:
         serializedVersion: 2
@@ -498,10 +456,10 @@ TextureImporter:
       name: StygianCrossingParts_18
       rect:
         serializedVersion: 2
-        x: 3091
+        x: 6261
         y: 81
-        width: 11843
-        height: 2256
+        width: 1961
+        height: 1981
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -692,7 +650,7 @@ TextureImporter:
         width: 452
         height: 421
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
