@@ -31,6 +31,9 @@ public class Notebook : MonoBehaviour
 
     [SerializeField]
     private GameObject[] _objectives;
+
+    [SerializeField]
+    private GameObject[] _objectivesDone;
     
     
     private void OnEnable()
@@ -56,7 +59,7 @@ public class Notebook : MonoBehaviour
             _objectives[0].SetActive(true);
             _notificationCount++;
         }
-        
+
         if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
         {
             _objectives[1].SetActive(true);
@@ -118,6 +121,69 @@ public class Notebook : MonoBehaviour
             _objectives[10].SetActive(true);
             _notificationCount++;
         }
+        
+        //FOR COMPLETED OBJECTIVES
+        // >>>>>>>>>>>>>>>>>>
+        
+        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
+        // {
+        //     _objectivesDone[0].SetActive(true);
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
+        // {
+        //     _objectivesDone[1].SetActive(true);
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
+        // {
+        //     _objectivesDone[2].SetActive(true);
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
+        // {
+        //     _objectivesDone[3].SetActive(true);
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
+        // {
+        //     _objectivesDone[4].SetActive(true);
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
+        // {
+        //     _objectivesDone[5].SetActive(true);
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
+        // {
+        //     _objectivesDone[6].SetActive(true);
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
+        // {
+        //     _objectivesDone[7].SetActive(true);
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
+        // {
+        //     _objectivesDone[8].SetActive(true);
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
+        // {
+        //     _objectivesDone[9].SetActive(true);
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
+        // {
+        //     _objectivesDone[10].SetActive(true);
+        // }
+        //
+        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
+        // {
+        //     _objectivesDone[11].SetActive(true);
+        // }
         
     }
 
