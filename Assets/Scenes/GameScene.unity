@@ -30774,8 +30774,8 @@ MonoBehaviour:
   - {fileID: 1582377600}
   - {fileID: 1291392771}
   - {fileID: 1863139527}
-  - {fileID: 1183225405}
-  - {fileID: 1506373248}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 349417574}
   - {fileID: 998704224}
   - {fileID: 1838046177}
@@ -56365,7 +56365,7 @@ Transform:
   m_GameObject: {fileID: 2101898162}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 28.8999, y: 3.45, z: 0}
-  m_LocalScale: {x: 2.2094767, y: 2.0711093, z: 2.0711093}
+  m_LocalScale: {x: 0.4409859, y: 0.41336936, z: 0.41336936}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 519799581}
@@ -56626,7 +56626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameState: {fileID: 11400000, guid: 4c329863d7a68eb4ba4ae3d4cabf695d, type: 2}
-  _prompt: {fileID: 426165473}
+  _prompt: {fileID: 0}
 --- !u!114 &2107632353
 MonoBehaviour:
   m_ObjectHideFlags: 0
