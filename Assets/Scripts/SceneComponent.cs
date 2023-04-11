@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 [RequireComponent(typeof(AudioSource))]
 public class SceneComponent : MonoBehaviour
@@ -12,7 +13,7 @@ public class SceneComponent : MonoBehaviour
     private bool _isLocked = false;
 
     [SerializeField]
-    private Light[] _SceneLights;
+    private Light2D[] _SceneLights;
 
     private AudioSource _as;
 
