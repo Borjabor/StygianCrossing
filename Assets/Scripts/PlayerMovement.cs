@@ -31,9 +31,15 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 prevPosition;
 
+    [Space, Header("Sound")]
+    
+    private AudioSource _as;
+    
+
     private void Awake()
     {
         _anim = GetComponent<Animator>();
+        _as = GetComponent<AudioSource>();
         mainCamera = Camera.main;
         prevPosition = transform.position;
     }
@@ -100,11 +106,16 @@ public class PlayerMovement : MonoBehaviour
         {
             float step = _moveSpeed * Time.deltaTime;
             transform.position = Vector2.MoveTowards(transform.position, _targetPosition, step);
+            if (!_as.isPlaying)
+            {
+                _as.Play();   
+            }
 
             if (transform.position == (Vector3)_targetPosition)
             {
                 _isMoving = false;
                 _playerState.Value = PlayerStates.IDLE;
+                _as.Stop();
                 //print(_playerState.Value);
             }
         }
