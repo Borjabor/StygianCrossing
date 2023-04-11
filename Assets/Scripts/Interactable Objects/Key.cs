@@ -48,7 +48,7 @@ public class Key : MonoBehaviour
 
     protected virtual void ObjectInteraction(string arg1, object arg2)
     {
-        if (arg1 == $"GlobalVariables.StorageKey" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.JeanKeyConvo" && (bool)arg2)
         {
             _canBeClicked = true;
             gameObject.GetComponent<BoxCollider>().enabled = true;
