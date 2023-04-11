@@ -48,7 +48,7 @@ public class FamilyPortrait : MonoBehaviour
 
     protected virtual void ObjectInteraction(string arg1, object arg2)
     {
-        if (arg1 == $"GlobalVariables.FamilyPortrait" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.JackConvo2" && (bool)arg2)
         {
             _canBeClicked = true;
             gameObject.GetComponent<BoxCollider>().enabled = true;
