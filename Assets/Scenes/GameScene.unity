@@ -368,7 +368,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -1045,6 +1045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 49169250}
   - component: {fileID: 49169251}
+  - component: {fileID: 49169252}
   m_Layer: 0
   m_Name: ChandelierUp
   m_TagString: Untagged
@@ -1084,7 +1085,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -1146,6 +1147,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &49169252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49169249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37453ed59124154299a4a46939414c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxTimeOn: 0.1
+  maxTimeOff: 0.05
 --- !u!1 &50952831
 GameObject:
   m_ObjectHideFlags: 0
@@ -2730,7 +2745,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.235
   m_Color: {r: 1, g: 0.88294566, b: 0.4481132, a: 1}
-  m_Intensity: 4
+  m_Intensity: 0.6
   m_LightVolumeIntensity: 0.001
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -3759,7 +3774,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -4199,7 +4214,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 7
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -5508,7 +5523,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.61
+  m_Intensity: 0.8
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -8352,7 +8367,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.235
   m_Color: {r: 1, g: 0.88294566, b: 0.4481132, a: 1}
-  m_Intensity: 6.14
+  m_Intensity: 1
   m_LightVolumeIntensity: 0.001
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -8644,6 +8659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 508780128}
   - component: {fileID: 508780129}
+  - component: {fileID: 508780130}
   m_Layer: 0
   m_Name: WalDown (5)
   m_TagString: Untagged
@@ -8683,7 +8699,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.235
   m_Color: {r: 1, g: 0.88294566, b: 0.4481132, a: 1}
-  m_Intensity: 4
+  m_Intensity: 0.6
   m_LightVolumeIntensity: 0.001
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -8745,6 +8761,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &508780130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508780127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37453ed59124154299a4a46939414c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxTimeOn: 0.1
+  maxTimeOff: 0.05
 --- !u!1 &510208750
 GameObject:
   m_ObjectHideFlags: 0
@@ -16658,7 +16688,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -17371,6 +17401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 716670500}
   - component: {fileID: 716670501}
+  - component: {fileID: 716670502}
   m_Layer: 0
   m_Name: WallUp (1)
   m_TagString: Untagged
@@ -17410,7 +17441,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -17472,6 +17503,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &716670502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716670499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37453ed59124154299a4a46939414c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxTimeOn: 0.1
+  maxTimeOff: 0.05
 --- !u!1 &723915742
 GameObject:
   m_ObjectHideFlags: 0
@@ -17751,7 +17796,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.235
   m_Color: {r: 1, g: 0.88294566, b: 0.4481132, a: 1}
-  m_Intensity: 6.14
+  m_Intensity: 1
   m_LightVolumeIntensity: 0.001
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -18338,7 +18383,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -19448,6 +19493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 839633020}
   - component: {fileID: 839633021}
+  - component: {fileID: 839633022}
   m_Layer: 0
   m_Name: WalDown (3)
   m_TagString: Untagged
@@ -19487,7 +19533,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.235
   m_Color: {r: 1, g: 0.88294566, b: 0.4481132, a: 1}
-  m_Intensity: 5
+  m_Intensity: 1
   m_LightVolumeIntensity: 0.001
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -19549,6 +19595,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &839633022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839633019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37453ed59124154299a4a46939414c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxTimeOn: 0.1
+  maxTimeOff: 0.05
 --- !u!4 &844140662 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 74705392370793435, guid: d675c6c4a858e4b43a47d54052215b06,
@@ -21013,6 +21073,7 @@ GameObject:
   m_Component:
   - component: {fileID: 917424472}
   - component: {fileID: 917424473}
+  - component: {fileID: 917424474}
   m_Layer: 0
   m_Name: WallUp (3)
   m_TagString: Untagged
@@ -21052,7 +21113,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -21114,6 +21175,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &917424474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917424471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37453ed59124154299a4a46939414c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxTimeOn: 0.1
+  maxTimeOff: 0.05
 --- !u!1 &929669355
 GameObject:
   m_ObjectHideFlags: 0
@@ -21942,7 +22017,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -22714,7 +22789,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.235
   m_Color: {r: 1, g: 0.88294566, b: 0.4481132, a: 1}
-  m_Intensity: 5
+  m_Intensity: 1
   m_LightVolumeIntensity: 0.001
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -23617,6 +23692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1076232487}
   - component: {fileID: 1076232488}
+  - component: {fileID: 1076232489}
   m_Layer: 0
   m_Name: ChadelierDown
   m_TagString: Untagged
@@ -23656,7 +23732,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.235
   m_Color: {r: 1, g: 0.88294566, b: 0.4481132, a: 1}
-  m_Intensity: 6.14
+  m_Intensity: 1
   m_LightVolumeIntensity: 0.001
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -23718,6 +23794,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &1076232489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076232486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37453ed59124154299a4a46939414c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxTimeOn: 0.1
+  maxTimeOff: 0.05
 --- !u!1 &1089891556
 GameObject:
   m_ObjectHideFlags: 0
@@ -24394,6 +24484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1148143692}
   - component: {fileID: 1148143693}
+  - component: {fileID: 1148143694}
   m_Layer: 0
   m_Name: ChadelierDown (3)
   m_TagString: Untagged
@@ -24433,7 +24524,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.235
   m_Color: {r: 1, g: 0.88294566, b: 0.4481132, a: 1}
-  m_Intensity: 6.14
+  m_Intensity: 1
   m_LightVolumeIntensity: 0.001
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -24495,6 +24586,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &1148143694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148143691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37453ed59124154299a4a46939414c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxTimeOn: 0.1
+  maxTimeOff: 0.05
 --- !u!1001 &1152173883
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25196,6 +25301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1184095007}
   - component: {fileID: 1184095008}
+  - component: {fileID: 1184095009}
   m_Layer: 0
   m_Name: WalDown (1)
   m_TagString: Untagged
@@ -25235,7 +25341,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.235
   m_Color: {r: 1, g: 0.88294566, b: 0.4481132, a: 1}
-  m_Intensity: 5
+  m_Intensity: 1
   m_LightVolumeIntensity: 0.001
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -25297,6 +25403,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &1184095009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184095006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37453ed59124154299a4a46939414c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxTimeOn: 0.1
+  maxTimeOff: 0.05
 --- !u!1 &1189763985
 GameObject:
   m_ObjectHideFlags: 0
@@ -26424,7 +26544,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2.61
+  m_Intensity: 0.8
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -27070,6 +27190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1272447511}
   - component: {fileID: 1272447512}
+  - component: {fileID: 1272447513}
   m_Layer: 0
   m_Name: WallUp (5)
   m_TagString: Untagged
@@ -27109,7 +27230,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 7
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -27171,6 +27292,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &1272447513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272447510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37453ed59124154299a4a46939414c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxTimeOn: 0.1
+  maxTimeOff: 0.05
 --- !u!1 &1274243760
 GameObject:
   m_ObjectHideFlags: 0
@@ -28676,7 +28811,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.235
   m_Color: {r: 1, g: 0.88294566, b: 0.4481132, a: 1}
-  m_Intensity: 5
+  m_Intensity: 1
   m_LightVolumeIntensity: 0.001
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -30076,6 +30211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1479787521}
   - component: {fileID: 1479787522}
+  - component: {fileID: 1479787523}
   m_Layer: 0
   m_Name: ChandelierUp (3)
   m_TagString: Untagged
@@ -30115,7 +30251,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -30177,6 +30313,20 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &1479787523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479787520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37453ed59124154299a4a46939414c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxTimeOn: 0.1
+  maxTimeOff: 0.05
 --- !u!1 &1483376574
 GameObject:
   m_ObjectHideFlags: 0
@@ -30394,7 +30544,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 10
+  m_Intensity: 2
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -34038,7 +34188,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.235
   m_Color: {r: 1, g: 0.88294566, b: 0.4481132, a: 1}
-  m_Intensity: 6.14
+  m_Intensity: 1
   m_LightVolumeIntensity: 0.001
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -35255,7 +35405,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.235
   m_Color: {r: 1, g: 0.88294566, b: 0.4481132, a: 1}
-  m_Intensity: 5
+  m_Intensity: 1
   m_LightVolumeIntensity: 0.001
   m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
