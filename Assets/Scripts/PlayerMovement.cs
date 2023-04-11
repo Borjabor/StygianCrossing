@@ -19,8 +19,8 @@ public class PlayerMovement : MonoBehaviour
     private bool _isMoving;
 
 
-    [SerializeField]
-    private GameObject _sprite;
+    // [SerializeField]
+    // private GameObject _sprite;
 
     public float spriteScale = 0.5f;
 
@@ -94,12 +94,20 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position += -transform.right * (Time.deltaTime * _moveSpeed);
             _playerState.Value = PlayerStates.WALKING;
+            if (!_as.isPlaying)
+            {
+                _as.Play();   
+            }
         }
 
         else if (Input.GetKey(KeyCode.D))
         {
             transform.position += transform.right * (Time.deltaTime * _moveSpeed);
             _playerState.Value = PlayerStates.WALKING;
+            if (!_as.isPlaying)
+            {
+                _as.Play();   
+            }
         }
 
         if (_isMoving && _playerState.Value == PlayerStates.WALKING)
@@ -127,9 +135,9 @@ public class PlayerMovement : MonoBehaviour
         {
             Vector3 clickPosition = GetClickPosition();
 
-            _sprite.transform.position = clickPosition;
-            _sprite.transform.localScale = new Vector3(spriteScale, spriteScale, spriteScale);
-            Instantiate(_sprite, clickPosition, Quaternion.identity);
+            // _sprite.transform.position = clickPosition;
+            // _sprite.transform.localScale = new Vector3(spriteScale, spriteScale, spriteScale);
+            // Instantiate(_sprite, clickPosition, Quaternion.identity);
         }
     }
 
