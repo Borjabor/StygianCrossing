@@ -6,7 +6,7 @@
     "set_UseScriptSupport": "True",
     "ExportVersion": "1.2",
     "ObjectDefinitionsHash": "C2957CB83BD0FBBE7DA64DEDD784645238451185A69397881F9CDEC5D6A4ED67",
-    "ScriptFragmentsHash": "1719925119"
+    "ScriptFragmentsHash": "5992050230"
   },
   "Project": {
     "Name": "Stygian Crossing",
@@ -4412,8 +4412,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 442.0,
-              "y": 925.0
+              "x": 517.0,
+              "y": 1125.0
             },
             "ZIndex": 19.0,
             "Size": {
@@ -4491,8 +4491,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 667.0,
-              "y": 300.0
+              "x": 542.0,
+              "y": 400.0
             },
             "ZIndex": 20.0,
             "Size": {
@@ -4647,8 +4647,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 1342.0,
-              "y": 425.0
+              "x": 1117.0,
+              "y": 650.0
             },
             "ZIndex": 13.0,
             "Size": {
@@ -4660,7 +4660,20 @@
               {
                 "Text": "",
                 "Id": "0x0100000000003620",
-                "Owner": "0x010000000000361D"
+                "Owner": "0x010000000000361D",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000036A2",
+                    "Target": "0x010000000000369F"
+                  }
+                ]
               }
             ],
             "OutputPins": [
@@ -31821,6 +31834,62 @@
           }
         },
         {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_4B6B76C6",
+            "Id": "0x010000000000369F",
+            "Parent": "0x010000000000361D",
+            "MenuText": "",
+            "StageDirections": "",
+            "Speaker": "0x0100000000001A09",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "Text": "\"I don't see you anymore at my parties.\"",
+            "ExternalId": "",
+            "Position": {
+              "x": 525.0,
+              "y": 425.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 1265333958,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000036A2",
+                "Owner": "0x010000000000369F"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000036A3",
+                "Owner": "0x010000000000369F",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000003621",
+                    "Target": "0x010000000000361D"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
           "Type": "Hub",
           "Properties": {
             "TechnicalName": "Hub_A785B771",
@@ -36998,20 +37067,20 @@
             "TechnicalName": "Cnd_C9DAC741",
             "Id": "0x0100000000002F67",
             "Parent": "0x01000000000022D2",
-            "DisplayName": "GlobalVariables.JackConvo1 == true",
+            "DisplayName": "GlobalVariables.JeanConvo1 == true",
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": -250.0,
-              "y": 625.0
+              "x": -600.0,
+              "y": 475.0
             },
             "ZIndex": 8.0,
             "Size": {
-              "w": 225.0,
+              "w": 250.0,
               "h": 100.0
             },
             "ShortId": 3386558273,
-            "Expression": "GlobalVariables.JackConvo1 == true\n",
+            "Expression": "GlobalVariables.JeanConvo1 == true\n",
             "Color": {
               "r": 0.577580452,
               "g": 0.7605245,
@@ -37033,13 +37102,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x010000000000362D",
-                    "Target": "0x010000000000362C"
+                    "TargetPin": "0x010000000000369A",
+                    "Target": "0x0100000000003698"
                   }
                 ]
               },
@@ -37051,13 +37120,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000003625",
-                    "Target": "0x0100000000003624"
+                    "TargetPin": "0x0100000000001A10",
+                    "Target": "0x0100000000001A0D"
                   }
                 ]
               }
@@ -37079,15 +37148,15 @@
             },
             "ZIndex": 13.0,
             "Size": {
-              "w": 225.0,
+              "w": 250.0,
               "h": 100.0
             },
             "ShortId": 83264141,
             "Expression": "GlobalVariables.PoisonBottle == true",
             "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
             },
             "InputPins": [
               {
@@ -37105,9 +37174,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
                     "TargetPin": "0x0100000000003638",
@@ -37123,9 +37192,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
                     "TargetPin": "0x0100000000003620",
@@ -37139,69 +37208,69 @@
         {
           "Type": "Condition",
           "Properties": {
-            "TechnicalName": "Cnd_BE679AFB",
-            "Id": "0x0100000000003624",
+            "TechnicalName": "Cnd_148B9A1B",
+            "Id": "0x0100000000003698",
             "Parent": "0x01000000000022D2",
-            "DisplayName": "GlobalVariables.JeanConvo1 == true",
+            "DisplayName": "GlobalVariables.JackConvo1 == true",
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 75.0,
-              "y": 825.0
+              "x": -225.0,
+              "y": 475.0
             },
-            "ZIndex": 8.0,
+            "ZIndex": 21.0,
             "Size": {
               "w": 225.0,
               "h": 100.0
             },
-            "ShortId": 3194460923,
-            "Expression": "GlobalVariables.JeanConvo1 == true\n",
+            "ShortId": 344693275,
+            "Expression": "GlobalVariables.JackConvo1 == true",
             "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
             },
             "InputPins": [
               {
                 "Text": "",
-                "Id": "0x0100000000003625",
-                "Owner": "0x0100000000003624"
+                "Id": "0x010000000000369A",
+                "Owner": "0x0100000000003698"
               }
             ],
             "OutputPins": [
               {
                 "Text": "",
-                "Id": "0x0100000000003626",
-                "Owner": "0x0100000000003624",
+                "Id": "0x010000000000369B",
+                "Owner": "0x0100000000003698",
                 "Connections": [
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000003620",
-                    "Target": "0x010000000000361D"
+                    "TargetPin": "0x010000000000362D",
+                    "Target": "0x010000000000362C"
                   }
                 ]
               },
               {
                 "Text": "",
-                "Id": "0x0100000000003627",
-                "Owner": "0x0100000000003624",
+                "Id": "0x010000000000369C",
+                "Owner": "0x0100000000003698",
                 "Connections": [
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001A10",
-                    "Target": "0x0100000000001A0D"
+                    "TargetPin": "0x0100000000003620",
+                    "Target": "0x010000000000361D"
                   }
                 ]
               }
@@ -37219,15 +37288,15 @@
             "ExternalId": "",
             "Position": {
               "x": 75.0,
-              "y": 475.0
+              "y": 450.0
             },
             "ZIndex": 13.0,
             "Size": {
-              "w": 225.0,
+              "w": 275.0,
               "h": 100.0
             },
             "ShortId": 2932182329,
-            "Expression": "GlobalVariables.JeanKeyConvo == true",
+            "Expression": "GlobalVariables.JeanKeyConvo == true\n",
             "Color": {
               "r": 0.577580452,
               "g": 0.7605245,
@@ -37249,9 +37318,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
                     "TargetPin": "0x010000000000303A",
@@ -41494,13 +41563,13 @@
                 "Type": "Condition"
               },
               {
-                "Id": "0x010000000000362C",
-                "TechnicalName": "Cnd_AEC58D39",
+                "Id": "0x0100000000003698",
+                "TechnicalName": "Cnd_148B9A1B",
                 "Type": "Condition"
               },
               {
-                "Id": "0x0100000000003624",
-                "TechnicalName": "Cnd_BE679AFB",
+                "Id": "0x010000000000362C",
+                "TechnicalName": "Cnd_AEC58D39",
                 "Type": "Condition"
               },
               {
@@ -41718,6 +41787,18 @@
                 "Type": "Condition"
               },
               {
+                "Id": "0x010000000000361D",
+                "TechnicalName": "Dlg_81EC5E5F",
+                "Type": "Dialogue",
+                "Children": [
+                  {
+                    "Id": "0x010000000000369F",
+                    "TechnicalName": "DFr_4B6B76C6",
+                    "Type": "DialogueFragment"
+                  }
+                ]
+              },
+              {
                 "Id": "0x0100000000001B3E",
                 "TechnicalName": "Dlg_9F6126B5",
                 "Type": "Dialogue",
@@ -41918,11 +41999,6 @@
                     "Type": "DialogueFragment"
                   }
                 ]
-              },
-              {
-                "Id": "0x010000000000361D",
-                "TechnicalName": "Dlg_81EC5E5F",
-                "Type": "Dialogue"
               }
             ]
           },
