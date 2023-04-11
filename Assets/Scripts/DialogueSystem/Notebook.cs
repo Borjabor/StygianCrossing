@@ -125,66 +125,66 @@ public class Notebook : MonoBehaviour
         //FOR COMPLETED OBJECTIVES
         // >>>>>>>>>>>>>>>>>>
         
-        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
-        // {
-        //     _objectivesDone[0].SetActive(true);
-        // }
-        //
-        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
-        // {
-        //     _objectivesDone[1].SetActive(true);
-        // }
-        //
-        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
-        // {
-        //     _objectivesDone[2].SetActive(true);
-        // }
-        //
-        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
-        // {
-        //     _objectivesDone[3].SetActive(true);
-        // }
-        //
-        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
-        // {
-        //     _objectivesDone[4].SetActive(true);
-        // }
-        //
-        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
-        // {
-        //     _objectivesDone[5].SetActive(true);
-        // }
-        //
-        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
-        // {
-        //     _objectivesDone[6].SetActive(true);
-        // }
-        //
-        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
-        // {
-        //     _objectivesDone[7].SetActive(true);
-        // }
-        //
-        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
-        // {
-        //     _objectivesDone[8].SetActive(true);
-        // }
-        //
-        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
-        // {
-        //     _objectivesDone[9].SetActive(true);
-        // }
-        //
-        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
-        // {
-        //     _objectivesDone[10].SetActive(true);
-        // }
-        //
-        // if (arg1 == $"GlobalVariables.WaltConvo1" && (bool)arg2)
-        // {
-        //     _objectivesDone[11].SetActive(true);
-        // }
+        if (arg1 == $"GlobalVariables.CaptainQuest" && (bool)arg2)
+        {
+            _objectivesDone[0].SetActive(true);
+        }
         
+        if (arg1 == $"GlobalVariables.MargaretConvo1" && (bool)arg2)
+        {
+            _objectivesDone[1].SetActive(true);
+        }
+        
+        if (arg1 == $"GlobalVariables.WaltConvo2" && (bool)arg2)
+        {
+            _objectivesDone[2].SetActive(true);
+        }
+        
+        if (arg1 == $"GlobalVariables.WaltConvo3" && (bool)arg2)
+        {
+            _objectivesDone[3].SetActive(true);
+        }
+        
+        if (arg1 == $"GlobalVariables.JackConvo1" && (bool)arg2)
+        {
+            _objectivesDone[4].SetActive(true);
+        }
+        
+        if (arg1 == $"GlobalVariables.JeanKeyConvo" && (bool)arg2)
+        {
+            _objectivesDone[5].SetActive(true);
+        }
+        
+        if (arg1 == $"GlobalVariables.StorageKey" && (bool)arg2)
+        {
+            _objectivesDone[6].SetActive(true);
+        }
+        
+        if (arg1 == $"GlobalVariables.ArthurEvidence1" && (bool)arg2)
+        {
+            _objectivesDone[7].SetActive(true);
+        }
+        
+        if (arg1 == $"GlobalVariables.JackConvo3" && (bool)arg2)
+        {
+            _objectivesDone[8].SetActive(true);
+        }
+        
+        if (arg1 == $"GlobalVariables.newsPaper" && (bool)arg2)
+        {
+            _objectivesDone[9].SetActive(true);
+        }
+        
+        if (arg1 == $"GlobalVariables.ArthurEvidence2" && (bool)arg2)
+        {
+            _objectivesDone[10].SetActive(true);
+        }
+        
+        if (arg1 == $"GlobalVariables.CaptainFinal" && (bool)arg2)
+        {
+            _objectivesDone[11].SetActive(true);
+        }
+
     }
 
     public void NotebookReveal()
