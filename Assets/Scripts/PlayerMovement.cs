@@ -114,6 +114,11 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        else
+        {
+            _as.Stop();
+        }
+
         if (_isMoving && _playerState.Value == PlayerStates.WALKING)
         {
             float step = _moveSpeed * Time.deltaTime;
