@@ -48,7 +48,7 @@ public class Eggs : MonoBehaviour
 
     protected virtual void ObjectInteraction(string arg1, object arg2)
     {
-        if (arg1 == $"GlobalVariables.ArthurEvidence2" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.JackConvo3" && (bool)arg2)
         {
             _canBeClicked = true;
             gameObject.GetComponent<BoxCollider>().enabled = true;
