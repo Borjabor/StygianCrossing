@@ -5,8 +5,8 @@
     "set_IncludedNodes": "Settings, Project, GlobalVariables, ObjectDefinitions, Packages, ScriptMethods, Hierarchy, Assets",
     "set_UseScriptSupport": "True",
     "ExportVersion": "1.2",
-    "ObjectDefinitionsHash": "C2957CB83BD0FBBE7DA64DEDD784645238451185A69397881F9CDEC5D6A4ED67",
-    "ScriptFragmentsHash": "1719925119"
+    "ObjectDefinitionsHash": "C024BC2BF454592F21B22BF0712CC5E0FAE6A8EBD2ED1944229E7191D2BA5B8F",
+    "ScriptFragmentsHash": "1289599583"
   },
   "Project": {
     "Name": "Stygian Crossing",
@@ -207,6 +207,12 @@
         },
         {
           "Variable": "CaptainFinal",
+          "Type": "Boolean",
+          "Value": "False",
+          "Description": ""
+        },
+        {
+          "Variable": "WaltConvo3",
           "Type": "Boolean",
           "Value": "False",
           "Description": ""
@@ -3685,9 +3691,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
                     "TargetPin": "0x0100000000002FE8",
@@ -3810,8 +3816,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 1217.0,
-              "y": 200.0
+              "x": 1192.0,
+              "y": 275.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -3968,8 +3974,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 967.0,
-              "y": 525.0
+              "x": 1142.0,
+              "y": 550.0
             },
             "ZIndex": 13.0,
             "Size": {
@@ -4111,8 +4117,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 192.0,
-              "y": 1100.0
+              "x": 442.0,
+              "y": 1225.0
             },
             "ZIndex": 14.0,
             "Size": {
@@ -4190,8 +4196,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 192.0,
-              "y": 825.0
+              "x": 292.0,
+              "y": 750.0
             },
             "ZIndex": 15.0,
             "Size": {
@@ -4269,8 +4275,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 492.0,
-              "y": 600.0
+              "x": 1067.0,
+              "y": 550.0
             },
             "ZIndex": 17.0,
             "Size": {
@@ -4412,8 +4418,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 442.0,
-              "y": 925.0
+              "x": 517.0,
+              "y": 1125.0
             },
             "ZIndex": 19.0,
             "Size": {
@@ -4491,8 +4497,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 667.0,
-              "y": 300.0
+              "x": 542.0,
+              "y": 400.0
             },
             "ZIndex": 20.0,
             "Size": {
@@ -4647,8 +4653,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 1342.0,
-              "y": 425.0
+              "x": 1117.0,
+              "y": 650.0
             },
             "ZIndex": 13.0,
             "Size": {
@@ -4660,7 +4666,20 @@
               {
                 "Text": "",
                 "Id": "0x0100000000003620",
-                "Owner": "0x010000000000361D"
+                "Owner": "0x010000000000361D",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000036A2",
+                    "Target": "0x010000000000369F"
+                  }
+                ]
               }
             ],
             "OutputPins": [
@@ -5128,6 +5147,83 @@
           }
         },
         {
+          "Type": "Dialogue",
+          "Properties": {
+            "TechnicalName": "Dlg_FCE2A8B6",
+            "Id": "0x01000000000036AD",
+            "Parent": "0x01000000000022C7",
+            "Attachments": [],
+            "DisplayName": "Walter no convo",
+            "PreviewImage": {
+              "ViewBox": {
+                "x": 0.0,
+                "y": 0.0,
+                "w": 0.0,
+                "h": 0.0
+              },
+              "Mode": "FromAsset",
+              "Asset": "0x0000000000000000"
+            },
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 1117.0,
+              "y": 875.0
+            },
+            "ZIndex": 13.0,
+            "Size": {
+              "w": 291.0,
+              "h": 200.0
+            },
+            "ShortId": 4242712758,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000036B0",
+                "Owner": "0x01000000000036AD",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000036B6",
+                    "Target": "0x01000000000036B3"
+                  }
+                ]
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000036B1",
+                "Owner": "0x01000000000036AD",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000022CB",
+                    "Target": "0x01000000000022C7"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
           "Type": "DialogueFragment",
           "Properties": {
             "TechnicalName": "DFr_FB503D40",
@@ -5310,11 +5406,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "A piece of paper lying among the books. It looks like nothing in particular.",
+            "Text": "\"A piece of paper lying among the books. It looks like nothing in particular.\"",
             "ExternalId": "",
             "Position": {
-              "x": 475.0,
-              "y": 400.0
+              "x": 750.0,
+              "y": 450.0
             },
             "ZIndex": 0.0,
             "Size": {
@@ -5422,7 +5518,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "These walnut-shaped blue eggs, covering one of the loungers.",
+            "Text": "\"These walnut-shaped blue eggs, covering one of the loungers.\"",
             "ExternalId": "",
             "Position": {
               "x": 650.0,
@@ -5547,7 +5643,7 @@
             "TechnicalName": "DFr_1E2EDA9A",
             "Id": "0x0100000000000A8C",
             "Parent": "0x0100000000000A7A",
-            "MenuText": "2",
+            "MenuText": "Bar",
             "StageDirections": "",
             "Speaker": "0x0100000000000A87",
             "SplitHeight": 64.0,
@@ -5556,7 +5652,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "2",
+            "Text": "Bar",
             "ExternalId": "",
             "Position": {
               "x": 1000.0,
@@ -5603,7 +5699,7 @@
             "TechnicalName": "DFr_1FE4602C",
             "Id": "0x0100000000000A93",
             "Parent": "0x0100000000000A7A",
-            "MenuText": "1",
+            "MenuText": "Upper Deck",
             "StageDirections": "",
             "Speaker": "0x0100000000000A87",
             "SplitHeight": 64.0,
@@ -5612,7 +5708,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "1",
+            "Text": "Upper Deck",
             "ExternalId": "",
             "Position": {
               "x": 1000.0,
@@ -5659,7 +5755,7 @@
             "TechnicalName": "DFr_6BFB05C7",
             "Id": "0x0100000000000A99",
             "Parent": "0x0100000000000A7A",
-            "MenuText": "3",
+            "MenuText": "Rooms",
             "StageDirections": "",
             "Speaker": "0x0100000000000A87",
             "SplitHeight": 64.0,
@@ -5668,7 +5764,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "3",
+            "Text": "Rooms",
             "ExternalId": "",
             "Position": {
               "x": 1000.0,
@@ -5715,7 +5811,7 @@
             "TechnicalName": "DFr_CE57CF89",
             "Id": "0x010000000000186A",
             "Parent": "0x010000000000185C",
-            "MenuText": "A news paper article titled \"Margaret Fielding: From Saving Lives with Medicine to Changing Lives with Rehabilitation\".\r\n",
+            "MenuText": "",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -5771,7 +5867,7 @@
             "TechnicalName": "DFr_838A1BD5",
             "Id": "0x0100000000001871",
             "Parent": "0x010000000000185C",
-            "MenuText": "The front page shows a photograph of Margaret ,sitting in the center of the frame surrounded by rehab patients. She really looks like a religious figure here.",
+            "MenuText": "",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -5780,7 +5876,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "The front page shows a photograph of Margaret ,sitting in the center of the frame surrounded by rehab patients. She really looks like a religious figure here.",
+            "Text": "The front page shows a photograph of Margaret ,sitting in the centre of the frame surrounded by rehab patients. She really looks like a religious figure here.",
             "ExternalId": "",
             "Position": {
               "x": 662.0,
@@ -5827,7 +5923,7 @@
             "TechnicalName": "DFr_3D0A4182",
             "Id": "0x0100000000001879",
             "Parent": "0x010000000000185C",
-            "MenuText": "Wait a minute is that... Sophia? This girl was on the boat a few years ago.",
+            "MenuText": "",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -5883,7 +5979,7 @@
             "TechnicalName": "DFr_93D91E48",
             "Id": "0x0100000000001884",
             "Parent": "0x010000000000185C",
-            "MenuText": "She had told me about how the rehab center was the reason she was on the Queen Elizabeth. I wonder what they've done to that poor girl.",
+            "MenuText": "",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -6004,7 +6100,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "A pack of Styx sticks. I wonder if it's one of mine.",
+            "Text": "\"A pack of Styx sticks. I wonder if it's one of mine.\"",
             "ExternalId": "",
             "Position": {
               "x": -275.0,
@@ -6025,7 +6121,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "GlobalVariables.Cigarettes = true",
+                "Text": "",
                 "Id": "0x01000000000031C6",
                 "Owner": "0x01000000000031C4",
                 "Connections": [
@@ -17244,17 +17340,6 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000009C8",
-                    "Target": "0x01000000000009C7"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
                     "TargetPin": "0x01000000000015B6",
                     "Target": "0x01000000000015B3"
                   }
@@ -17266,53 +17351,75 @@
         {
           "Type": "DialogueFragment",
           "Properties": {
-            "TechnicalName": "DFr_773AC7A5",
-            "Id": "0x01000000000009C7",
-            "Parent": "0x01000000000008B7",
-            "MenuText": "\"It's gonna take some time...\"",
+            "TechnicalName": "DFr_4D2BF508",
+            "Id": "0x01000000000037D5",
+            "Parent": "0x01000000000016D1",
+            "MenuText": "",
             "StageDirections": "",
-            "Speaker": "0x0100000000000182",
+            "Speaker": "0x01000000000008B0",
             "SplitHeight": 64.0,
             "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
             },
-            "Text": "\"Yes, but it's gonna take some time...\"",
+            "Text": "As the skin begins to peel away like a grotesque mask, a mass of raw, disfigured scars is revealed.",
             "ExternalId": "",
             "Position": {
-              "x": 5650.0,
-              "y": 475.0
+              "x": 4000.0,
+              "y": 700.0
             },
-            "ZIndex": 13.0,
+            "ZIndex": 113.0,
             "Size": {
               "w": 225.0,
               "h": 200.0
             },
-            "ShortId": 2000340901,
+            "ShortId": 1294726408,
             "InputPins": [
               {
                 "Text": "",
-                "Id": "0x01000000000009C8",
-                "Owner": "0x01000000000009C7"
+                "Id": "0x01000000000037D8",
+                "Owner": "0x01000000000037D5"
               }
             ],
             "OutputPins": [
               {
                 "Text": "",
-                "Id": "0x01000000000009C9",
-                "Owner": "0x01000000000009C7",
+                "Id": "0x01000000000037D9",
+                "Owner": "0x01000000000037D5",
                 "Connections": [
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000009CD",
-                    "Target": "0x01000000000009CC"
+                    "TargetPin": "0x010000000000178B",
+                    "Target": "0x0100000000001788"
+                  },
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000001785",
+                    "Target": "0x0100000000001782"
+                  },
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000001791",
+                    "Target": "0x010000000000178E"
                   }
                 ]
               }
@@ -17367,17 +17474,6 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000009D4",
-                    "Target": "0x01000000000009D3"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
                     "TargetPin": "0x01000000000009DE",
                     "Target": "0x01000000000009DD"
                   },
@@ -17400,53 +17496,53 @@
         {
           "Type": "DialogueFragment",
           "Properties": {
-            "TechnicalName": "DFr_E221A191",
-            "Id": "0x01000000000009D3",
-            "Parent": "0x01000000000008B7",
-            "MenuText": "\"I'm afraid that is not enough.\"",
+            "TechnicalName": "DFr_72BA036A",
+            "Id": "0x01000000000037CD",
+            "Parent": "0x01000000000016D1",
+            "MenuText": "",
             "StageDirections": "",
-            "Speaker": "0x0100000000000182",
+            "Speaker": "0x01000000000008B0",
             "SplitHeight": 64.0,
             "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
             },
-            "Text": "\"Excuse me miss Fielding, but I'm afraid that is not enough for me to get his coin. I see similar cases everyday, I need more details.\"",
+            "Text": "\"I did what I had to do as a necessity, he did it for greed.\"",
             "ExternalId": "",
             "Position": {
-              "x": 6300.0,
-              "y": 475.0
+              "x": 3650.0,
+              "y": -1100.0
             },
-            "ZIndex": 13.0,
+            "ZIndex": 113.0,
             "Size": {
               "w": 225.0,
               "h": 200.0
             },
-            "ShortId": 3793854865,
+            "ShortId": 1924793194,
             "InputPins": [
               {
                 "Text": "",
-                "Id": "0x01000000000009D4",
-                "Owner": "0x01000000000009D3"
+                "Id": "0x01000000000037D0",
+                "Owner": "0x01000000000037CD"
               }
             ],
             "OutputPins": [
               {
                 "Text": "",
-                "Id": "0x01000000000009D5",
-                "Owner": "0x01000000000009D3",
+                "Id": "0x01000000000037D1",
+                "Owner": "0x01000000000037CD",
                 "Connections": [
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000003083",
-                    "Target": "0x0100000000003081"
+                    "TargetPin": "0x0100000000001854",
+                    "Target": "0x0100000000001851"
                   }
                 ]
               }
@@ -17761,7 +17857,7 @@
             "TechnicalName": "DFr_5121A91F",
             "Id": "0x01000000000009FD",
             "Parent": "0x01000000000008B7",
-            "MenuText": "\"Tell me more about you're relationship with him.\"",
+            "MenuText": "\"Was that guy your husband?\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -17770,7 +17866,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "\"Can you tell me more about the relationship between you two?\"",
+            "Text": "\"It seems like he was your ex or something. And you went through a bad divorce. Am I right?\"",
             "ExternalId": "",
             "Position": {
               "x": 7675.0,
@@ -17938,7 +18034,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "\"I was the CEO of Fielding Pharmaceuticals, he was my head scientist... A brilliant, yet conniving man.\"",
+            "Text": "\"I've never needed a man in my life! I was the CEO of Fielding Pharmaceuticals, he was my head scientist... A brilliant, yet conniving man.\"",
             "ExternalId": "",
             "Position": {
               "x": 8200.0,
@@ -17947,7 +18043,7 @@
             "ZIndex": 13.0,
             "Size": {
               "w": 225.0,
-              "h": 200.0
+              "h": 225.0
             },
             "ShortId": 3247693148,
             "InputPins": [
@@ -18464,7 +18560,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "\"Whoa, slow your roll there, your highness. You think this gig is a cakewalk? Hate to break it to ya, but it's gonna take a lot more time to crack this case.\"",
+            "Text": "\"Whoa, slow your roll there, your highness. Hate to break it to ya, but it's gonna take a lot more time to crack this case.\"",
             "ExternalId": "",
             "Position": {
               "x": 700.0,
@@ -18904,7 +19000,7 @@
             "ExternalId": "",
             "Position": {
               "x": 1700.0,
-              "y": 425.0
+              "y": 475.0
             },
             "ZIndex": 18.0,
             "Size": {
@@ -18946,17 +19042,6 @@
                     "Label": "",
                     "TargetPin": "0x0100000000001619",
                     "Target": "0x0100000000001616"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000001652",
-                    "Target": "0x010000000000164F"
                   }
                 ]
               }
@@ -19179,17 +19264,6 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x010000000000163A",
-                    "Target": "0x0100000000001637"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
                     "TargetPin": "0x0100000000001640",
                     "Target": "0x010000000000163D"
                   },
@@ -19212,53 +19286,53 @@
         {
           "Type": "DialogueFragment",
           "Properties": {
-            "TechnicalName": "DFr_8436FF77",
-            "Id": "0x0100000000001637",
-            "Parent": "0x01000000000015C1",
-            "MenuText": "\"You let that happen without any concern?\"",
+            "TechnicalName": "DFr_815DFA4E",
+            "Id": "0x0100000000003729",
+            "Parent": "0x0100000000001B75",
+            "MenuText": "",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
             "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
             },
-            "Text": "\"I bet he made your company strive thanks to his experiments and you allowed it to happen without any concern.\"",
+            "Text": "\"A poison bottle? Wouldn't work on this boat haha.\"",
             "ExternalId": "",
             "Position": {
-              "x": 2825.0,
-              "y": 400.0
+              "x": 1475.0,
+              "y": 425.0
             },
-            "ZIndex": 31.0,
+            "ZIndex": 15.0,
             "Size": {
               "w": 225.0,
               "h": 200.0
             },
-            "ShortId": 2218196855,
+            "ShortId": 2170419790,
             "InputPins": [
               {
                 "Text": "",
-                "Id": "0x010000000000163A",
-                "Owner": "0x0100000000001637"
+                "Id": "0x010000000000372A",
+                "Owner": "0x0100000000003729"
               }
             ],
             "OutputPins": [
               {
                 "Text": "",
-                "Id": "0x010000000000163B",
-                "Owner": "0x0100000000001637",
+                "Id": "0x010000000000372B",
+                "Owner": "0x0100000000003729",
                 "Connections": [
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x010000000000166C",
-                    "Target": "0x0100000000001669"
+                    "TargetPin": "0x0100000000001B98",
+                    "Target": "0x0100000000001B75"
                   }
                 ]
               }
@@ -19283,8 +19357,8 @@
             "Text": "\"So let me get this straight, you knew he was up to some shady shit, but it didn't bother you none? Profit is king at Fielding Pharmaceutical, I guess.\"",
             "ExternalId": "",
             "Position": {
-              "x": 2825.0,
-              "y": 650.0
+              "x": 2850.0,
+              "y": 425.0
             },
             "ZIndex": 33.0,
             "Size": {
@@ -19380,53 +19454,53 @@
         {
           "Type": "DialogueFragment",
           "Properties": {
-            "TechnicalName": "DFr_BCDE33E8",
-            "Id": "0x010000000000164F",
-            "Parent": "0x01000000000015C1",
-            "MenuText": "\"Not a challenge for me.\"",
+            "TechnicalName": "DFr_3332B0B8",
+            "Id": "0x0100000000003731",
+            "Parent": "0x0100000000001B14",
+            "MenuText": "",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
             "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
             },
-            "Text": "“Not for me though, I discovered that the sick bastard was using live human beings as his test subjects. You told me that he was your head scientist right?\"",
+            "Text": "\"Mmmh, who would hang a key there?\"",
             "ExternalId": "",
             "Position": {
-              "x": 2200.0,
-              "y": 350.0
+              "x": 1525.0,
+              "y": 675.0
             },
-            "ZIndex": 37.0,
+            "ZIndex": 15.0,
             "Size": {
               "w": 225.0,
               "h": 200.0
             },
-            "ShortId": 3168678888,
+            "ShortId": 858960056,
             "InputPins": [
               {
                 "Text": "",
-                "Id": "0x0100000000001652",
-                "Owner": "0x010000000000164F"
+                "Id": "0x0100000000003732",
+                "Owner": "0x0100000000003731"
               }
             ],
             "OutputPins": [
               {
                 "Text": "",
-                "Id": "0x0100000000001653",
-                "Owner": "0x010000000000164F",
+                "Id": "0x0100000000003733",
+                "Owner": "0x0100000000003731",
                 "Connections": [
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x010000000000165A",
-                    "Target": "0x0100000000001657"
+                    "TargetPin": "0x0100000000001B37",
+                    "Target": "0x0100000000001B14"
                   }
                 ]
               }
@@ -19473,17 +19547,6 @@
                 "Id": "0x010000000000165B",
                 "Owner": "0x0100000000001657",
                 "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x010000000000163A",
-                    "Target": "0x0100000000001637"
-                  },
                   {
                     "Color": {
                       "a": 1.0,
@@ -19872,17 +19935,6 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x010000000000169E",
-                    "Target": "0x010000000000169B"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
                     "TargetPin": "0x01000000000016A4",
                     "Target": "0x01000000000016A1"
                   }
@@ -19950,53 +20002,53 @@
         {
           "Type": "DialogueFragment",
           "Properties": {
-            "TechnicalName": "DFr_414F72A9",
-            "Id": "0x010000000000169B",
-            "Parent": "0x01000000000015C1",
-            "MenuText": "\"You're gonna have to show me the proof to back up your words.\"",
+            "TechnicalName": "DFr_21A1208D",
+            "Id": "0x0100000000003720",
+            "Parent": "0x010000000000185C",
+            "MenuText": "",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
             "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
             },
-            "Text": "\"Alright, princess, you better show me a proof. So I suggest you give me a proper lead this time, before you find yourself in a real sticky situation.\"",
+            "Text": "\"Huh, a newspaper. Might find something interesting in it. But maybe later.\"",
             "ExternalId": "",
             "Position": {
-              "x": 4600.0,
-              "y": 550.0
+              "x": 725.0,
+              "y": 675.0
             },
-            "ZIndex": 64.0,
+            "ZIndex": 0.0,
             "Size": {
               "w": 225.0,
               "h": 200.0
             },
-            "ShortId": 1095725737,
+            "ShortId": 564207757,
             "InputPins": [
               {
                 "Text": "",
-                "Id": "0x010000000000169E",
-                "Owner": "0x010000000000169B"
+                "Id": "0x0100000000003721",
+                "Owner": "0x0100000000003720"
               }
             ],
             "OutputPins": [
               {
                 "Text": "",
-                "Id": "0x010000000000169F",
-                "Owner": "0x010000000000169B",
+                "Id": "0x0100000000003722",
+                "Owner": "0x0100000000003720",
                 "Connections": [
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000016B0",
-                    "Target": "0x01000000000016AD"
+                    "TargetPin": "0x010000000000185E",
+                    "Target": "0x010000000000185C"
                   }
                 ]
               }
@@ -20431,49 +20483,6 @@
         {
           "Type": "DialogueFragment",
           "Properties": {
-            "TechnicalName": "DFr_E0199749",
-            "Id": "0x01000000000032CA",
-            "Parent": "0x01000000000015C1",
-            "MenuText": "",
-            "StageDirections": "",
-            "Speaker": "0x01000000000008B0",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
-            },
-            "Text": "\"Still investigating?\"",
-            "ExternalId": "",
-            "Position": {
-              "x": 75.0,
-              "y": 800.0
-            },
-            "ZIndex": 0.0,
-            "Size": {
-              "w": 250.0,
-              "h": 275.0
-            },
-            "ShortId": 3759773513,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000032CB",
-                "Owner": "0x01000000000032CA"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000032CC",
-                "Owner": "0x01000000000032CA"
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
             "TechnicalName": "DFr_0B469C49",
             "Id": "0x01000000000016D8",
             "Parent": "0x01000000000016D1",
@@ -20486,7 +20495,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Am I still as guilty as Arthur? Or are you yet lost in the labyrinth of confusion.",
+            "Text": "\"Am I still as guilty as Arthur? Or are you yet lost in the labyrinth of confusion.\"",
             "ExternalId": "",
             "Position": {
               "x": 250.0,
@@ -20555,7 +20564,7 @@
             "TechnicalName": "DFr_DB496424",
             "Id": "0x01000000000016DE",
             "Parent": "0x01000000000016D1",
-            "MenuText": "Your leads were really helpful my dear. But I still need that precious brain of yours to help me untangle some unanswered questions.\r\n",
+            "MenuText": "\"Your leads were really helpful my dear. But...\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -20564,7 +20573,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Your leads were really helpful my dear. But I still need that precious brain of yours to help me untangle some unanswered questions.",
+            "Text": "\"Your leads were really helpful my dear. But I still need that precious brain of yours to help me untangle some unanswered questions.\"",
             "ExternalId": "",
             "Position": {
               "x": 550.0,
@@ -20611,7 +20620,7 @@
             "TechnicalName": "DFr_DED5C076",
             "Id": "0x01000000000016E4",
             "Parent": "0x01000000000016D1",
-            "MenuText": "The path is now crystal clear. However, there are still a few loose ends that require your attention.\r\n",
+            "MenuText": "\"There are still a few loose ends.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -20620,7 +20629,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "The path is now crystal clear. However, there are still a few loose ends that require your attention.",
+            "Text": "\"The path is now crystal clear. However, there are still a few loose ends that require your attention.\"",
             "ExternalId": "",
             "Position": {
               "x": 550.0,
@@ -20667,7 +20676,7 @@
             "TechnicalName": "DFr_D4AABF85",
             "Id": "0x01000000000016EA",
             "Parent": "0x01000000000016D1",
-            "MenuText": "Listen up, Margaret. You've been lying to me, and we're gonna have to get down and dirty to solve your case. It's gonna be one hell of a ride.",
+            "MenuText": "\"You've been lying to me.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -20676,7 +20685,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Listen up, Margaret. You've been lying to me, and we're gonna have to get down and dirty to solve your case. It's gonna be one hell of a ride.",
+            "Text": "Margaret. You've been lying to me, and we're gonna have to get down and dirty to solve your case. It's gonna be one hell of a ride.",
             "ExternalId": "",
             "Position": {
               "x": 550.0,
@@ -20732,7 +20741,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Darling, your words do not fall on deaf ears. You have my undivided attention",
+            "Text": "\"Darling, your words do not fall on deaf ears. You have my undivided attention\"",
             "ExternalId": "",
             "Position": {
               "x": 837.0,
@@ -20788,7 +20797,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "The faint sound of uncertainty lingers in the air. Pray tell, what are these elusive loose ends that cast doubt upon my innocence?",
+            "Text": "\"The faint sound of uncertainty lingers in the air. Pray tell, what are these elusive loose ends that cast doubt upon my innocence?\"",
             "ExternalId": "",
             "Position": {
               "x": 837.0,
@@ -20844,7 +20853,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "My, my, you certainly have a way with words! Though I must admit, I am quite eager to put this matter to rest.",
+            "Text": "\"My, my, you certainly have a way with words! Though I must admit, I am quite eager to put this matter to rest.\"",
             "ExternalId": "",
             "Position": {
               "x": 837.0,
@@ -20900,7 +20909,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "What Do You Want To Know?",
+            "Text": "\"What Do You Want To Know?\"",
             "ExternalId": "",
             "Position": {
               "x": 1124.0,
@@ -20947,7 +20956,7 @@
             "TechnicalName": "DFr_377A5FEB",
             "Id": "0x0100000000001727",
             "Parent": "0x01000000000016D1",
-            "MenuText": "Was the rehab center really helping people?",
+            "MenuText": "\"Was the rehab centre really helping people?\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -20956,7 +20965,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Was the rehab center really helping people?",
+            "Text": "\"Was the rehab centre really helping people?\"",
             "ExternalId": "",
             "Position": {
               "x": 2000.0,
@@ -21003,7 +21012,7 @@
             "TechnicalName": "DFr_69445D10",
             "Id": "0x010000000000172D",
             "Parent": "0x01000000000016D1",
-            "MenuText": "You've told me that you never needed a man in your life. I've came across some information that suggests the contrary...",
+            "MenuText": "\"You really never had a lover?\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -21068,7 +21077,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Wh- What are you talking about ? I'm sure that Arthur fed you lies!",
+            "Text": "\"Wh- What are you talking about ? I'm sure that Arthur fed you lies!\"",
             "ExternalId": "",
             "Position": {
               "x": 2287.0,
@@ -21137,7 +21146,7 @@
             "TechnicalName": "DFr_05AD35F4",
             "Id": "0x010000000000173E",
             "Parent": "0x01000000000016D1",
-            "MenuText": "And you fed me lies as well! Spill the beans already! ",
+            "MenuText": "\"And you fed me lies as well!\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -21146,7 +21155,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "And you fed me lies as well! Spill the beans already!",
+            "Text": "\"And you fed me lies as well! Spill the beans already!\"",
             "ExternalId": "",
             "Position": {
               "x": 2574.0,
@@ -21193,7 +21202,7 @@
             "TechnicalName": "DFr_1A2F3C4B",
             "Id": "0x0100000000001744",
             "Parent": "0x01000000000016D1",
-            "MenuText": "Margaret, you need to open your heart to me knowing that nobody gets judged wrongly in the after life.",
+            "MenuText": "\"You need to open your heart to me.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -21202,7 +21211,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Margaret, you need to open your heart to me knowing that nobody gets judged wrongly in the after life.",
+            "Text": "\"Margaret, you need to open your heart to me knowing that nobody gets judged wrongly in the after life.\"",
             "ExternalId": "",
             "Position": {
               "x": 2574.0,
@@ -21249,7 +21258,7 @@
             "TechnicalName": "DFr_32A3FED4",
             "Id": "0x010000000000174A",
             "Parent": "0x01000000000016D1",
-            "MenuText": "Listen, I had a little chit-chat with that firecracker Jean, the belle of the ball, and she filled me in on a whole other point of view.",
+            "MenuText": "\"I had a little chit-chat with Jean.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -21258,7 +21267,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Listen, I had a little chit-chat with that firecracker Jean, the belle of the ball, and she filled me in on a whole other point of view.",
+            "Text": "\"Listen, I had a little chit-chat with that firecracker Jean, the belle of the ball. She filled me in on a whole other point of view.\"",
             "ExternalId": "",
             "Position": {
               "x": 2574.0,
@@ -21314,7 +21323,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "This has nothing to do with Arthur, nor the damn coins. But I'll give you what you want if that could save my soul.",
+            "Text": "\"This has nothing to do with my death, nor the damn coins. But I'll give you what you want, if that could save my soul.\"",
             "ExternalId": "",
             "Position": {
               "x": 2861.0,
@@ -21370,7 +21379,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "I find myself confronting my worst nightmares once again. But circumstances demand that I face it head-on.",
+            "Text": "\"I find myself confronting my worst nightmares once again. But circumstances demand that I face it head-on.\"",
             "ExternalId": "",
             "Position": {
               "x": 2861.0,
@@ -21426,7 +21435,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "That little bitch! Always keeping tabs on gossip that ain't none of her business.",
+            "Text": "\"That little bitch! Always keeping tabs on gossip that ain't none of her business.\"",
             "ExternalId": "",
             "Position": {
               "x": 2861.0,
@@ -21482,7 +21491,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "In my youthful naivete, I stumbled upon him - the man who seemed to embody everything I had ever wished for. He was charming, kind and perfect in every way... until the alcohol took over.",
+            "Text": "\"In my youthful naivete, I stumbled upon him. The man who seemed to embody everything I had ever wished for. He was charming, kind and perfect in every way... until the alcohol took over.\"",
             "ExternalId": "",
             "Position": {
               "x": 3148.0,
@@ -21538,7 +21547,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "I struggled to find forgiveness But my resolve shattered when he crossed a line that left me forever scarred.",
+            "Text": "\"I struggled to find forgiveness, but my resolve shattered when he crossed a line that left me forever scarred.\"",
             "ExternalId": "",
             "Position": {
               "x": 3435.0,
@@ -21594,7 +21603,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Margaret reaches up and unhooks the buttons on the side of her face with trembling fingers. As the skin begins to peel away like a grotesque mask, a mass of raw, disfigured scars is revealed",
+            "Text": "Margaret reaches up and unhooks the buttons on the side of her face with trembling fingers.",
             "ExternalId": "",
             "Position": {
               "x": 3722.0,
@@ -21622,35 +21631,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001785",
-                    "Target": "0x0100000000001782"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x010000000000178B",
-                    "Target": "0x0100000000001788"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000001791",
-                    "Target": "0x010000000000178E"
+                    "TargetPin": "0x01000000000037D8",
+                    "Target": "0x01000000000037D5"
                   }
                 ]
               }
@@ -21663,7 +21650,7 @@
             "TechnicalName": "DFr_2F6F6D46",
             "Id": "0x0100000000001782",
             "Parent": "0x01000000000016D1",
-            "MenuText": "What kind of savage would inflict such brutality upon their own partner? The degeneracy of humans is incomprehensible.\r\n",
+            "MenuText": "\"What kind of savage would do that?!\"\r\n",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -21672,10 +21659,10 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "What kind of savage would inflict such brutality upon their own partner? The degeneracy of humans is incomprehensible.",
+            "Text": "\"What kind of savage would inflict such brutality upon their own partner? The degeneracy of humans is incomprehensible.\"",
             "ExternalId": "",
             "Position": {
-              "x": 4009.0,
+              "x": 4300.0,
               "y": 450.0
             },
             "ZIndex": 47.0,
@@ -21719,7 +21706,7 @@
             "TechnicalName": "DFr_C0886EEB",
             "Id": "0x0100000000001788",
             "Parent": "0x01000000000016D1",
-            "MenuText": "I- I am sorry to hear that Margaret.",
+            "MenuText": "\"I- I am sorry to hear that Margaret.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -21728,10 +21715,10 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "I- I am sorry to hear that Margaret.",
+            "Text": "\"I- I am sorry to hear that Margaret.\"",
             "ExternalId": "",
             "Position": {
-              "x": 4009.0,
+              "x": 4300.0,
               "y": 700.0
             },
             "ZIndex": 49.0,
@@ -21775,7 +21762,7 @@
             "TechnicalName": "DFr_C846257D",
             "Id": "0x010000000000178E",
             "Parent": "0x01000000000016D1",
-            "MenuText": "Well, his coinless soul must be drowning in the bottom of the Styx.",
+            "MenuText": "\"Well, his coinless soul must be drowning in the bottom of the Styx.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -21784,10 +21771,10 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Well, his coinless soul must be drowning in the bottom of the Styx.",
+            "Text": "\"Well, his coinless soul must be drowning in the bottom of the Styx.\"",
             "ExternalId": "",
             "Position": {
-              "x": 4009.0,
+              "x": 4300.0,
               "y": 950.0
             },
             "ZIndex": 51.0,
@@ -21843,7 +21830,7 @@
             "Text": "It better be.",
             "ExternalId": "",
             "Position": {
-              "x": 4296.0,
+              "x": 4587.0,
               "y": 950.0
             },
             "ZIndex": 53.0,
@@ -21896,10 +21883,10 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "You would be surprised how difficult it is being a woman in a man's world... It's a heavy burden to bear, one that can leave us feeling defeated and alone.\"",
+            "Text": "\"You would be surprised how difficult it is being a woman in a man's world... It's a heavy burden to bear, one that can leave us feeling defeated and alone.\"",
             "ExternalId": "",
             "Position": {
-              "x": 4296.0,
+              "x": 4587.0,
               "y": 700.0
             },
             "ZIndex": 55.0,
@@ -21952,7 +21939,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Absolutely, and it's one of the achievements that fills me with the greatest pride.",
+            "Text": "\"Absolutely, and it's one of the achievements that fills me with the greatest pride.\"",
             "ExternalId": "",
             "Position": {
               "x": 2287.0,
@@ -21999,7 +21986,7 @@
             "TechnicalName": "DFr_3333A1F8",
             "Id": "0x01000000000017C3",
             "Parent": "0x01000000000016D1",
-            "MenuText": "What about Sophia? I've met that girl a few years ago on this boat. Apparently your greatest achievement was the reason why she was a passenger here.\r\n",
+            "MenuText": "\"What about Sophia?\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -22008,7 +21995,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "What about Sophia? I've met that girl a few years ago on this boat. Apparently your greatest achievement was the reason why she was a passenger here.",
+            "Text": "\"What about Sophia? I've met that girl a few years ago on this boat. Your greatest achievement was the reason why she was a passenger here.\"",
             "ExternalId": "",
             "Position": {
               "x": 3125.0,
@@ -22055,7 +22042,7 @@
             "TechnicalName": "DFr_7D3AD141",
             "Id": "0x01000000000017C9",
             "Parent": "0x01000000000016D1",
-            "MenuText": "And did you take great pride in inviting the rehabilitaion patients to your \"special parties\"?",
+            "MenuText": "\"What about your special parties?\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -22064,7 +22051,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "And did you take great pride in inviting the rehabilitaion patients to your \"special parties\"?",
+            "Text": "And did you take great pride in inviting the rehabilitation patients to your \"special parties\"?",
             "ExternalId": "",
             "Position": {
               "x": 3125.0,
@@ -22120,7 +22107,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Can you stop with your sarcasm? I understand that it may sound odd, but it was beyond the ceremonies, beyond people's comprehension.",
+            "Text": "\"Can you stop with your sarcasm? I understand that it may sound odd, but it was beyond the ceremonies, beyond people's comprehension.\"",
             "ExternalId": "",
             "Position": {
               "x": 3412.0,
@@ -22176,7 +22163,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "I see where you are trying to go with this. That girl was a lost cause and she served a greater purpose.",
+            "Text": "\"I see where you are trying to go with this. That girl was a lost cause and she served a greater purpose.\"",
             "ExternalId": "",
             "Position": {
               "x": 3412.0,
@@ -22232,7 +22219,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "I've founded a cult. Our purpose was giving to woman the only thing society taught us to have. Our beauty",
+            "Text": "\"Our purpose was giving to woman the only thing society taught us to have. Our beauty.\"",
             "ExternalId": "",
             "Position": {
               "x": 3125.0,
@@ -22288,7 +22275,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Since I was a little girl men lied to me and told me to be pretty and to smile. But then that they deprived me of my beauty... I only obeyed the rules of society no matter the consequences.",
+            "Text": "\"Since I was a little girl men lied to me and told me to be pretty and to smile. But then that they deprived me of my beauty... I only obeyed the rules of society no matter the consequences.\"",
             "ExternalId": "",
             "Position": {
               "x": 3412.0,
@@ -22335,7 +22322,7 @@
             "TechnicalName": "DFr_A3E198D2",
             "Id": "0x0100000000001806",
             "Parent": "0x01000000000016D1",
-            "MenuText": "Why did you curse Arthur?",
+            "MenuText": "\"Why did you curse Arthur?\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -22344,7 +22331,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Why did you curse Arthur?",
+            "Text": "\"Why did you curse Arthur?\"",
             "ExternalId": "",
             "Position": {
               "x": 2725.0,
@@ -22391,7 +22378,7 @@
             "TechnicalName": "DFr_38B15C7F",
             "Id": "0x010000000000180C",
             "Parent": "0x01000000000016D1",
-            "MenuText": "How did you curse Arthur?",
+            "MenuText": "\"How did you curse Arthur?\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -22400,7 +22387,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "How did you curse Arthur?",
+            "Text": "\"How did you curse Arthur?\"",
             "ExternalId": "",
             "Position": {
               "x": 2725.0,
@@ -22456,7 +22443,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Sighs, I asked Arthur for his resignition after I've found out about his work ethics, but he didn't wanna quit the job. I had to use the hard way.",
+            "Text": "\"Sighs, I asked Arthur for his resignation after I've found out about his work ethics, but he didn't wanna quit the job. I had to use the hard way.\"",
             "ExternalId": "",
             "Position": {
               "x": 3012.0,
@@ -22512,7 +22499,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Founding the cult and him being on my way was strangely well timed. The sacrifices made me dive deeper into occultism.",
+            "Text": "\"Doing the sacrifices and him being on my way was strangely well timed. I dived deeper into occultism\".",
             "ExternalId": "",
             "Position": {
               "x": 3012.0,
@@ -22568,7 +22555,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "And after weeks of research, I learned a curse that used what was dearest to him to summon it like a cancer in his brain.",
+            "Text": "\"And after weeks of research, I learned a curse that used what was dearest to him to summon it like a cancer in his brain.\"",
             "ExternalId": "",
             "Position": {
               "x": 3299.0,
@@ -22615,7 +22602,7 @@
             "TechnicalName": "DFr_8B4A0747",
             "Id": "0x0100000000001831",
             "Parent": "0x01000000000016D1",
-            "MenuText": "What makes you different of him, you both sacrificed people, for your own good.",
+            "MenuText": "\"What makes you different of him.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -22624,7 +22611,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "What makes you different of him, you both sacrificed people, for your own good.",
+            "Text": "\"What makes you different of him, you both sacrificed people, for your own good.\"",
             "ExternalId": "",
             "Position": {
               "x": 2725.0,
@@ -22671,7 +22658,7 @@
             "TechnicalName": "DFr_CC2FC0B4",
             "Id": "0x0100000000001837",
             "Parent": "0x01000000000016D1",
-            "MenuText": "From what I'm hearing, all I see is two miserable humans fighting for a ticket out of this boat",
+            "MenuText": "\"You're both miserable.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -22680,7 +22667,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "From what I'm hearing, all I see is two miserable humans fighting for a ticket out of this boat",
+            "Text": "\"From what I'm hearing, all I see is two miserable humans fighting for a ticket out of this boat.\"",
             "ExternalId": "",
             "Position": {
               "x": 2725.0,
@@ -22736,7 +22723,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Don't even dare comparing me to that dog. We have nothing in common.",
+            "Text": "\"Don't even dare comparing me to that dog. We have nothing in common.\"",
             "ExternalId": "",
             "Position": {
               "x": 3025.0,
@@ -22792,7 +22779,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "I was the one being abused by her partner, I was the one fighting my way in a cruel man's world where they all saw me as a vulnerable prey. I did what I had to do as a necessity, he did it for greed.",
+            "Text": "\"I was the one being abused by her partner, I was the one fighting my way in a cruel man's world where they all saw me as a vulnerable prey.\"",
             "ExternalId": "",
             "Position": {
               "x": 3312.0,
@@ -22800,7 +22787,7 @@
             },
             "ZIndex": 108.0,
             "Size": {
-              "w": 225.0,
+              "w": 213.0,
               "h": 200.0
             },
             "ShortId": 2645762505,
@@ -22820,13 +22807,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001854",
-                    "Target": "0x0100000000001851"
+                    "TargetPin": "0x01000000000037D0",
+                    "Target": "0x01000000000037CD"
                   }
                 ]
               }
@@ -22839,7 +22826,7 @@
             "TechnicalName": "DFr_FA9900CA",
             "Id": "0x0100000000001851",
             "Parent": "0x01000000000016D1",
-            "MenuText": "Well, I'll have to discuss that with the captain of the board. It was a pleasure dealing with you Margaret.",
+            "MenuText": "\"It was a pleasure dealing with you Margaret.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -22848,10 +22835,10 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Well, I'll have to discuss that with the captain of the board. It was a pleasure dealing with you Margaret.",
+            "Text": "\"Well, I'll have to discuss that with the captain of the board. It was a pleasure dealing with you Margaret.\"",
             "ExternalId": "",
             "Position": {
-              "x": 3599.0,
+              "x": 3950.0,
               "y": -1100.0
             },
             "ZIndex": 110.0,
@@ -25700,7 +25687,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.WaltConvo3 = true",
                 "Id": "0x0100000000002DA6",
                 "Owner": "0x0100000000002DA4",
                 "Connections": [
@@ -31779,7 +31766,7 @@
               "g": 0.75686276,
               "b": 0.8
             },
-            "Text": "\"What a nice family\"",
+            "Text": "\"What a nice family.\"",
             "ExternalId": "",
             "Position": {
               "x": 1475.0,
@@ -31814,6 +31801,118 @@
                     "Label": "",
                     "TargetPin": "0x0100000000001C5A",
                     "Target": "0x0100000000001C37"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_4B6B76C6",
+            "Id": "0x010000000000369F",
+            "Parent": "0x010000000000361D",
+            "MenuText": "",
+            "StageDirections": "",
+            "Speaker": "0x0100000000001A09",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "Text": "\"I don't see you anymore at my parties.\"",
+            "ExternalId": "",
+            "Position": {
+              "x": 525.0,
+              "y": 425.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 1265333958,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000036A2",
+                "Owner": "0x010000000000369F"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000036A3",
+                "Owner": "0x010000000000369F",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000003621",
+                    "Target": "0x010000000000361D"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_6FB63E7A",
+            "Id": "0x01000000000036B3",
+            "Parent": "0x01000000000036AD",
+            "MenuText": "",
+            "StageDirections": "",
+            "Speaker": "0x010000000000188F",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "Text": "Zzzzzzzzz",
+            "ExternalId": "",
+            "Position": {
+              "x": 550.0,
+              "y": 450.0
+            },
+            "ZIndex": 0.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 1874214522,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000036B6",
+                "Owner": "0x01000000000036B3"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000036B7",
+                "Owner": "0x01000000000036B3",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000036B1",
+                    "Target": "0x01000000000036AD"
                   }
                 ]
               }
@@ -34502,7 +34601,7 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 4700.0,
+              "x": 4991.0,
               "y": 725.0
             },
             "ZIndex": 58.0,
@@ -34825,13 +34924,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x010000000000185E",
-                    "Target": "0x010000000000185C"
+                    "TargetPin": "0x0100000000003721",
+                    "Target": "0x0100000000003720"
                   }
                 ]
               }
@@ -34929,7 +35028,7 @@
               "h": 100.0
             },
             "ShortId": 2625738159,
-            "Expression": "GlobalVariables.JeanKeyConvo == true",
+            "Expression": "GlobalVariables.JeanKeyConvo == true\n",
             "Color": {
               "r": 0.577580452,
               "g": 0.7605245,
@@ -34969,13 +35068,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001B37",
-                    "Target": "0x0100000000001B14"
+                    "TargetPin": "0x0100000000003732",
+                    "Target": "0x0100000000003731"
                   }
                 ]
               }
@@ -35041,13 +35140,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001B98",
-                    "Target": "0x0100000000001B75"
+                    "TargetPin": "0x010000000000372A",
+                    "Target": "0x0100000000003729"
                   }
                 ]
               }
@@ -36642,8 +36741,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 125.0,
-              "y": 300.0
+              "x": -200.0,
+              "y": 375.0
             },
             "ZIndex": 7.0,
             "Size": {
@@ -36673,9 +36772,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
                     "TargetPin": "0x0100000000002FEF",
@@ -36691,9 +36790,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
                     "TargetPin": "0x01000000000032F4",
@@ -36710,11 +36809,11 @@
             "TechnicalName": "Cnd_A05232C1",
             "Id": "0x0100000000002FEE",
             "Parent": "0x01000000000022BC",
-            "DisplayName": "GlobalVariables.MargaretConvo2 == true",
+            "DisplayName": "GlobalVariables.JeanConvo2 == true",
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 825.0,
+              "x": 325.0,
               "y": 75.0
             },
             "ZIndex": 7.0,
@@ -36723,7 +36822,7 @@
               "h": 125.0
             },
             "ShortId": 2689741505,
-            "Expression": "GlobalVariables.MargaretConvo2 == true\n&&\nGlobalVariables.JeanConvo2 == true\n&&\nGlobalVariables.newsPaper == true\n",
+            "Expression": "GlobalVariables.JeanConvo2 == true\n&&\nGlobalVariables.newsPaper == true\n",
             "Color": {
               "r": 0.577580452,
               "g": 0.7605245,
@@ -36745,13 +36844,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000016D4",
-                    "Target": "0x01000000000016D1"
+                    "TargetPin": "0x0100000000003719",
+                    "Target": "0x0100000000003718"
                   }
                 ]
               },
@@ -36763,13 +36862,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000015C4",
-                    "Target": "0x01000000000015C1"
+                    "TargetPin": "0x0100000000003711",
+                    "Target": "0x0100000000003710"
                   }
                 ]
               }
@@ -36858,7 +36957,7 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": -550.0,
+              "x": -825.0,
               "y": 850.0
             },
             "ZIndex": 7.0,
@@ -36867,7 +36966,7 @@
               "h": 100.0
             },
             "ShortId": 3310440435,
-            "Expression": "GlobalVariables.WaltConvo1 == true\n&&\nGlobalVariables.Bottle == true",
+            "Expression": "GlobalVariables.WaltConvo1 == true\n",
             "Color": {
               "r": 0.577580452,
               "g": 0.7605245,
@@ -36889,13 +36988,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000002F32",
-                    "Target": "0x0100000000002F30"
+                    "TargetPin": "0x01000000000036C2",
+                    "Target": "0x01000000000036C0"
                   }
                 ]
               },
@@ -36930,8 +37029,8 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": -200.0,
-              "y": 750.0
+              "x": -25.0,
+              "y": 600.0
             },
             "ZIndex": 8.0,
             "Size": {
@@ -36939,7 +37038,7 @@
               "h": 100.0
             },
             "ShortId": 3067068941,
-            "Expression": "GlobalVariables.WaltConvo2 == true\n&&\nGlobalVariables.Cigarettes == true",
+            "Expression": "GlobalVariables.WaltConvo2 == true\n",
             "Color": {
               "r": 0.577580452,
               "g": 0.7605245,
@@ -36961,13 +37060,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000019A2",
-                    "Target": "0x010000000000199F"
+                    "TargetPin": "0x01000000000036CC",
+                    "Target": "0x01000000000036CA"
                   }
                 ]
               },
@@ -36998,20 +37097,20 @@
             "TechnicalName": "Cnd_C9DAC741",
             "Id": "0x0100000000002F67",
             "Parent": "0x01000000000022D2",
-            "DisplayName": "GlobalVariables.JackConvo1 == true",
+            "DisplayName": "GlobalVariables.JeanConvo1 == true",
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": -250.0,
-              "y": 625.0
+              "x": -600.0,
+              "y": 475.0
             },
             "ZIndex": 8.0,
             "Size": {
-              "w": 225.0,
+              "w": 250.0,
               "h": 100.0
             },
             "ShortId": 3386558273,
-            "Expression": "GlobalVariables.JackConvo1 == true\n",
+            "Expression": "GlobalVariables.JeanConvo1 == true\n",
             "Color": {
               "r": 0.577580452,
               "g": 0.7605245,
@@ -37033,13 +37132,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x010000000000362D",
-                    "Target": "0x010000000000362C"
+                    "TargetPin": "0x010000000000369A",
+                    "Target": "0x0100000000003698"
                   }
                 ]
               },
@@ -37051,13 +37150,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000003625",
-                    "Target": "0x0100000000003624"
+                    "TargetPin": "0x0100000000001A10",
+                    "Target": "0x0100000000001A0D"
                   }
                 ]
               }
@@ -37079,15 +37178,15 @@
             },
             "ZIndex": 13.0,
             "Size": {
-              "w": 225.0,
+              "w": 250.0,
               "h": 100.0
             },
             "ShortId": 83264141,
             "Expression": "GlobalVariables.PoisonBottle == true",
             "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
             },
             "InputPins": [
               {
@@ -37105,9 +37204,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
                     "TargetPin": "0x0100000000003638",
@@ -37123,9 +37222,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
                     "TargetPin": "0x0100000000003620",
@@ -37139,69 +37238,69 @@
         {
           "Type": "Condition",
           "Properties": {
-            "TechnicalName": "Cnd_BE679AFB",
-            "Id": "0x0100000000003624",
+            "TechnicalName": "Cnd_148B9A1B",
+            "Id": "0x0100000000003698",
             "Parent": "0x01000000000022D2",
-            "DisplayName": "GlobalVariables.JeanConvo1 == true",
+            "DisplayName": "GlobalVariables.JackConvo1 == true",
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 75.0,
-              "y": 825.0
+              "x": -225.0,
+              "y": 475.0
             },
-            "ZIndex": 8.0,
+            "ZIndex": 21.0,
             "Size": {
               "w": 225.0,
               "h": 100.0
             },
-            "ShortId": 3194460923,
-            "Expression": "GlobalVariables.JeanConvo1 == true\n",
+            "ShortId": 344693275,
+            "Expression": "GlobalVariables.JackConvo1 == true",
             "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
             },
             "InputPins": [
               {
                 "Text": "",
-                "Id": "0x0100000000003625",
-                "Owner": "0x0100000000003624"
+                "Id": "0x010000000000369A",
+                "Owner": "0x0100000000003698"
               }
             ],
             "OutputPins": [
               {
                 "Text": "",
-                "Id": "0x0100000000003626",
-                "Owner": "0x0100000000003624",
+                "Id": "0x010000000000369B",
+                "Owner": "0x0100000000003698",
                 "Connections": [
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000003620",
-                    "Target": "0x010000000000361D"
+                    "TargetPin": "0x010000000000362D",
+                    "Target": "0x010000000000362C"
                   }
                 ]
               },
               {
                 "Text": "",
-                "Id": "0x0100000000003627",
-                "Owner": "0x0100000000003624",
+                "Id": "0x010000000000369C",
+                "Owner": "0x0100000000003698",
                 "Connections": [
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001A10",
-                    "Target": "0x0100000000001A0D"
+                    "TargetPin": "0x0100000000003620",
+                    "Target": "0x010000000000361D"
                   }
                 ]
               }
@@ -37219,15 +37318,15 @@
             "ExternalId": "",
             "Position": {
               "x": 75.0,
-              "y": 475.0
+              "y": 450.0
             },
             "ZIndex": 13.0,
             "Size": {
-              "w": 225.0,
+              "w": 275.0,
               "h": 100.0
             },
             "ShortId": 2932182329,
-            "Expression": "GlobalVariables.JeanKeyConvo == true",
+            "Expression": "GlobalVariables.JeanKeyConvo == true\n",
             "Color": {
               "r": 0.577580452,
               "g": 0.7605245,
@@ -37249,9 +37348,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
                     "TargetPin": "0x010000000000303A",
@@ -37778,6 +37877,366 @@
                     "Label": "",
                     "TargetPin": "0x01000000000031B5",
                     "Target": "0x01000000000031B4"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_5D74D6D3",
+            "Id": "0x01000000000036C0",
+            "Parent": "0x01000000000022C7",
+            "DisplayName": "GlobalVariables.Bottle == true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": -425.0,
+              "y": 800.0
+            },
+            "ZIndex": 14.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 1567938259,
+            "Expression": "GlobalVariables.Bottle == true",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000036C2",
+                "Owner": "0x01000000000036C0"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000036C3",
+                "Owner": "0x01000000000036C0",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000002F32",
+                    "Target": "0x0100000000002F30"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x01000000000036C4",
+                "Owner": "0x01000000000036C0",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000036B0",
+                    "Target": "0x01000000000036AD"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_F2DEE0EB",
+            "Id": "0x01000000000036CA",
+            "Parent": "0x01000000000022C7",
+            "DisplayName": "GlobalVariables.Cigarettes == true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 350.0,
+              "y": 525.0
+            },
+            "ZIndex": 18.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 4074692843,
+            "Expression": "GlobalVariables.Cigarettes == true",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000036CC",
+                "Owner": "0x01000000000036CA"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000036CD",
+                "Owner": "0x01000000000036CA",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x010000000000373B",
+                    "Target": "0x010000000000373A"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x01000000000036CE",
+                "Owner": "0x01000000000036CA",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000036B0",
+                    "Target": "0x01000000000036AD"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_2F0DA103",
+            "Id": "0x0100000000003710",
+            "Parent": "0x01000000000022BC",
+            "DisplayName": "GlobalVariables.MargaretConvo2 == true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 600.0,
+              "y": 250.0
+            },
+            "ZIndex": 7.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 789422339,
+            "Expression": "GlobalVariables.MargaretConvo2 == true",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003711",
+                "Owner": "0x0100000000003710"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003712",
+                "Owner": "0x0100000000003710",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000032D8",
+                    "Target": "0x01000000000032D5"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x0100000000003713",
+                "Owner": "0x0100000000003710",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000015C4",
+                    "Target": "0x01000000000015C1"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_5B2248AD",
+            "Id": "0x0100000000003718",
+            "Parent": "0x01000000000022BC",
+            "DisplayName": "GlobalVariables.MargaretConvo3 == true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 750.0,
+              "y": 25.0
+            },
+            "ZIndex": 7.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 1528973485,
+            "Expression": "GlobalVariables.MargaretConvo3 == true",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003719",
+                "Owner": "0x0100000000003718"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x010000000000371A",
+                "Owner": "0x0100000000003718",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000032D8",
+                    "Target": "0x01000000000032D5"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x010000000000371B",
+                "Owner": "0x0100000000003718",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000016D4",
+                    "Target": "0x01000000000016D1"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_05F63A54",
+            "Id": "0x010000000000373A",
+            "Parent": "0x01000000000022C7",
+            "DisplayName": "GlobalVariables.WaltConvo3== true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 675.0,
+              "y": 525.0
+            },
+            "ZIndex": 18.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 100022868,
+            "Expression": "GlobalVariables.WaltConvo3== true",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x010000000000373B",
+                "Owner": "0x010000000000373A"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x010000000000373C",
+                "Owner": "0x010000000000373A",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000036B0",
+                    "Target": "0x01000000000036AD"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x010000000000373D",
+                "Owner": "0x010000000000373A",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000019A2",
+                    "Target": "0x010000000000199F"
                   }
                 ]
               }
@@ -39255,26 +39714,24 @@
                 "Type": "Condition"
               },
               {
-                "Id": "0x01000000000032F3",
-                "TechnicalName": "Cnd_DCD67B9D",
-                "Type": "Condition"
-              },
-              {
                 "Id": "0x0100000000002FEE",
                 "TechnicalName": "Cnd_A05232C1",
                 "Type": "Condition"
               },
               {
-                "Id": "0x01000000000032D5",
-                "TechnicalName": "Dlg_6C46DCED",
-                "Type": "Dialogue",
-                "Children": [
-                  {
-                    "Id": "0x01000000000032DB",
-                    "TechnicalName": "DFr_29312985",
-                    "Type": "DialogueFragment"
-                  }
-                ]
+                "Id": "0x01000000000032F3",
+                "TechnicalName": "Cnd_DCD67B9D",
+                "Type": "Condition"
+              },
+              {
+                "Id": "0x0100000000003710",
+                "TechnicalName": "Cnd_2F0DA103",
+                "Type": "Condition"
+              },
+              {
+                "Id": "0x0100000000003718",
+                "TechnicalName": "Cnd_5B2248AD",
+                "Type": "Condition"
               },
               {
                 "Id": "0x01000000000008B7",
@@ -39437,11 +39894,6 @@
                     "Type": "DialogueFragment"
                   },
                   {
-                    "Id": "0x01000000000009C7",
-                    "TechnicalName": "DFr_773AC7A5",
-                    "Type": "DialogueFragment"
-                  },
-                  {
                     "Id": "0x01000000000015B3",
                     "TechnicalName": "DFr_E6EF772D",
                     "Type": "DialogueFragment"
@@ -39454,11 +39906,6 @@
                   {
                     "Id": "0x01000000000009D8",
                     "TechnicalName": "DFr_B1801DD9",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x01000000000009D3",
-                    "TechnicalName": "DFr_E221A191",
                     "Type": "DialogueFragment"
                   },
                   {
@@ -39529,15 +39976,22 @@
                 ]
               },
               {
+                "Id": "0x01000000000032D5",
+                "TechnicalName": "Dlg_6C46DCED",
+                "Type": "Dialogue",
+                "Children": [
+                  {
+                    "Id": "0x01000000000032DB",
+                    "TechnicalName": "DFr_29312985",
+                    "Type": "DialogueFragment"
+                  }
+                ]
+              },
+              {
                 "Id": "0x01000000000015C1",
                 "TechnicalName": "Dlg_2B1ECF82",
                 "Type": "Dialogue",
                 "Children": [
-                  {
-                    "Id": "0x01000000000032CA",
-                    "TechnicalName": "DFr_E0199749",
-                    "Type": "DialogueFragment"
-                  },
                   {
                     "Id": "0x01000000000015C8",
                     "TechnicalName": "DFr_C6DD73FB",
@@ -39614,11 +40068,6 @@
                     "Type": "DialogueFragment"
                   },
                   {
-                    "Id": "0x010000000000164F",
-                    "TechnicalName": "DFr_BCDE33E8",
-                    "Type": "DialogueFragment"
-                  },
-                  {
                     "Id": "0x010000000000161E",
                     "TechnicalName": "DFr_A76E4201",
                     "Type": "DialogueFragment"
@@ -39644,18 +40093,13 @@
                     "Type": "DialogueFragment"
                   },
                   {
-                    "Id": "0x0100000000001637",
-                    "TechnicalName": "DFr_8436FF77",
+                    "Id": "0x0100000000001643",
+                    "TechnicalName": "DFr_BD77AF56",
                     "Type": "DialogueFragment"
                   },
                   {
                     "Id": "0x010000000000163D",
                     "TechnicalName": "DFr_BEC39C7B",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000001643",
-                    "TechnicalName": "DFr_BD77AF56",
                     "Type": "DialogueFragment"
                   },
                   {
@@ -39686,11 +40130,6 @@
                   {
                     "Id": "0x0100000000001695",
                     "TechnicalName": "DFr_F1913219",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x010000000000169B",
-                    "TechnicalName": "DFr_414F72A9",
                     "Type": "DialogueFragment"
                   },
                   {
@@ -39921,8 +40360,8 @@
                     "Type": "DialogueFragment"
                   },
                   {
-                    "Id": "0x0100000000001851",
-                    "TechnicalName": "DFr_FA9900CA",
+                    "Id": "0x01000000000037CD",
+                    "TechnicalName": "DFr_72BA036A",
                     "Type": "DialogueFragment"
                   },
                   {
@@ -39944,6 +40383,16 @@
                     "Id": "0x01000000000017E1",
                     "TechnicalName": "Jmp_E35DA6A1",
                     "Type": "Jump"
+                  },
+                  {
+                    "Id": "0x0100000000001851",
+                    "TechnicalName": "DFr_FA9900CA",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x01000000000037D5",
+                    "TechnicalName": "DFr_4D2BF508",
+                    "Type": "DialogueFragment"
                   },
                   {
                     "Id": "0x0100000000001782",
@@ -40835,6 +41284,11 @@
                 "Type": "Condition"
               },
               {
+                "Id": "0x01000000000036C0",
+                "TechnicalName": "Cnd_5D74D6D3",
+                "Type": "Condition"
+              },
+              {
                 "Id": "0x0100000000002F30",
                 "TechnicalName": "Cnd_B6CFC20D",
                 "Type": "Condition"
@@ -40952,6 +41406,11 @@
                 ]
               },
               {
+                "Id": "0x01000000000036CA",
+                "TechnicalName": "Cnd_F2DEE0EB",
+                "Type": "Condition"
+              },
+              {
                 "Id": "0x0100000000001893",
                 "TechnicalName": "Dlg_019E182E",
                 "Type": "Dialogue",
@@ -41039,6 +41498,11 @@
                 ]
               },
               {
+                "Id": "0x010000000000373A",
+                "TechnicalName": "Cnd_05F63A54",
+                "Type": "Condition"
+              },
+              {
                 "Id": "0x010000000000199F",
                 "TechnicalName": "Dlg_707B2785",
                 "Type": "Dialogue",
@@ -41091,6 +41555,18 @@
                   {
                     "Id": "0x0100000000002DA4",
                     "TechnicalName": "DFr_7ED8F8AE",
+                    "Type": "DialogueFragment"
+                  }
+                ]
+              },
+              {
+                "Id": "0x01000000000036AD",
+                "TechnicalName": "Dlg_FCE2A8B6",
+                "Type": "Dialogue",
+                "Children": [
+                  {
+                    "Id": "0x01000000000036B3",
+                    "TechnicalName": "DFr_6FB63E7A",
                     "Type": "DialogueFragment"
                   }
                 ]
@@ -41391,6 +41867,11 @@
                 "Type": "DialogueFragment"
               },
               {
+                "Id": "0x0100000000003720",
+                "TechnicalName": "DFr_21A1208D",
+                "Type": "DialogueFragment"
+              },
+              {
                 "Id": "0x0100000000001879",
                 "TechnicalName": "DFr_3D0A4182",
                 "Type": "DialogueFragment"
@@ -41418,13 +41899,13 @@
                 "Type": "DialogueFragment"
               },
               {
-                "Id": "0x01000000000031AC",
-                "TechnicalName": "DFr_74E0D3F1",
+                "Id": "0x0100000000001C67",
+                "TechnicalName": "DFr_04B25A84",
                 "Type": "DialogueFragment"
               },
               {
-                "Id": "0x0100000000001C67",
-                "TechnicalName": "DFr_04B25A84",
+                "Id": "0x01000000000031AC",
+                "TechnicalName": "DFr_74E0D3F1",
                 "Type": "DialogueFragment"
               },
               {
@@ -41494,13 +41975,13 @@
                 "Type": "Condition"
               },
               {
-                "Id": "0x010000000000362C",
-                "TechnicalName": "Cnd_AEC58D39",
+                "Id": "0x0100000000003698",
+                "TechnicalName": "Cnd_148B9A1B",
                 "Type": "Condition"
               },
               {
-                "Id": "0x0100000000003624",
-                "TechnicalName": "Cnd_BE679AFB",
+                "Id": "0x010000000000362C",
+                "TechnicalName": "Cnd_AEC58D39",
                 "Type": "Condition"
               },
               {
@@ -41718,6 +42199,18 @@
                 "Type": "Condition"
               },
               {
+                "Id": "0x010000000000361D",
+                "TechnicalName": "Dlg_81EC5E5F",
+                "Type": "Dialogue",
+                "Children": [
+                  {
+                    "Id": "0x010000000000369F",
+                    "TechnicalName": "DFr_4B6B76C6",
+                    "Type": "DialogueFragment"
+                  }
+                ]
+              },
+              {
                 "Id": "0x0100000000001B3E",
                 "TechnicalName": "Dlg_9F6126B5",
                 "Type": "Dialogue",
@@ -41918,11 +42411,6 @@
                     "Type": "DialogueFragment"
                   }
                 ]
-              },
-              {
-                "Id": "0x010000000000361D",
-                "TechnicalName": "Dlg_81EC5E5F",
-                "Type": "Dialogue"
               }
             ]
           },
@@ -42180,6 +42668,11 @@
                 "Id": "0x0100000000002EF3",
                 "TechnicalName": "DFr_92AB2A3C",
                 "Type": "DialogueFragment"
+              },
+              {
+                "Id": "0x0100000000003729",
+                "TechnicalName": "DFr_815DFA4E",
+                "Type": "DialogueFragment"
               }
             ]
           },
@@ -42196,6 +42689,11 @@
               {
                 "Id": "0x0100000000002EFB",
                 "TechnicalName": "DFr_B33EE9E2",
+                "Type": "DialogueFragment"
+              },
+              {
+                "Id": "0x0100000000003731",
+                "TechnicalName": "DFr_3332B0B8",
                 "Type": "DialogueFragment"
               }
             ]
