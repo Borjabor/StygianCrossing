@@ -17623,6 +17623,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7324089066449896005, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7324089066449896007, guid: 80a68a6f74db8fa4fada27a8c887be25,
         type: 3}
       propertyPath: m_SizeDelta.y
@@ -17632,6 +17637,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089066568946092, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089066568946093, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089066568946093, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
+      propertyPath: m_ShowMaskGraphic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7324089066568946094, guid: 80a68a6f74db8fa4fada27a8c887be25,
         type: 3}
@@ -17707,13 +17727,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7324089068402251120, guid: 80a68a6f74db8fa4fada27a8c887be25,
         type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089068402251120, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7324089068402251120, guid: 80a68a6f74db8fa4fada27a8c887be25,
         type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 3.0000305
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324089068402251120, guid: 80a68a6f74db8fa4fada27a8c887be25,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000015258789
+      value: -0.0009765625
       objectReference: {fileID: 0}
     - target: {fileID: 7324089068412735615, guid: 80a68a6f74db8fa4fada27a8c887be25,
         type: 3}
