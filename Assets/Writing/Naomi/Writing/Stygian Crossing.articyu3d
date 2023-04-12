@@ -6,7 +6,7 @@
     "set_UseScriptSupport": "True",
     "ExportVersion": "1.2",
     "ObjectDefinitionsHash": "C024BC2BF454592F21B22BF0712CC5E0FAE6A8EBD2ED1944229E7191D2BA5B8F",
-    "ScriptFragmentsHash": "1236471025"
+    "ScriptFragmentsHash": "2481884897"
   },
   "Project": {
     "Name": "Stygian Crossing",
@@ -2634,9 +2634,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.5764706,
-                      "g": 0.75686276,
-                      "b": 0.8
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
                     },
                     "Label": "",
                     "TargetPin": "0x01000000000037E1",
@@ -5602,9 +5602,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.5764706,
-                      "g": 0.75686276,
-                      "b": 0.8
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
                     },
                     "Label": "",
                     "TargetPin": "0x0100000000000A94",
@@ -5613,9 +5613,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.5764706,
-                      "g": 0.75686276,
-                      "b": 0.8
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
                     },
                     "Label": "",
                     "TargetPin": "0x0100000000000A8D",
@@ -5624,9 +5624,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.5764706,
-                      "g": 0.75686276,
-                      "b": 0.8
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
                     },
                     "Label": "",
                     "TargetPin": "0x0100000000000A9A",
@@ -5643,7 +5643,7 @@
             "TechnicalName": "DFr_1E2EDA9A",
             "Id": "0x0100000000000A8C",
             "Parent": "0x0100000000000A7A",
-            "MenuText": "Bar",
+            "MenuText": "Main Deck",
             "StageDirections": "",
             "Speaker": "0x0100000000000A87",
             "SplitHeight": 64.0,
@@ -5652,7 +5652,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Bar",
+            "Text": "Main Deck",
             "ExternalId": "",
             "Position": {
               "x": 1025.0,
@@ -5755,7 +5755,7 @@
             "TechnicalName": "DFr_6BFB05C7",
             "Id": "0x0100000000000A99",
             "Parent": "0x0100000000000A7A",
-            "MenuText": "Rooms",
+            "MenuText": "Lower Deck\r\n",
             "StageDirections": "",
             "Speaker": "0x0100000000000A87",
             "SplitHeight": 64.0,
@@ -5764,7 +5764,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Rooms",
+            "Text": "Lower Deck",
             "ExternalId": "",
             "Position": {
               "x": 1025.0,
@@ -5788,6 +5788,62 @@
                 "Text": "GlobalVariables.ElevatorFloor = 3",
                 "Id": "0x0100000000000A9B",
                 "Owner": "0x0100000000000A99",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000000A7E",
+                    "Target": "0x0100000000000A7A"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_67CEF286",
+            "Id": "0x01000000000037E6",
+            "Parent": "0x0100000000000A7A",
+            "MenuText": "",
+            "StageDirections": "",
+            "Speaker": "0x0100000000000182",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "\"I have to talk to the captan first.\"",
+            "ExternalId": "",
+            "Position": {
+              "x": 600.0,
+              "y": 225.0
+            },
+            "ZIndex": 12.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 1741615750,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000037E7",
+                "Owner": "0x01000000000037E6"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000037E8",
+                "Owner": "0x01000000000037E6",
                 "Connections": [
                   {
                     "Color": {
@@ -22994,7 +23050,7 @@
             "TechnicalName": "DFr_1DFFC7AE",
             "Id": "0x010000000000189F",
             "Parent": "0x0100000000001893",
-            "MenuText": "\"Get the fuck out of my way, Walter you fat fuck.\"",
+            "MenuText": "\"Get the fuck out of my way.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -23117,7 +23173,7 @@
             "TechnicalName": "DFr_668F0D8A",
             "Id": "0x01000000000018B5",
             "Parent": "0x0100000000001893",
-            "MenuText": "\"The entire Styx wouldn't be enough to quench your thirst.\"",
+            "MenuText": "\"The entire Styx wouldn't be enough for your thirst.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -23285,7 +23341,7 @@
             "TechnicalName": "DFr_BE85DE16",
             "Id": "0x0100000000002A18",
             "Parent": "0x0100000000001893",
-            "MenuText": "Sighs. \"Could I please get past you, Walter...\"",
+            "MenuText": "\"Could I please get past you, Walter...\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -23341,7 +23397,7 @@
             "TechnicalName": "DFr_ACBDF1A1",
             "Id": "0x0100000000002A21",
             "Parent": "0x0100000000001893",
-            "MenuText": "\"Fucking Walter... He's so heavy, Hercules himself couldn't lift him...\"",
+            "MenuText": "\"Fucking Walter... He's so heavy.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -23397,7 +23453,7 @@
             "TechnicalName": "DFr_5A73BEE7",
             "Id": "0x0100000000002A2C",
             "Parent": "0x0100000000001893",
-            "MenuText": "The entrance to the saloon is blocked.",
+            "MenuText": "",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -23990,7 +24046,7 @@
             "TechnicalName": "DFr_41C6648E",
             "Id": "0x0100000000001922",
             "Parent": "0x01000000000018FA",
-            "MenuText": "I ain't giving you shit. Move out the way first.",
+            "MenuText": "\"Move out the way first.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -23999,7 +24055,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "I ain't giving you shit. Move out the way first.",
+            "Text": "\"I ain't giving you shit. Move out the way first.\"",
             "ExternalId": "",
             "Position": {
               "x": 1050.0,
@@ -24055,7 +24111,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "\"Glek Glek Glek Glek, AAaaahh.\"\r\n\r\nWalter stands up. \r\n\r\nMay Bacchus bless you Ch-Charon.",
+            "Text": "\"Glek Glek Glek Glek, AAaaahh.\"Walter stands up. \"May Dionysus bless you Ch-Charon.\"",
             "ExternalId": "",
             "Position": {
               "x": 1800.0,
@@ -24113,7 +24169,7 @@
             "TechnicalName": "DFr_C062E855",
             "Id": "0x0100000000002BDB",
             "Parent": "0x01000000000018FA",
-            "MenuText": "I got your bottle, Mobydick. WAKE UP",
+            "MenuText": "\"WAKE UP!\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -24122,7 +24178,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "I got your bottle, Mobydick. WAKE UP",
+            "Text": "\"I got your bottle, Mobydick. WAKE UP!\"",
             "ExternalId": "",
             "Position": {
               "x": 325.0,
@@ -24178,7 +24234,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "OH, GIVE IT TO ME!",
+            "Text": "\"OH, GIVE IT TO ME!\"",
             "ExternalId": "",
             "Position": {
               "x": 650.0,
@@ -24292,7 +24348,7 @@
             "TechnicalName": "DFr_F56C7271",
             "Id": "0x0100000000002C3F",
             "Parent": "0x01000000000018FA",
-            "MenuText": "Oh, now you're civilized, right?",
+            "MenuText": "\"Oh, now you're civilized, right?\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -24301,7 +24357,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Oh, now you're civilized, huh?",
+            "Text": "\"Oh, now you're civilized, huh?\"",
             "ExternalId": "",
             "Position": {
               "x": 2125.0,
@@ -24348,7 +24404,7 @@
             "TechnicalName": "DFr_1E9ADF41",
             "Id": "0x0100000000002C45",
             "Parent": "0x01000000000018FA",
-            "MenuText": "Well, I can see that the bottle really calms you down. I might even be tempted to join you for a drink. But I can't.",
+            "MenuText": "\"The bottle calmed your ass down.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -24357,7 +24413,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Well, I can see that the bottle really calms you down. I might even be tempted to join you for a drink. But I can't.",
+            "Text": "\"I can see that the bottle really calmed your ass down. I might even be tempted to join you for a drink. But I can't.\"",
             "ExternalId": "",
             "Position": {
               "x": 2125.0,
@@ -24413,7 +24469,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Hehe, well alco-bUrp, alcohol suits me well. You should grab a glass join me for a drink.",
+            "Text": "\"Hehe, well alco-bUrp, alcohol suits me well. You should grab and glass join me for a drink.\"",
             "ExternalId": "",
             "Position": {
               "x": 2400.0,
@@ -24480,7 +24536,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Who would refuse booze? You're always gonna surpr-, Surprise me Charon.",
+            "Text": "\"Who would refuse booze? You're always gonna surpr-, Surprise me Charon.\"",
             "ExternalId": "",
             "Position": {
               "x": 2412.0,
@@ -24538,7 +24594,7 @@
             "TechnicalName": "DFr_F452D7C6",
             "Id": "0x0100000000002C5D",
             "Parent": "0x01000000000018FA",
-            "MenuText": "I don't have time. Two misplaced souls on this boat. They gotta leave.\r\n",
+            "MenuText": "\"I don't have time. Two misplaced souls on the boat.\"\r\n",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -24547,7 +24603,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "I don't have time. Two misplaced souls on this boat. They gotta leave.",
+            "Text": "\"I don't have time. Two misplaced souls on this boat. They gotta leave.\"",
             "ExternalId": "",
             "Position": {
               "x": 2850.0,
@@ -24594,7 +24650,7 @@
             "TechnicalName": "DFr_940C9751",
             "Id": "0x0100000000002C65",
             "Parent": "0x01000000000018FA",
-            "MenuText": "I have work to do. The boat is gonna sink if I don't get rid of some people here.\r\n",
+            "MenuText": "The boat is gonna sink, if I don't get back to work\"\r\n",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -24603,7 +24659,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "I have work to do. The boat is gonna sink if I don't get rid of some people here.",
+            "Text": "\"I have work to do. The boat is gonna sink if I don't get rid of some people here.\"",
             "ExternalId": "",
             "Position": {
               "x": 2850.0,
@@ -24659,7 +24715,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "I'm I too heavy for the boat ? HAHAHAHAH. But seriously I might have an i-, an idea about who's causing trouble.",
+            "Text": "\"I'm I too heavy for the boat ? HAHAHAHAH. Well, I'll let you get back to work.\"",
             "ExternalId": "",
             "Position": {
               "x": 3137.0,
@@ -24687,147 +24743,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000002C79",
-                    "Target": "0x0100000000002C76"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
-            "TechnicalName": "DFr_ECD804E1",
-            "Id": "0x0100000000002C76",
-            "Parent": "0x01000000000018FA",
-            "MenuText": "",
-            "StageDirections": "",
-            "Speaker": "0x010000000000188F",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
-            },
-            "Text": "You see, alcohol has a way of stripping away all the fluff, allowing me to see straight into-bUrp people's minds.",
-            "ExternalId": "",
-            "Position": {
-              "x": 3450.0,
-              "y": 525.0
-            },
-            "ZIndex": 29.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 3973580001,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000002C79",
-                "Owner": "0x0100000000002C76"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000002C7A",
-                "Owner": "0x0100000000002C76",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000002C80",
-                    "Target": "0x0100000000002C7D"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
-            "TechnicalName": "DFr_5BB0C3F6",
-            "Id": "0x0100000000002C7D",
-            "Parent": "0x01000000000018FA",
-            "MenuText": "",
-            "StageDirections": "",
-            "Speaker": "0x010000000000188F",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
-            },
-            "Text": "They used to call me Walter the gum-blaRgH; the gumshoe back in the day. HAHAHAHAHA.",
-            "ExternalId": "",
-            "Position": {
-              "x": 3737.0,
-              "y": 525.0
-            },
-            "ZIndex": 31.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 1538311158,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000002C80",
-                "Owner": "0x0100000000002C7D"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000002C81",
-                "Owner": "0x0100000000002C7D",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000002C8F",
-                    "Target": "0x0100000000002C8C"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000002C95",
-                    "Target": "0x0100000000002C92"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000002C9B",
-                    "Target": "0x0100000000002C98"
+                    "TargetPin": "0x0100000000002CB0",
+                    "Target": "0x0100000000002CAD"
                   }
                 ]
               }
@@ -24849,7 +24771,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Y-yeah? I could help you.",
+            "Text": "\"I hope I'm not one of 'em. It would take a thousand bottles to make my soul move.\"",
             "ExternalId": "",
             "Position": {
               "x": 3137.0,
@@ -24877,233 +24799,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000002C79",
-                    "Target": "0x0100000000002C76"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
-            "TechnicalName": "DFr_ADE254A3",
-            "Id": "0x0100000000002C8C",
-            "Parent": "0x01000000000018FA",
-            "MenuText": "I'll think about it...",
-            "StageDirections": "",
-            "Speaker": "0x0100000000000182",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
-            },
-            "Text": "I'll think about it...",
-            "ExternalId": "",
-            "Position": {
-              "x": 4024.0,
-              "y": 275.0
-            },
-            "ZIndex": 36.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 2917291171,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000002C8F",
-                "Owner": "0x0100000000002C8C"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000002C90",
-                "Owner": "0x0100000000002C8C",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000002CA5",
-                    "Target": "0x0100000000002CA4"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
-            "TechnicalName": "DFr_69122B8C",
-            "Id": "0x0100000000002C92",
-            "Parent": "0x01000000000018FA",
-            "MenuText": "And I assume you want another bottle in exchange, huh ?",
-            "StageDirections": "",
-            "Speaker": "0x0100000000000182",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
-            },
-            "Text": "And I assume you want another bottle in exchange, huh ?",
-            "ExternalId": "",
-            "Position": {
-              "x": 4024.0,
-              "y": 525.0
-            },
-            "ZIndex": 38.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 1762798476,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000002C95",
-                "Owner": "0x0100000000002C92"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000002C96",
-                "Owner": "0x0100000000002C92",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000002CA5",
-                    "Target": "0x0100000000002CA4"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
-            "TechnicalName": "DFr_FA20D8B2",
-            "Id": "0x0100000000002C98",
-            "Parent": "0x01000000000018FA",
-            "MenuText": "Stay Silent.",
-            "StageDirections": "",
-            "Speaker": "0x0100000000000182",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
-            },
-            "Text": "Stay Silent.",
-            "ExternalId": "",
-            "Position": {
-              "x": 4024.0,
-              "y": 775.0
-            },
-            "ZIndex": 40.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 4196456626,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000002C9B",
-                "Owner": "0x0100000000002C98"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000002C9C",
-                "Owner": "0x0100000000002C98",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000002CA5",
-                    "Target": "0x0100000000002CA4"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
-            "TechnicalName": "DFr_1CC72A42",
-            "Id": "0x0100000000002CA4",
-            "Parent": "0x01000000000018FA",
-            "MenuText": "",
-            "StageDirections": "",
-            "Speaker": "0x010000000000188F",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
-            },
-            "Text": "All I want this time, is a bottle's best friend. A pack of cigarettes.",
-            "ExternalId": "",
-            "Position": {
-              "x": 4375.0,
-              "y": 525.0
-            },
-            "ZIndex": 31.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 482814530,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000002CA5",
-                "Owner": "0x0100000000002CA4"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000002CA6",
-                "Owner": "0x0100000000002CA4",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
                     "TargetPin": "0x0100000000002CB0",
@@ -25120,7 +24818,7 @@
             "TechnicalName": "DFr_E18437BE",
             "Id": "0x0100000000002CAD",
             "Parent": "0x01000000000018FA",
-            "MenuText": "Sighs, let me see what can I do...",
+            "MenuText": "\"You're safe, see you later.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -25129,11 +24827,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Sighs, let me see what can I do...",
+            "Text": "\"Don't worry, you're safe Walter. See you later and don't cause any trouble.\"",
             "ExternalId": "",
             "Position": {
-              "x": 4662.0,
-              "y": 525.0
+              "x": 3500.0,
+              "y": 550.0
             },
             "ZIndex": 46.0,
             "Size": {
@@ -26978,7 +26676,7 @@
             "TechnicalName": "DFr_47D59280",
             "Id": "0x0100000000001AD7",
             "Parent": "0x0100000000001AD0",
-            "MenuText": "We have to talk.",
+            "MenuText": "\"We have to talk.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -26987,7 +26685,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "We have to talk.",
+            "Text": "\"We have to talk.\"",
             "ExternalId": "",
             "Position": {
               "x": 450.0,
@@ -27043,7 +26741,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Haah, Charon I understand that you always wanna talk to nice looking ladies, but I may be busy sometimes.",
+            "Text": "\"Haah, Charon I understand that you always wanna talk to nice looking ladies, but I may be busy sometimes.\"",
             "ExternalId": "",
             "Position": {
               "x": 750.0,
@@ -27112,7 +26810,7 @@
             "TechnicalName": "DFr_232AA83E",
             "Id": "0x0100000000001AE6",
             "Parent": "0x0100000000001AD0",
-            "MenuText": "Why did you lock up that poor fella in the storage room?",
+            "MenuText": "\"Why did you lock that fella in the storage?\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -27121,7 +26819,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Why did you lock up tha poor fella in the storage room?",
+            "Text": "\"Why did you lock up that poor fella in the storage room?\"",
             "ExternalId": "",
             "Position": {
               "x": 1075.0,
@@ -27224,7 +26922,7 @@
             "TechnicalName": "DFr_355898DC",
             "Id": "0x0100000000002E18",
             "Parent": "0x0100000000001AD0",
-            "MenuText": "Give me the fucking keys!",
+            "MenuText": "\"Give me the fucking keys!\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -27233,7 +26931,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Give me the fucking key!",
+            "Text": "\"Give me the fucking key!\"",
             "ExternalId": "",
             "Position": {
               "x": 1075.0,
@@ -27280,7 +26978,7 @@
             "TechnicalName": "DFr_F0D4656F",
             "Id": "0x0100000000002E20",
             "Parent": "0x0100000000001AD0",
-            "MenuText": "What is wrong with you Charon. I don't understand darling.",
+            "MenuText": "",
             "StageDirections": "",
             "Speaker": "0x0100000000001A09",
             "SplitHeight": 64.0,
@@ -27289,7 +26987,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "",
+            "Text": "\"What is wrong with you Charon. I don't understand darling.\"",
             "ExternalId": "",
             "Position": {
               "x": 1375.0,
@@ -27358,7 +27056,7 @@
             "TechnicalName": "DFr_AD4F53C0",
             "Id": "0x0100000000002E29",
             "Parent": "0x0100000000001AD0",
-            "MenuText": "Please, Jean. You have to give me the storage key. That poor dude is terrorized of the dark, he won't stop screaming.",
+            "MenuText": "\"Please, that poor dude is terrorized of the dark.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -27367,7 +27065,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Please, Jean. You have to give me the storage key. That poor dude is terrorized of the dark, he won't stop screaming.",
+            "Text": "\"Please, Jean. You have to give me the storage key. That poor dude is terrorized of the dark, he won't stop screaming.\"",
             "ExternalId": "",
             "Position": {
               "x": 1675.0,
@@ -27414,7 +27112,7 @@
             "TechnicalName": "DFr_5BCB8AB3",
             "Id": "0x0100000000002E2F",
             "Parent": "0x0100000000001AD0",
-            "MenuText": "Jean, I swear to Hades if you don't give me the key!",
+            "MenuText": "\"I swear if you don't give me the key!\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -27423,7 +27121,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Jean, I swear to Hades if you don't give me the key!",
+            "Text": "\"Jean, I swear to Hades if you don't give me the key!\"",
             "ExternalId": "",
             "Position": {
               "x": 1675.0,
@@ -27470,7 +27168,7 @@
             "TechnicalName": "DFr_C73CA145",
             "Id": "0x0100000000002E39",
             "Parent": "0x0100000000001AD0",
-            "MenuText": "Hum, that poor man is very loud and he won't shut up until we get him out of there.",
+            "MenuText": "\"He won't stop screaming and your room is near the storage.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -27479,7 +27177,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Hum, that poor man is very loud and he won't shut up until we get him out of there.",
+            "Text": "\"Hum, that poor man is very loud and he won't shut up until we get him out of there.\"",
             "ExternalId": "",
             "Position": {
               "x": 1675.0,
@@ -27526,7 +27224,7 @@
             "TechnicalName": "DFr_4CD9704E",
             "Id": "0x0100000000002E40",
             "Parent": "0x0100000000001AD0",
-            "MenuText": "if I recall correctly, your room is located near the storage right? I didn't know you used screaming men as lullaby singers.\r\n",
+            "MenuText": "",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -27649,7 +27347,7 @@
             "TechnicalName": "DFr_27DC9686",
             "Id": "0x0100000000002E4F",
             "Parent": "0x0100000000001AD0",
-            "MenuText": "sighs. Please?",
+            "MenuText": "sighs. \"Please?\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -27658,7 +27356,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "sighs. Please?",
+            "Text": "sighs. \"Please?\"",
             "ExternalId": "",
             "Position": {
               "x": 2275.0,
@@ -27770,7 +27468,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Well, I might have tossed it out of the Smoking saloon balcony. My aiming isn't really good. You might have some chances to find it. Hahahha.",
+            "Text": "\"Well, I might have tossed it out of the Smoking saloon balcony. My aiming isn't really good. You might have some chances to find it. Hahahha.\"",
             "ExternalId": "",
             "Position": {
               "x": 2675.0,
@@ -27817,7 +27515,7 @@
             "TechnicalName": "DFr_C0EA4333",
             "Id": "0x0100000000002EC7",
             "Parent": "0x0100000000001AD0",
-            "MenuText": "You crazy bitch!",
+            "MenuText": "\"You crazy bitch!\"\r\n",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -27826,7 +27524,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "You crazy bitch!",
+            "Text": "\"You crazy bitch!\"",
             "ExternalId": "",
             "Position": {
               "x": 2962.0,
@@ -31920,62 +31618,6 @@
           }
         },
         {
-          "Type": "DialogueFragment",
-          "Properties": {
-            "TechnicalName": "DFr_67CEF286",
-            "Id": "0x01000000000037E6",
-            "Parent": "0x0100000000000A7A",
-            "MenuText": "",
-            "StageDirections": "",
-            "Speaker": "0x0100000000000182",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.5764706,
-              "g": 0.75686276,
-              "b": 0.8
-            },
-            "Text": "\"I have to talk to the captan first.\"",
-            "ExternalId": "",
-            "Position": {
-              "x": 600.0,
-              "y": 225.0
-            },
-            "ZIndex": 12.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 1741615750,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000037E7",
-                "Owner": "0x01000000000037E6"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000037E8",
-                "Owner": "0x01000000000037E6",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.5764706,
-                      "g": 0.75686276,
-                      "b": 0.8
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000000A7E",
-                    "Target": "0x0100000000000A7A"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
           "Type": "Hub",
           "Properties": {
             "TechnicalName": "Hub_A785B771",
@@ -34915,6 +34557,78 @@
                     "Label": "",
                     "TargetPin": "0x01000000000031CD",
                     "Target": "0x01000000000031CC"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_89ACC6F6",
+            "Id": "0x01000000000037DF",
+            "Parent": "0x0100000000000A7A",
+            "DisplayName": "GlobalVariables.CaptainQuest == true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 125.0,
+              "y": -175.0
+            },
+            "ZIndex": 11.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 2309801718,
+            "Expression": "GlobalVariables.CaptainQuest == true",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000037E1",
+                "Owner": "0x01000000000037DF"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000037E2",
+                "Owner": "0x01000000000037DF",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000000A83",
+                    "Target": "0x0100000000000A80"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x01000000000037E3",
+                "Owner": "0x01000000000037DF",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000037E7",
+                    "Target": "0x01000000000037E6"
                   }
                 ]
               }
@@ -38300,78 +38014,6 @@
           }
         },
         {
-          "Type": "Condition",
-          "Properties": {
-            "TechnicalName": "Cnd_89ACC6F6",
-            "Id": "0x01000000000037DF",
-            "Parent": "0x0100000000000A7A",
-            "DisplayName": "GlobalVariables.CaptainQuest == true",
-            "Text": "",
-            "ExternalId": "",
-            "Position": {
-              "x": 125.0,
-              "y": -175.0
-            },
-            "ZIndex": 11.0,
-            "Size": {
-              "w": 225.0,
-              "h": 100.0
-            },
-            "ShortId": 2309801718,
-            "Expression": "GlobalVariables.CaptainQuest == true",
-            "Color": {
-              "r": 0.5764706,
-              "g": 0.75686276,
-              "b": 0.8
-            },
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000037E1",
-                "Owner": "0x01000000000037DF"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000037E2",
-                "Owner": "0x01000000000037DF",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.5764706,
-                      "g": 0.75686276,
-                      "b": 0.8
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000000A83",
-                    "Target": "0x0100000000000A80"
-                  }
-                ]
-              },
-              {
-                "Text": "",
-                "Id": "0x01000000000037E3",
-                "Owner": "0x01000000000037DF",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.5764706,
-                      "g": 0.75686276,
-                      "b": 0.8
-                    },
-                    "Label": "",
-                    "TargetPin": "0x01000000000037E7",
-                    "Target": "0x01000000000037E6"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
           "Type": "Comment",
           "Properties": {
             "TechnicalName": "CMT_72057594037930701",
@@ -41494,36 +41136,6 @@
                   {
                     "Id": "0x0100000000002C6D",
                     "TechnicalName": "DFr_83064DAF",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002C76",
-                    "TechnicalName": "DFr_ECD804E1",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002C7D",
-                    "TechnicalName": "DFr_5BB0C3F6",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002C8C",
-                    "TechnicalName": "DFr_ADE254A3",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002C92",
-                    "TechnicalName": "DFr_69122B8C",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002C98",
-                    "TechnicalName": "DFr_FA20D8B2",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000002CA4",
-                    "TechnicalName": "DFr_1CC72A42",
                     "Type": "DialogueFragment"
                   },
                   {
