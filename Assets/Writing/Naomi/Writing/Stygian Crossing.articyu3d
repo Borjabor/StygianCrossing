@@ -6,7 +6,7 @@
     "set_UseScriptSupport": "True",
     "ExportVersion": "1.2",
     "ObjectDefinitionsHash": "C024BC2BF454592F21B22BF0712CC5E0FAE6A8EBD2ED1944229E7191D2BA5B8F",
-    "ScriptFragmentsHash": "2481884897"
+    "ScriptFragmentsHash": "1708771089"
   },
   "Project": {
     "Name": "Stygian Crossing",
@@ -5574,7 +5574,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Where do you wanna go?",
+            "Text": "Where would you like to go?",
             "ExternalId": "",
             "Position": {
               "x": 600.0,
@@ -5820,7 +5820,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "\"I have to talk to the captan first.\"",
+            "Text": "\"Why would I go down there? The captain hasn't bothered me today.\"",
             "ExternalId": "",
             "Position": {
               "x": 600.0,
@@ -13725,7 +13725,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "\"Charon, m’boy, come here, have a look. The waves seem especially hard to overcome as of late... My dear boat is wailing and creaking in all the wrong ways.\"",
+            "Text": "\"Charon, m’boy, come hither, have a look. The waves are fierce as of late... My dear boat is wailin' and creakin' in all the wrong ways.\"",
             "ExternalId": "",
             "Position": {
               "x": 1175.0,
@@ -13971,7 +13971,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "\"Get your shit together, Charon. The ship is unbalanced and I know very well why. Ye haven't been doin' yer duty. Judgement has not been passed.\r\n\r\nTwo passengers are overstaying their welcome. Time to show them the door. If that doesn't happen soon, the whole ship's gonna sink.\"",
+            "Text": "\"Get yer shit together, Charon. The ship is unbalanced and I know full well why. Ye haven't been doin' yer duty. Judgement has not been passed.\r\n\r\nTwo passengers are overstaying their welcome. 'Tis time to show them the plank. If that doesn't happen soon, the whole ship's goin' to <i>sink</i>.\"",
             "ExternalId": "",
             "Position": {
               "x": 1975.0,
@@ -14195,7 +14195,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "\"You do forget I am a mere sailor. You are the one with the title to judge who passes and who stays.\"",
+            "Text": "\"Yer forgettin' that I'm but a lowly sailor. 'Tis ye who holds the title to judge who passes and who stays aboard this ship.\"",
             "ExternalId": "",
             "Position": {
               "x": 3000.0,
@@ -14251,7 +14251,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "\"Check their coins, Charon. The magic number is two. If the soul has two coins, it docks. One coin, they have the privilege of spending eternity in this sensational voyage. Zero coins, throw them over. That's it. And no minglin' with the guests this time.\"",
+            "Text": "\"I swear to Hades, yer memory seems to be fadin' with all the drink. Have ye forgotten once more why I continue to grant ye beddin' on my ship?\"",
             "ExternalId": "",
             "Position": {
               "x": 3475.0,
@@ -14272,7 +14272,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "GlobalVariables.CaptainQuest = true",
+                "Text": "",
                 "Id": "0x0100000000000256",
                 "Owner": "0x0100000000000254",
                 "Connections": [
@@ -14284,8 +14284,19 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000002F1",
-                    "Target": "0x01000000000001F1"
+                    "TargetPin": "0x0100000000003810",
+                    "Target": "0x010000000000380F"
+                  },
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000003817",
+                    "Target": "0x0100000000003816"
                   }
                 ]
               }
@@ -14307,7 +14318,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "\"Don't play the fool with me, Charon. You have a job to do. I will not have you sinking my Victoria with your indolence.\"",
+            "Text": "\"Don't play the fool with me, Charon. Ye have a job to do. I will not have ye sinkin' my Victoria with yer indolence.\"",
             "ExternalId": "",
             "Position": {
               "x": 3000.0,
@@ -14363,7 +14374,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "\"That ain't my business what yer reasons are for being a good-for-nothing drunkard. Your job is to judge who will pass. So do it.\"",
+            "Text": "\"That ain't my business what yer reasons are for being a good-for-nothing drunkard. Yer job is to judge who will pass. So do it.\"",
             "ExternalId": "",
             "Position": {
               "x": 3000.0,
@@ -14407,42 +14418,42 @@
         {
           "Type": "DialogueFragment",
           "Properties": {
-            "TechnicalName": "DFr_8CEC8D1D",
-            "Id": "0x0100000000001384",
-            "Parent": "0x010000000000137E",
-            "MenuText": "Does it even matter? I couldn't save either if I tried.",
+            "TechnicalName": "DFr_8F7ACD4F",
+            "Id": "0x0100000000003806",
+            "Parent": "0x01000000000001F1",
+            "MenuText": "",
             "StageDirections": "",
-            "Speaker": "0x0100000000000182",
+            "Speaker": "0x0100000000000122",
             "SplitHeight": 64.0,
             "Color": {
               "r": 0.577580452,
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "",
+            "Text": "\"Check their coins, Charon. The magic number is two. If the soul has two coins, it docks. One coin, it is their privilege to spend eternity aboard this mighty sail. Zero coins, throw them over. That's it.\r\n\r\nAnd no minglin' with the guests this time. Judgement is essential for the calm of the wind.\"",
             "ExternalId": "",
             "Position": {
-              "x": 5500.0,
-              "y": 0.0
+              "x": 4200.0,
+              "y": 100.0
             },
-            "ZIndex": 11.0,
+            "ZIndex": 1.0,
             "Size": {
               "w": 225.0,
               "h": 200.0
             },
-            "ShortId": 2364312861,
+            "ShortId": 2407189839,
             "InputPins": [
               {
                 "Text": "",
-                "Id": "0x0100000000001387",
-                "Owner": "0x0100000000001384"
+                "Id": "0x0100000000003807",
+                "Owner": "0x0100000000003806"
               }
             ],
             "OutputPins": [
               {
-                "Text": "",
-                "Id": "0x0100000000001388",
-                "Owner": "0x0100000000001384",
+                "Text": "GlobalVariables.CaptainQuest = true",
+                "Id": "0x0100000000003808",
+                "Owner": "0x0100000000003806",
                 "Connections": [
                   {
                     "Color": {
@@ -14452,8 +14463,120 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x010000000000153B",
-                    "Target": "0x010000000000153A"
+                    "TargetPin": "0x01000000000002F1",
+                    "Target": "0x01000000000001F1"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_F650F997",
+            "Id": "0x010000000000380F",
+            "Parent": "0x01000000000001F1",
+            "MenuText": "\"Because of my great sense of humour?\"",
+            "StageDirections": "",
+            "Speaker": "0x0100000000000182",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "\"Because of my great sense of humour?\"",
+            "ExternalId": "",
+            "Position": {
+              "x": 3825.0,
+              "y": 0.0
+            },
+            "ZIndex": 1.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 4132501911,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003810",
+                "Owner": "0x010000000000380F"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003811",
+                "Owner": "0x010000000000380F",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000003807",
+                    "Target": "0x0100000000003806"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_EC96D93C",
+            "Id": "0x0100000000003816",
+            "Parent": "0x01000000000001F1",
+            "MenuText": "\"I bet it's my groovy dance moves!\"",
+            "StageDirections": "",
+            "Speaker": "0x0100000000000182",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "\"I bet it's my groovy dance moves!\"",
+            "ExternalId": "",
+            "Position": {
+              "x": 3825.0,
+              "y": 200.0
+            },
+            "ZIndex": 1.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 3969308988,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003817",
+                "Owner": "0x0100000000003816"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003818",
+                "Owner": "0x0100000000003816",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000003807",
+                    "Target": "0x0100000000003806"
                   }
                 ]
               }
@@ -14466,7 +14589,7 @@
             "TechnicalName": "DFr_C7F46012",
             "Id": "0x010000000000138A",
             "Parent": "0x010000000000137E",
-            "MenuText": "Which is worse, going to the torture realm or drowning forever?",
+            "MenuText": "\"Both of them would dock on Tartarus anyway.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -14475,11 +14598,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "",
+            "Text": "\"Tartarus must be so chillingly agonizing. I'm pretty sure both of them would dock on Tartarus anyway.\"",
             "ExternalId": "",
             "Position": {
-              "x": 5500.0,
-              "y": -200.0
+              "x": 6475.0,
+              "y": -100.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -14531,10 +14654,10 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "So, what have you found out?",
+            "Text": "He stands silently, as if he'd been standing there the whole time, just waiting. When he notices my expression, he sneers: \"So, my boy, have ye discovered the source of her ill state?\"",
             "ExternalId": "",
             "Position": {
-              "x": 1675.0,
+              "x": 1650.0,
               "y": -200.0
             },
             "ZIndex": 11.0,
@@ -14578,8 +14701,8 @@
             "TechnicalName": "DFr_D7FA9E6F",
             "Id": "0x0100000000001396",
             "Parent": "0x010000000000137E",
-            "MenuText": "A pig who didn't care who he'd kill to make his research work.",
-            "StageDirections": "disapproval",
+            "MenuText": "\"She let him do whatever tests were necessary to increase profit.\"",
+            "StageDirections": "approval",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
             "Color": {
@@ -14587,11 +14710,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "",
+            "Text": "\"She was the guy's boss, who he took revenge on. She let him do whatever tests were necessary to increase profit.\"",
             "ExternalId": "",
             "Position": {
-              "x": 3125.0,
-              "y": -200.0
+              "x": 5625.0,
+              "y": -100.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -14634,8 +14757,8 @@
             "TechnicalName": "DFr_A4292C97",
             "Id": "0x01000000000013B3",
             "Parent": "0x010000000000137E",
-            "MenuText": "A sad man who paid for his sins.",
-            "StageDirections": "approval",
+            "MenuText": "\"He was so obsessed with his work, he would claim lives in its name.\"",
+            "StageDirections": "disapproval",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
             "Color": {
@@ -14643,11 +14766,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "",
+            "Text": "\"He was so obsessed with his work, he would take lives in its name. Do these abusive experiments on living human subjects.\"",
             "ExternalId": "",
             "Position": {
-              "x": 3125.0,
-              "y": -400.0
+              "x": 3925.0,
+              "y": -300.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -14676,120 +14799,8 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000013C4",
-                    "Target": "0x01000000000013C3"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
-            "TechnicalName": "DFr_8C754F18",
-            "Id": "0x01000000000013BA",
-            "Parent": "0x010000000000137E",
-            "MenuText": "A strange man with these tentacles.",
-            "StageDirections": "uncertain",
-            "Speaker": "0x0100000000000182",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
-            },
-            "Text": "",
-            "ExternalId": "",
-            "Position": {
-              "x": 3125.0,
-              "y": 0.0
-            },
-            "ZIndex": 11.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 2356498200,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000013BB",
-                "Owner": "0x01000000000013BA"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000013BC",
-                "Owner": "0x01000000000013BA",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x01000000000013D1",
-                    "Target": "0x01000000000013D0"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
-            "TechnicalName": "DFr_C1517842",
-            "Id": "0x01000000000013C3",
-            "Parent": "0x010000000000137E",
-            "MenuText": "",
-            "StageDirections": "",
-            "Speaker": "0x0100000000000122",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
-            },
-            "Text": "Sounds like he's repented.",
-            "ExternalId": "",
-            "Position": {
-              "x": 3425.0,
-              "y": -400.0
-            },
-            "ZIndex": 11.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 3243341890,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000013C4",
-                "Owner": "0x01000000000013C3"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000013C5",
-                "Owner": "0x01000000000013C3",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000001503",
-                    "Target": "0x0100000000001502"
+                    "TargetPin": "0x0100000000001409",
+                    "Target": "0x0100000000001408"
                   }
                 ]
               }
@@ -14811,11 +14822,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "I assume all bad people justify their actions in one way or another.",
+            "Text": "\"Of all the names that <i>profit</i> has had, this is the worst yet. I suppose 'twas not her idea, anyway.\r\n\r\nHave ye made yer mind, then?\"",
             "ExternalId": "",
             "Position": {
-              "x": 3425.0,
-              "y": -200.0
+              "x": 5925.0,
+              "y": -100.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -14844,8 +14855,8 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001503",
-                    "Target": "0x0100000000001502"
+                    "TargetPin": "0x0100000000001415",
+                    "Target": "0x0100000000001414"
                   }
                 ]
               }
@@ -14867,11 +14878,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Ha, good thing about this job is there ain't nothin' to surprise you anymore.",
+            "Text": "\"Yet a story I have not heard often, not on the Styx. Is there somethin' else that would've landed her 'ere?\"",
             "ExternalId": "",
             "Position": {
-              "x": 3425.0,
-              "y": 0.0
+              "x": 5075.0,
+              "y": -300.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -14900,8 +14911,8 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001503",
-                    "Target": "0x0100000000001502"
+                    "TargetPin": "0x01000000000038CD",
+                    "Target": "0x01000000000038CC"
                   }
                 ]
               }
@@ -14914,7 +14925,7 @@
             "TechnicalName": "DFr_221319A3",
             "Id": "0x01000000000013E7",
             "Parent": "0x010000000000137E",
-            "MenuText": "An insane cult leader with a thirst beauty that could not be quenched.",
+            "MenuText": "\"She was a satanic cult leader doing human sacrifices.\"",
             "StageDirections": "disapproval",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -14923,11 +14934,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "",
+            "Text": "\"She was a satanic cult leader doing human sacrifices to restore her own youth.\"",
             "ExternalId": "",
             "Position": {
-              "x": 4325.0,
-              "y": -200.0
+              "x": 5625.0,
+              "y": -300.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -14970,7 +14981,7 @@
             "TechnicalName": "DFr_B01E0DD0",
             "Id": "0x01000000000013EE",
             "Parent": "0x010000000000137E",
-            "MenuText": "A lady who just wanted to recover from very traumatic experiences.",
+            "MenuText": "\"The first soul is an old man with this... Horrible illness.\"",
             "StageDirections": "approval",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -14979,11 +14990,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "",
+            "Text": "\"An old man with this... Horrible illness.\"",
             "ExternalId": "",
             "Position": {
-              "x": 4325.0,
-              "y": -400.0
+              "x": 3125.0,
+              "y": -300.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -15026,8 +15037,8 @@
             "TechnicalName": "DFr_DB4EF0E5",
             "Id": "0x01000000000013F5",
             "Parent": "0x010000000000137E",
-            "MenuText": "This old lady with bloody skin.",
-            "StageDirections": "uncertain",
+            "MenuText": "\"An old lady whose face was destroyed by abuse and desperation.\"",
+            "StageDirections": "approval",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
             "Color": {
@@ -15035,11 +15046,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "",
+            "Text": "\"An old lady whose face was destroyed by abuse and desperation.\"",
             "ExternalId": "",
             "Position": {
-              "x": 4325.0,
-              "y": 0.0
+              "x": 4775.0,
+              "y": -300.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -15068,8 +15079,8 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001409",
-                    "Target": "0x0100000000001408"
+                    "TargetPin": "0x01000000000013D1",
+                    "Target": "0x01000000000013D0"
                   }
                 ]
               }
@@ -15091,11 +15102,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Wow, sounds like she was just trying to move on all this time.",
+            "Text": "\"Well, ye and I both know how fragile these humans are, they can hardly take a beating. 'Tis how it goes, in the ever-cycling wheel of time.\r\n\r\nBut is that enough for ye to carry out yer duty?\"",
             "ExternalId": "",
             "Position": {
-              "x": 4625.0,
-              "y": -400.0
+              "x": 3425.0,
+              "y": -300.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -15124,8 +15135,8 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x010000000000150D",
-                    "Target": "0x010000000000150C"
+                    "TargetPin": "0x01000000000038B6",
+                    "Target": "0x01000000000038B5"
                   }
                 ]
               }
@@ -15147,11 +15158,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Causing harm to others is never justifiable.",
+            "Text": "\"Now <i>that </i>is a good story! And that's the sorta person who would not regret any of it.\r\n\r\nHave ye made yer mind, then?\"",
             "ExternalId": "",
             "Position": {
-              "x": 4625.0,
-              "y": -200.0
+              "x": 5925.0,
+              "y": -300.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -15180,8 +15191,8 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x010000000000150D",
-                    "Target": "0x010000000000150C"
+                    "TargetPin": "0x0100000000001415",
+                    "Target": "0x0100000000001414"
                   }
                 ]
               }
@@ -15203,11 +15214,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Sounds like my ex-wife.",
+            "Text": "\"These lives come, and they go. I'm certain we've seen them repeatin' before our very eyes. Yet, for humans to murder each other in mass... Well, that's just naive.\r\n\r\nPretty bad, if ye tell me. But, can the second soul compete with that?\"",
             "ExternalId": "",
             "Position": {
-              "x": 4625.0,
-              "y": 0.0
+              "x": 4225.0,
+              "y": -300.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -15236,8 +15247,8 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x010000000000150D",
-                    "Target": "0x010000000000150C"
+                    "TargetPin": "0x01000000000013DF",
+                    "Target": "0x01000000000013DE"
                   }
                 ]
               }
@@ -15250,7 +15261,7 @@
             "TechnicalName": "DFr_4DD4DC37",
             "Id": "0x010000000000141C",
             "Parent": "0x010000000000137E",
-            "MenuText": "It comes down to whoever is ready to move on.",
+            "MenuText": "\"Am I to pick whoever is doomed to an eternity in the river?\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -15259,11 +15270,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "",
+            "Text": "\"Am I to pick whoever is doomed to an eternity in the river?\"",
             "ExternalId": "",
             "Position": {
-              "x": 5500.0,
-              "y": -400.0
+              "x": 6475.0,
+              "y": -300.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -15306,7 +15317,7 @@
             "TechnicalName": "DFr_BF649A95",
             "Id": "0x01000000000014BB",
             "Parent": "0x010000000000137E",
-            "MenuText": "Two bad people stabbed each other in the back.",
+            "MenuText": "\"These two... Murderers!\"",
             "StageDirections": "disapproval",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -15315,11 +15326,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "",
+            "Text": "\"These two... Murderers!\"",
             "ExternalId": "",
             "Position": {
               "x": 2250.0,
-              "y": -200.0
+              "y": -100.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -15348,8 +15359,8 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000014D2",
-                    "Target": "0x01000000000014D1"
+                    "TargetPin": "0x0100000000003858",
+                    "Target": "0x0100000000003857"
                   }
                 ]
               }
@@ -15362,7 +15373,7 @@
             "TechnicalName": "DFr_AEEBD9AB",
             "Id": "0x01000000000014C2",
             "Parent": "0x010000000000137E",
-            "MenuText": "Two people who had it all and lost it all.",
+            "MenuText": "\"Two larger-than-life sorts, thrown it all away.\"",
             "StageDirections": "approval",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -15371,11 +15382,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "",
+            "Text": "\"Two larger-than-life sorts, thrown it all away.\"",
             "ExternalId": "",
             "Position": {
               "x": 2250.0,
-              "y": -400.0
+              "y": -300.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -15415,62 +15426,6 @@
         {
           "Type": "DialogueFragment",
           "Properties": {
-            "TechnicalName": "DFr_0905CFF4",
-            "Id": "0x01000000000014C9",
-            "Parent": "0x010000000000137E",
-            "MenuText": "Two people with crazy lives.",
-            "StageDirections": "uncertain",
-            "Speaker": "0x0100000000000182",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
-            },
-            "Text": "",
-            "ExternalId": "",
-            "Position": {
-              "x": 2250.0,
-              "y": 0.0
-            },
-            "ZIndex": 11.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 151375860,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000014CA",
-                "Owner": "0x01000000000014C9"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x01000000000014CB",
-                "Owner": "0x01000000000014C9",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x01000000000014D2",
-                    "Target": "0x01000000000014D1"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
             "TechnicalName": "DFr_3BA8E22B",
             "Id": "0x01000000000014D1",
             "Parent": "0x010000000000137E",
@@ -15483,11 +15438,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Who are they?",
+            "Text": "\"Sounds like ye got yerself a hell of a story, lad.\"",
             "ExternalId": "",
             "Position": {
               "x": 2550.0,
-              "y": -200.0
+              "y": -300.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -15527,62 +15482,6 @@
         {
           "Type": "DialogueFragment",
           "Properties": {
-            "TechnicalName": "DFr_684B9F05",
-            "Id": "0x0100000000001502",
-            "Parent": "0x010000000000137E",
-            "MenuText": "",
-            "StageDirections": "",
-            "Speaker": "0x0100000000000122",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
-            },
-            "Text": "Who was the other person?",
-            "ExternalId": "",
-            "Position": {
-              "x": 3750.0,
-              "y": -200.0
-            },
-            "ZIndex": 11.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 1749786373,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000001503",
-                "Owner": "0x0100000000001502"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x0100000000001504",
-                "Owner": "0x0100000000001502",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x01000000000013DF",
-                    "Target": "0x01000000000013DE"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
             "TechnicalName": "DFr_16EBF977",
             "Id": "0x010000000000150C",
             "Parent": "0x010000000000137E",
@@ -15595,11 +15494,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Have you made up your mind?",
+            "Text": "\"A madman always has his reasons. Well, I'm not buyin' it. Revenge is such a petty thing. Murder, right? I've heard that story before.\r\n\r\nWhat about the other soul?\"",
             "ExternalId": "",
             "Position": {
-              "x": 4925.0,
-              "y": -200.0
+              "x": 4225.0,
+              "y": -100.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -15628,8 +15527,8 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001415",
-                    "Target": "0x0100000000001414"
+                    "TargetPin": "0x01000000000013DF",
+                    "Target": "0x01000000000013DE"
                   }
                 ]
               }
@@ -15651,11 +15550,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Neither are good, m'boy. Karma is bound to get us too, eventually.",
+            "Text": "\"If Persephone returns, it shall be worth a visit. But Tartarus is a next step. Another one in the cycle of life. The Styx... The Styx means being swallowed whole. 'Tis a mighty river after all, despite its bitter waves and dark depths.\r\n\r\nWhat is the verdict, then?\"",
             "ExternalId": "",
             "Position": {
-              "x": 5800.0,
-              "y": -200.0
+              "x": 6775.0,
+              "y": -100.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -15698,7 +15597,7 @@
             "TechnicalName": "DFr_7F5ED318",
             "Id": "0x010000000000151F",
             "Parent": "0x010000000000137E",
-            "MenuText": "Arthur deserves to move on.",
+            "MenuText": "\"Arthur was pure evil. And he's still proud of his work. He deserves to drown.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -15707,10 +15606,10 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "",
+            "Text": "\"Arthur was pure evil. And he's still proud of his work. He deserves to drown.\"",
             "ExternalId": "",
             "Position": {
-              "x": 6375.0,
+              "x": 7350.0,
               "y": -100.0
             },
             "ZIndex": 11.0,
@@ -15728,7 +15627,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.ApproveMargaret = true",
                 "Id": "0x0100000000001521",
                 "Owner": "0x010000000000151F",
                 "Connections": [
@@ -15754,7 +15653,7 @@
             "TechnicalName": "DFr_5C65935A",
             "Id": "0x010000000000152A",
             "Parent": "0x010000000000137E",
-            "MenuText": "Margaret deserves to move on.",
+            "MenuText": "\"Margaret was a conniving lunatic. Personal beauty is no excuse for murder.\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -15763,10 +15662,10 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "",
+            "Text": "\"Margaret was a conniving lunatic. Personal beauty is no excuse for murder.\"",
             "ExternalId": "",
             "Position": {
-              "x": 6375.0,
+              "x": 7350.0,
               "y": -300.0
             },
             "ZIndex": 11.0,
@@ -15784,7 +15683,7 @@
             ],
             "OutputPins": [
               {
-                "Text": "",
+                "Text": "GlobalVariables.ApproveArthur = true",
                 "Id": "0x010000000000152C",
                 "Owner": "0x010000000000152A",
                 "Connections": [
@@ -15819,11 +15718,11 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "No more time for the other one. Ain't a happy ending, but I ain't makin' the rules.",
+            "Text": "\"No more time for them. No more movin' on. The Styx will know how to swallow them whole. 'Tis a mighty river after all, despite its bitter waves and dark depths.\r\n\r\nWhat is the verdict, then?\"",
             "ExternalId": "",
             "Position": {
-              "x": 5800.0,
-              "y": -400.0
+              "x": 6775.0,
+              "y": -300.0
             },
             "ZIndex": 11.0,
             "Size": {
@@ -15863,62 +15762,6 @@
         {
           "Type": "DialogueFragment",
           "Properties": {
-            "TechnicalName": "DFr_5146E06D",
-            "Id": "0x010000000000153A",
-            "Parent": "0x010000000000137E",
-            "MenuText": "",
-            "StageDirections": "",
-            "Speaker": "0x0100000000000122",
-            "SplitHeight": 64.0,
-            "Color": {
-              "r": 0.577580452,
-              "g": 0.7605245,
-              "b": 0.7991027
-            },
-            "Text": "It most certainly matters to the two souls. They might be miniscule pieces of a much bigger painting, but they are still a part of the fiber of reality.",
-            "ExternalId": "",
-            "Position": {
-              "x": 5800.0,
-              "y": 0.0
-            },
-            "ZIndex": 11.0,
-            "Size": {
-              "w": 225.0,
-              "h": 200.0
-            },
-            "ShortId": 1363599469,
-            "InputPins": [
-              {
-                "Text": "",
-                "Id": "0x010000000000153B",
-                "Owner": "0x010000000000153A"
-              }
-            ],
-            "OutputPins": [
-              {
-                "Text": "",
-                "Id": "0x010000000000153C",
-                "Owner": "0x010000000000153A",
-                "Connections": [
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000001526",
-                    "Target": "0x0100000000001525"
-                  }
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "Type": "DialogueFragment",
-          "Properties": {
             "TechnicalName": "DFr_DA2A3235",
             "Id": "0x0100000000001550",
             "Parent": "0x010000000000137E",
@@ -15931,10 +15774,10 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "Let us pray your judgement has not wavered this time.",
+            "Text": "\"Let us pray yer judgement hasn't swerved this time. A mistake like that has the chance to serve us to the Styx.\"",
             "ExternalId": "",
             "Position": {
-              "x": 6700.0,
+              "x": 7675.0,
               "y": -200.0
             },
             "ZIndex": 11.0,
@@ -15975,6 +15818,342 @@
         {
           "Type": "DialogueFragment",
           "Properties": {
+            "TechnicalName": "DFr_10BC45AD",
+            "Id": "0x0100000000003857",
+            "Parent": "0x010000000000137E",
+            "MenuText": "",
+            "StageDirections": "",
+            "Speaker": "0x0100000000000122",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "\"Murderers!? What would give ye the certainty?\"",
+            "ExternalId": "",
+            "Position": {
+              "x": 2550.0,
+              "y": -100.0
+            },
+            "ZIndex": 11.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 280774061,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003858",
+                "Owner": "0x0100000000003857"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003859",
+                "Owner": "0x0100000000003857",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000013AD",
+                    "Target": "0x01000000000013AB"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_F4BC9ED7",
+            "Id": "0x0100000000003864",
+            "Parent": "0x010000000000137E",
+            "MenuText": "\"His life was so utterly destroyed that he took revenge in a terrible way.\"",
+            "StageDirections": "approval",
+            "Speaker": "0x0100000000000182",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "\"His life was so utterly destroyed that he took revenge in a terrible way. He murdered the boss who fired him, says she gave him his illness.\"",
+            "ExternalId": "",
+            "Position": {
+              "x": 3925.0,
+              "y": -100.0
+            },
+            "ZIndex": 11.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 4106002135,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003865",
+                "Owner": "0x0100000000003864"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003866",
+                "Owner": "0x0100000000003864",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x010000000000150D",
+                    "Target": "0x010000000000150C"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_8BEFE366",
+            "Id": "0x010000000000386D",
+            "Parent": "0x010000000000137E",
+            "MenuText": "\"This corporate empress who took whatever she could for power.\"",
+            "StageDirections": "disapproval",
+            "Speaker": "0x0100000000000182",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "\"This corporate empress who took whatever she could for power.\"",
+            "ExternalId": "",
+            "Position": {
+              "x": 4775.0,
+              "y": -100.0
+            },
+            "ZIndex": 11.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 2347754342,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x010000000000386E",
+                "Owner": "0x010000000000386D"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x010000000000386F",
+                "Owner": "0x010000000000386D",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000038C5",
+                    "Target": "0x01000000000038C4"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_C074AADA",
+            "Id": "0x010000000000388E",
+            "Parent": "0x010000000000137E",
+            "MenuText": "\"The first soul is, you know, another pervert.\"",
+            "StageDirections": "disapproval",
+            "Speaker": "0x0100000000000182",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "\"The first soul is, you know, another pervert.\"",
+            "ExternalId": "",
+            "Position": {
+              "x": 3125.0,
+              "y": -100.0
+            },
+            "ZIndex": 11.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 3228871386,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x010000000000388F",
+                "Owner": "0x010000000000388E"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003890",
+                "Owner": "0x010000000000388E",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000003897",
+                    "Target": "0x0100000000003896"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_2CE0EA5C",
+            "Id": "0x0100000000003896",
+            "Parent": "0x010000000000137E",
+            "MenuText": "",
+            "StageDirections": "",
+            "Speaker": "0x0100000000000122",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "\"Well, perversion has long been the root of the most heinous of crimes. Truly, 'tis a shame these humans have not matured over the times.\r\n\r\nBut is that enough for ye to carry out yer duty?\"",
+            "ExternalId": "",
+            "Position": {
+              "x": 3425.0,
+              "y": -100.0
+            },
+            "ZIndex": 11.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 752937564,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003897",
+                "Owner": "0x0100000000003896"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x0100000000003898",
+                "Owner": "0x0100000000003896",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000038B6",
+                    "Target": "0x01000000000038B5"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
+            "TechnicalName": "DFr_81B249C1",
+            "Id": "0x01000000000038C4",
+            "Parent": "0x010000000000137E",
+            "MenuText": "",
+            "StageDirections": "",
+            "Speaker": "0x0100000000000122",
+            "SplitHeight": 64.0,
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "\"Haha! 'Tis fun that they still think it means much at all, in one of countless lifetimes. What was it that she did?\"",
+            "ExternalId": "",
+            "Position": {
+              "x": 5075.0,
+              "y": -100.0
+            },
+            "ZIndex": 11.0,
+            "Size": {
+              "w": 225.0,
+              "h": 200.0
+            },
+            "ShortId": 2175945153,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000038C5",
+                "Owner": "0x01000000000038C4"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000038C6",
+                "Owner": "0x01000000000038C4",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000038CD",
+                    "Target": "0x01000000000038CC"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "DialogueFragment",
+          "Properties": {
             "TechnicalName": "DFr_436559CE",
             "Id": "0x01000000000035B4",
             "Parent": "0x01000000000035AC",
@@ -15987,7 +16166,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "\"I don't wanna see your face around here until you fix my ship.\"",
+            "Text": "\"Ye best not show yer ugly mug 'round these parts till ye know how to fix me Victoria!\"",
             "ExternalId": "",
             "Position": {
               "x": 1275.0,
@@ -24743,9 +24922,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.5764706,
-                      "g": 0.75686276,
-                      "b": 0.8
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
                     },
                     "Label": "",
                     "TargetPin": "0x0100000000002CB0",
@@ -24799,9 +24978,9 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.5764706,
-                      "g": 0.75686276,
-                      "b": 0.8
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
                     },
                     "Label": "",
                     "TargetPin": "0x0100000000002CB0",
@@ -27347,7 +27526,7 @@
             "TechnicalName": "DFr_27DC9686",
             "Id": "0x0100000000002E4F",
             "Parent": "0x0100000000001AD0",
-            "MenuText": "sighs. \"Please?\"",
+            "MenuText": "\"Please?\"",
             "StageDirections": "",
             "Speaker": "0x0100000000000182",
             "SplitHeight": 64.0,
@@ -27356,7 +27535,7 @@
               "g": 0.7605245,
               "b": 0.7991027
             },
-            "Text": "sighs. \"Please?\"",
+            "Text": "Sigh. \"Please?\"",
             "ExternalId": "",
             "Position": {
               "x": 2275.0,
@@ -32871,8 +33050,8 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000001397",
-                    "Target": "0x0100000000001396"
+                    "TargetPin": "0x01000000000013EF",
+                    "Target": "0x01000000000013EE"
                   },
                   {
                     "Color": {
@@ -32882,19 +33061,8 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000013BB",
-                    "Target": "0x01000000000013BA"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x01000000000013B4",
-                    "Target": "0x01000000000013B3"
+                    "TargetPin": "0x010000000000388F",
+                    "Target": "0x010000000000388E"
                   }
                 ]
               }
@@ -32916,7 +33084,7 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 4050.0,
+              "x": 4525.0,
               "y": -125.0
             },
             "ZIndex": 6.0,
@@ -32946,30 +33114,19 @@
                       "b": 0.7991027
                     },
                     "Label": "",
-                    "TargetPin": "0x01000000000013EF",
-                    "Target": "0x01000000000013EE"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x01000000000013E8",
-                    "Target": "0x01000000000013E7"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
                     "TargetPin": "0x01000000000013F6",
                     "Target": "0x01000000000013F5"
+                  },
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x010000000000386E",
+                    "Target": "0x010000000000386D"
                   }
                 ]
               }
@@ -32982,7 +33139,7 @@
             "TechnicalName": "Hub_84CF8AE6",
             "Id": "0x0100000000001414",
             "Parent": "0x010000000000137E",
-            "DisplayName": "Reflection",
+            "DisplayName": "Good thing",
             "Color": {
               "r": 0.577580452,
               "g": 0.7605245,
@@ -32991,7 +33148,7 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 5225.0,
+              "x": 6225.0,
               "y": -125.0
             },
             "ZIndex": 6.0,
@@ -33034,17 +33191,6 @@
                     "Label": "",
                     "TargetPin": "0x010000000000141D",
                     "Target": "0x010000000000141C"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x0100000000001387",
-                    "Target": "0x0100000000001384"
                   }
                 ]
               }
@@ -33109,17 +33255,6 @@
                     "Label": "",
                     "TargetPin": "0x01000000000014BC",
                     "Target": "0x01000000000014BB"
-                  },
-                  {
-                    "Color": {
-                      "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
-                    },
-                    "Label": "",
-                    "TargetPin": "0x01000000000014CA",
-                    "Target": "0x01000000000014C9"
                   }
                 ]
               }
@@ -33141,7 +33276,7 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": 6100.0,
+              "x": 7075.0,
               "y": -125.0
             },
             "ZIndex": 6.0,
@@ -33184,6 +33319,134 @@
                     "Label": "",
                     "TargetPin": "0x010000000000152B",
                     "Target": "0x010000000000152A"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Hub",
+          "Properties": {
+            "TechnicalName": "Hub_6A528BB8",
+            "Id": "0x01000000000038B5",
+            "Parent": "0x010000000000137E",
+            "DisplayName": "Arthur 2",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 3700.0,
+              "y": -125.0
+            },
+            "ZIndex": 6.0,
+            "Size": {
+              "w": 175.0,
+              "h": 50.0
+            },
+            "ShortId": 1783794616,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000038B6",
+                "Owner": "0x01000000000038B5"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000038B7",
+                "Owner": "0x01000000000038B5",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000013B4",
+                    "Target": "0x01000000000013B3"
+                  },
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000003865",
+                    "Target": "0x0100000000003864"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Hub",
+          "Properties": {
+            "TechnicalName": "Hub_BF4DD5D8",
+            "Id": "0x01000000000038CC",
+            "Parent": "0x010000000000137E",
+            "DisplayName": "Margaret",
+            "Color": {
+              "r": 0.577580452,
+              "g": 0.7605245,
+              "b": 0.7991027
+            },
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": 5375.0,
+              "y": -125.0
+            },
+            "ZIndex": 6.0,
+            "Size": {
+              "w": 175.0,
+              "h": 50.0
+            },
+            "ShortId": 3209549272,
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000038CD",
+                "Owner": "0x01000000000038CC"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000038CE",
+                "Owner": "0x01000000000038CC",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000013E8",
+                    "Target": "0x01000000000013E7"
+                  },
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.577580452,
+                      "g": 0.7605245,
+                      "b": 0.7991027
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000001397",
+                    "Target": "0x0100000000001396"
                   }
                 ]
               }
@@ -36511,7 +36774,7 @@
             "Text": "",
             "ExternalId": "",
             "Position": {
-              "x": -200.0,
+              "x": -450.0,
               "y": 375.0
             },
             "ZIndex": 7.0,
@@ -36542,13 +36805,13 @@
                   {
                     "Color": {
                       "a": 1.0,
-                      "r": 0.577580452,
-                      "g": 0.7605245,
-                      "b": 0.7991027
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
                     },
                     "Label": "",
-                    "TargetPin": "0x0100000000002FEF",
-                    "Target": "0x0100000000002FEE"
+                    "TargetPin": "0x01000000000038E0",
+                    "Target": "0x01000000000038DF"
                   }
                 ]
               },
@@ -38007,6 +38270,78 @@
                     "Label": "",
                     "TargetPin": "0x01000000000031B5",
                     "Target": "0x01000000000031B4"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Type": "Condition",
+          "Properties": {
+            "TechnicalName": "Cnd_80146009",
+            "Id": "0x01000000000038DF",
+            "Parent": "0x01000000000022BC",
+            "DisplayName": "GlobalVariables.MargaretConvo1 == true",
+            "Text": "",
+            "ExternalId": "",
+            "Position": {
+              "x": -100.0,
+              "y": 225.0
+            },
+            "ZIndex": 7.0,
+            "Size": {
+              "w": 225.0,
+              "h": 100.0
+            },
+            "ShortId": 2148818953,
+            "Expression": "GlobalVariables.MargaretConvo1 == true",
+            "Color": {
+              "r": 0.5764706,
+              "g": 0.75686276,
+              "b": 0.8
+            },
+            "InputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000038E0",
+                "Owner": "0x01000000000038DF"
+              }
+            ],
+            "OutputPins": [
+              {
+                "Text": "",
+                "Id": "0x01000000000038E1",
+                "Owner": "0x01000000000038DF",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x0100000000002FEF",
+                    "Target": "0x0100000000002FEE"
+                  }
+                ]
+              },
+              {
+                "Text": "",
+                "Id": "0x01000000000038E2",
+                "Owner": "0x01000000000038DF",
+                "Connections": [
+                  {
+                    "Color": {
+                      "a": 1.0,
+                      "r": 0.5764706,
+                      "g": 0.75686276,
+                      "b": 0.8
+                    },
+                    "Label": "",
+                    "TargetPin": "0x01000000000008BA",
+                    "Target": "0x01000000000008B7"
                   }
                 ]
               }
@@ -39481,6 +39816,11 @@
               {
                 "Id": "0x0100000000002FE6",
                 "TechnicalName": "Cnd_4AF3C343",
+                "Type": "Condition"
+              },
+              {
+                "Id": "0x01000000000038DF",
+                "TechnicalName": "Cnd_80146009",
                 "Type": "Condition"
               },
               {
@@ -41397,6 +41737,21 @@
                     "Id": "0x0100000000000254",
                     "TechnicalName": "DFr_945F9FF0",
                     "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x010000000000380F",
+                    "TechnicalName": "DFr_F650F997",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000003816",
+                    "TechnicalName": "DFr_EC96D93C",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000003806",
+                    "TechnicalName": "DFr_8F7ACD4F",
+                    "Type": "DialogueFragment"
                   }
                 ]
               },
@@ -41426,13 +41781,13 @@
                     "Type": "DialogueFragment"
                   },
                   {
-                    "Id": "0x01000000000014C9",
-                    "TechnicalName": "DFr_0905CFF4",
+                    "Id": "0x01000000000014D1",
+                    "TechnicalName": "DFr_3BA8E22B",
                     "Type": "DialogueFragment"
                   },
                   {
-                    "Id": "0x01000000000014D1",
-                    "TechnicalName": "DFr_3BA8E22B",
+                    "Id": "0x0100000000003857",
+                    "TechnicalName": "DFr_10BC45AD",
                     "Type": "DialogueFragment"
                   },
                   {
@@ -41441,58 +41796,13 @@
                     "Type": "Hub"
                   },
                   {
-                    "Id": "0x01000000000013B3",
-                    "TechnicalName": "DFr_A4292C97",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000001396",
-                    "TechnicalName": "DFr_D7FA9E6F",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x01000000000013BA",
-                    "TechnicalName": "DFr_8C754F18",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x01000000000013C3",
-                    "TechnicalName": "DFr_C1517842",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x01000000000013CA",
-                    "TechnicalName": "DFr_881B8B39",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x01000000000013D0",
-                    "TechnicalName": "DFr_23474BE3",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x0100000000001502",
-                    "TechnicalName": "DFr_684B9F05",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x01000000000013DE",
-                    "TechnicalName": "Hub_F9CB4A96",
-                    "Type": "Hub"
-                  },
-                  {
                     "Id": "0x01000000000013EE",
                     "TechnicalName": "DFr_B01E0DD0",
                     "Type": "DialogueFragment"
                   },
                   {
-                    "Id": "0x01000000000013E7",
-                    "TechnicalName": "DFr_221319A3",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x01000000000013F5",
-                    "TechnicalName": "DFr_DB4EF0E5",
+                    "Id": "0x010000000000388E",
+                    "TechnicalName": "DFr_C074AADA",
                     "Type": "DialogueFragment"
                   },
                   {
@@ -41501,8 +41811,23 @@
                     "Type": "DialogueFragment"
                   },
                   {
-                    "Id": "0x0100000000001402",
-                    "TechnicalName": "DFr_E8B24F7A",
+                    "Id": "0x0100000000003896",
+                    "TechnicalName": "DFr_2CE0EA5C",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x01000000000038B5",
+                    "TechnicalName": "Hub_6A528BB8",
+                    "Type": "Hub"
+                  },
+                  {
+                    "Id": "0x01000000000013B3",
+                    "TechnicalName": "DFr_A4292C97",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000003864",
+                    "TechnicalName": "DFr_F4BC9ED7",
                     "Type": "DialogueFragment"
                   },
                   {
@@ -41513,6 +41838,56 @@
                   {
                     "Id": "0x010000000000150C",
                     "TechnicalName": "DFr_16EBF977",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x01000000000013DE",
+                    "TechnicalName": "Hub_F9CB4A96",
+                    "Type": "Hub"
+                  },
+                  {
+                    "Id": "0x01000000000013F5",
+                    "TechnicalName": "DFr_DB4EF0E5",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x010000000000386D",
+                    "TechnicalName": "DFr_8BEFE366",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x01000000000013D0",
+                    "TechnicalName": "DFr_23474BE3",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x01000000000038C4",
+                    "TechnicalName": "DFr_81B249C1",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x01000000000038CC",
+                    "TechnicalName": "Hub_BF4DD5D8",
+                    "Type": "Hub"
+                  },
+                  {
+                    "Id": "0x01000000000013E7",
+                    "TechnicalName": "DFr_221319A3",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000001396",
+                    "TechnicalName": "DFr_D7FA9E6F",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x0100000000001402",
+                    "TechnicalName": "DFr_E8B24F7A",
+                    "Type": "DialogueFragment"
+                  },
+                  {
+                    "Id": "0x01000000000013CA",
+                    "TechnicalName": "DFr_881B8B39",
                     "Type": "DialogueFragment"
                   },
                   {
@@ -41531,11 +41906,6 @@
                     "Type": "DialogueFragment"
                   },
                   {
-                    "Id": "0x0100000000001384",
-                    "TechnicalName": "DFr_8CEC8D1D",
-                    "Type": "DialogueFragment"
-                  },
-                  {
                     "Id": "0x0100000000001533",
                     "TechnicalName": "DFr_FB9EC277",
                     "Type": "DialogueFragment"
@@ -41543,11 +41913,6 @@
                   {
                     "Id": "0x0100000000001516",
                     "TechnicalName": "DFr_29ECBD6F",
-                    "Type": "DialogueFragment"
-                  },
-                  {
-                    "Id": "0x010000000000153A",
-                    "TechnicalName": "DFr_5146E06D",
                     "Type": "DialogueFragment"
                   },
                   {
