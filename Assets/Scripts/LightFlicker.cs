@@ -11,15 +11,17 @@ public class LightFlicker : MonoBehaviour
     [SerializeField] float maxTimeOff;
     private float changeTime = 0;
     private Light2D _light;
+    public bool _isOn;
 
     private void Start()
     {
         _light = GetComponent<Light2D>();
     }
 
-
     void Update()
     {
+        if (_light.enabled) _isOn = true;
+        if(!_isOn) return;
         if (Time.time > changeTime) {
             _light.enabled = !_light.enabled;
             if (_light.enabled)

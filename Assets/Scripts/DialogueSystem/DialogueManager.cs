@@ -119,7 +119,7 @@ public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
         var objectWithText = aObject as IObjectWithText;
         if (objectWithText != null)
         {
-            _dialogueText.text = _dialogueText.text == string.Empty? $"<color=#1142C5FF>{speakerEntity.DisplayName}</color>: {objectWithText.Text}" : $"<color=#808080ff>{_dialogueText.text}\n  </color><color=#521407f2>{speakerEntity.DisplayName}</color>: {objectWithText.Text}";
+            _dialogueText.text = _dialogueText.text == string.Empty? $"<color=#60E6EF>{speakerEntity.DisplayName}</color>: {objectWithText.Text}" : $"<color=#808080ff>{_dialogueText.text}\n  </color><color=#60E6EF>{speakerEntity.DisplayName}</color>: {objectWithText.Text}";
             // if (objectWithMenuText.MenuText == string.Empty)
             // {
             //     _dialogueText.text = _dialogueText.text == string.Empty? $"{speakerEntity.DisplayName}: {objectWithText.Text}" : $"<color=#808080ff>{_dialogueText.text}\n  </color>{speakerEntity.DisplayName}: {objectWithText.Text}";

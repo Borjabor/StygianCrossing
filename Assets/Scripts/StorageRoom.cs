@@ -104,6 +104,7 @@ public class StorageRoom : MonoBehaviour
 
         // foreach (var light in _SceneLights)
         // {
+        //     light.GetComponent<LightFlicker>().Toggle();
         //     light.enabled = false;
         // }
 

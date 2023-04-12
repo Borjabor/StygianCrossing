@@ -74,6 +74,7 @@ public class SceneComponent : MonoBehaviour
 
         // foreach (var light in _SceneLights)
         // {
+        //     //light.GetComponent<LightFlicker>().Toggle();
         //     light.enabled = false;
         // }
 
