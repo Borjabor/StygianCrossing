@@ -34,7 +34,8 @@ public class CameraController : MonoBehaviour
 
     private float _moveSpeed = 7f;
 
-    private Vector3 _targetPosition;
+    [SerializeField]
+    private Transform _targetPosition;
 
     private Camera _cam;
 
@@ -45,62 +46,40 @@ public class CameraController : MonoBehaviour
 
     void Update()
     {
-        //PanAndZoom();
-
-        ZoomInToCharacter();
-
-        FollowPlayer();
-    }
-
-    private void PanAndZoom()
-    {
-        //pan
-        if (Input.GetMouseButtonDown(2))
-        {
-            dragOrigin = Input.mousePosition;
-        }
-
-        if (Input.GetMouseButton(2))
-        {
-            Vector3 delta = Input.mousePosition - dragOrigin;
-            transform.position -= delta * Time.deltaTime * moveSpeed / transform.localScale.x;
-            dragOrigin = Input.mousePosition;
-        }
-
-        //zoom
-        float scroll = Input.GetAxis("Mouse ScrollWheel");
-        float zoomAmount = Mathf.Clamp(Camera.main.orthographicSize - scroll * zoomSpeed, minZoom, maxZoom);
-        Camera.main.orthographicSize = zoomAmount;
-    }
-
-
-    private void ZoomInToCharacter()
-    {
-
         if (_gameState.Value == States.DIALOGUE)
         {
-            
-            // _targetPosition = new Vector3(transform.position.x, transform.position.y, transform.position.z + 5f);
-            // transform.position = Vector3.MoveTowards(transform.position, _targetPosition, step);
-
-            // var newValue = Mathf.MoveTowards(5f, 3.8f, step);
-            _cam.orthographicSize = 3.8f;
             _inDialogue = true;
         }
 
         if (_gameState.Value == States.NORMAL)
         {
-            // if (_inDialogue)
-            // {
-                // var newValue = Mathf.MoveTowards(3.8f, 5f, step);
-                _cam.orthographicSize = 5f;
-            // }
+            _inDialogue = false;
         }
+        
+        if (_inDialogue)
+        {
+            MoveCameraToTheRight();
+        }
+
+        else
+        {
+            FollowPlayer();
+        }
+    }
+
+
+    private void MoveCameraToTheRight()
+    {
+        float step = _moveSpeed * Time.deltaTime;
+
+        transform.position = Vector3.MoveTowards(transform.position, _targetPosition.position, 1.5f * Time.deltaTime);
+        
+        
     }
 
     private void FollowPlayer()
     {
         var position = _playerTransform.position;
-        transform.position = new Vector3(position.x, position.y, transform.position.z);
+        transform.position = new Vector3(position.x, position.y + 1.59f, transform.position.z);
     }
 }
