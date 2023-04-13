@@ -42,12 +42,12 @@ public class LevelController : MonoBehaviour
         {
             if (_margaretApprove)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+                SceneManager.LoadScene(2);
             }
 
             else
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); 
+                SceneManager.LoadScene(3); 
             }  
         }
     }
