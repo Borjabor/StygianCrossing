@@ -66,7 +66,7 @@ public class Notebook : MonoBehaviour
             _notificationCount++;
         }
         
-        if (arg1 == $"GlobalVariables.WaltConvo2" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.JeanConvo1" && (bool)arg2)
         {
             _objectives[2].SetActive(true);
             _notificationCount++;
@@ -140,7 +140,7 @@ public class Notebook : MonoBehaviour
             _objectivesDone[2].SetActive(true);
         }
         
-        if (arg1 == $"GlobalVariables.WaltConvo3" && (bool)arg2)
+        if (arg1 == $"GlobalVariables.JeanConvo2" && (bool)arg2)
         {
             _objectivesDone[3].SetActive(true);
         }
