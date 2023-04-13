@@ -5017,7 +5017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _listener: {fileID: 516148662}
   _playerTransform: {fileID: 2130244105}
-  _topFloorPosition: {x: -7.41, y: 6.28, z: 0}
+  _topFloorPosition: {x: -7.58, y: 6.28, z: 0}
   _baseFloorPosition: {x: -7.44, y: 2.27, z: 0}
   _base2FloorPosition: {x: -7.55, y: -2.17, z: 0}
   _moveSpeed: 1
@@ -25396,7 +25396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _listener: {fileID: 516148662}
   _playerTransform: {fileID: 2130244105}
-  _topFloorPosition: {x: -7.41, y: 6.28, z: 0}
+  _topFloorPosition: {x: -7.58, y: 6.28, z: 0}
   _baseFloorPosition: {x: -7.44, y: 2.27, z: 0}
   _base2FloorPosition: {x: -7.55, y: -2.17, z: 0}
   _moveSpeed: 1
@@ -31505,7 +31505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _listener: {fileID: 516148662}
   _playerTransform: {fileID: 2130244105}
-  _topFloorPosition: {x: -7.41, y: 6.28, z: 0}
+  _topFloorPosition: {x: -7.58, y: 6.28, z: 0}
   _baseFloorPosition: {x: -7.44, y: 2.27, z: 0}
   _base2FloorPosition: {x: -7.55, y: -2.17, z: 0}
   _moveSpeed: 1
@@ -44868,6 +44868,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 74705393077512680, guid: d675c6c4a858e4b43a47d54052215b06,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 74705393077512681, guid: d675c6c4a858e4b43a47d54052215b06,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -47575,6 +47580,21 @@ PrefabInstance:
     - target: {fileID: 413602204313936481, guid: a4e2969dd1c449244a8099a40cc1a955,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 413602204313936486, guid: a4e2969dd1c449244a8099a40cc1a955,
+        type: 3}
+      propertyPath: m_LinearDrag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 413602204313936486, guid: a4e2969dd1c449244a8099a40cc1a955,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 413602204313936486, guid: a4e2969dd1c449244a8099a40cc1a955,
+        type: 3}
+      propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 413602204313936488, guid: a4e2969dd1c449244a8099a40cc1a955,
