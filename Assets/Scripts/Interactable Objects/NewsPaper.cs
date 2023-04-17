@@ -16,6 +16,9 @@ public class NewsPaper : MonoBehaviour
 
     [SerializeField]
     private Texture2D _magnifyCursor;
+    
+    [SerializeField]
+    private Texture2D _regularCursor;
 
     [SerializeField]
     private GlobalVariableListener _listener;
@@ -59,7 +62,7 @@ public class NewsPaper : MonoBehaviour
         if (_canBeClicked == true)
         {
             print($"picking up {_name}");
-            Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+            Cursor.SetCursor(_regularCursor, Vector2.zero, CursorMode.ForceSoftware);
             var UIObject = Instantiate(_UIIconPrefab);
             UIObject.transform.parent = _objectContainer.transform;
             var imageRenderer = UIObject.GetComponent<Image>();
@@ -71,11 +74,11 @@ public class NewsPaper : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        Cursor.SetCursor(_magnifyCursor, Vector2.zero, CursorMode.Auto);
+        Cursor.SetCursor(_magnifyCursor, Vector2.zero, CursorMode.ForceSoftware);
     }
 
     private void OnMouseExit()
     {
-        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+        Cursor.SetCursor(_regularCursor, Vector2.zero, CursorMode.ForceSoftware);
     }
 }

@@ -18,6 +18,9 @@ public class FamilyPortrait : MonoBehaviour
 
     [SerializeField]
     private Texture2D _magnifyCursor;
+    
+    [SerializeField]
+    private Texture2D _regularCursor;
 
     [SerializeField]
     private GlobalVariableListener _listener;
@@ -61,7 +64,7 @@ public class FamilyPortrait : MonoBehaviour
         if (_canBeClicked == true)
         {
             print($"picking up {_name}");
-            Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+            Cursor.SetCursor(_regularCursor, Vector2.zero, CursorMode.ForceSoftware);
             var UIObject = Instantiate(_UIIconPrefab);
 
             UIObject.transform.parent = _objectContainer.transform;
@@ -78,12 +81,12 @@ public class FamilyPortrait : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        Cursor.SetCursor(_magnifyCursor, Vector2.zero, CursorMode.Auto);
+        Cursor.SetCursor(_magnifyCursor, Vector2.zero, CursorMode.ForceSoftware);
     }
 
     private void OnMouseExit()
     {
-        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+        Cursor.SetCursor(_regularCursor, Vector2.zero, CursorMode.ForceSoftware);
     }
 }
 

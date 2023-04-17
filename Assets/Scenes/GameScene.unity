@@ -9509,6 +9509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _magnifyCursor: {fileID: 2800000, guid: 1aa60f0c106f96a4b81ec28c2e3d8f10, type: 3}
+  _regularCursor: {fileID: 2800000, guid: eca990f78c1721443b879c2b3e57dc40, type: 3}
   _listener: {fileID: 516148662}
   _name: MargaretConvo2
   _objectContainer: {fileID: 937672220}
@@ -15010,6 +15011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _magnifyCursor: {fileID: 2800000, guid: 1aa60f0c106f96a4b81ec28c2e3d8f10, type: 3}
+  _regularCursor: {fileID: 2800000, guid: eca990f78c1721443b879c2b3e57dc40, type: 3}
   _listener: {fileID: 516148662}
   _name: JeanConvo1
   _objectContainer: {fileID: 937672220}
@@ -15303,6 +15305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _magnifyCursor: {fileID: 2800000, guid: 1aa60f0c106f96a4b81ec28c2e3d8f10, type: 3}
+  _regularCursor: {fileID: 2800000, guid: eca990f78c1721443b879c2b3e57dc40, type: 3}
   _listener: {fileID: 516148662}
   _name: JackConvo2
   _objectContainer: {fileID: 937672220}
@@ -20175,6 +20178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _magnifyCursor: {fileID: 2800000, guid: 1aa60f0c106f96a4b81ec28c2e3d8f10, type: 3}
+  _regularCursor: {fileID: 2800000, guid: eca990f78c1721443b879c2b3e57dc40, type: 3}
   _listener: {fileID: 516148662}
   _name: JackConvo2
   _objectContainer: {fileID: 937672220}
@@ -37227,6 +37231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _magnifyCursor: {fileID: 2800000, guid: 1aa60f0c106f96a4b81ec28c2e3d8f10, type: 3}
+  _regularCursor: {fileID: 2800000, guid: eca990f78c1721443b879c2b3e57dc40, type: 3}
   _listener: {fileID: 516148662}
   _name: JeanKeyConvo
   _objectContainer: {fileID: 937672220}
@@ -39678,6 +39683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _magnifyCursor: {fileID: 2800000, guid: 1aa60f0c106f96a4b81ec28c2e3d8f10, type: 3}
+  _regularCursor: {fileID: 2800000, guid: eca990f78c1721443b879c2b3e57dc40, type: 3}
   _listener: {fileID: 516148662}
   _name: JackConvo3
   _objectContainer: {fileID: 937672220}
@@ -44170,6 +44176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _magnifyCursor: {fileID: 2800000, guid: 1aa60f0c106f96a4b81ec28c2e3d8f10, type: 3}
+  _regularCursor: {fileID: 2800000, guid: eca990f78c1721443b879c2b3e57dc40, type: 3}
   _listener: {fileID: 516148662}
   _name: WaltConvo1
   _objectContainer: {fileID: 937672220}
