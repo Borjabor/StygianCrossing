@@ -7,8 +7,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
+    [SerializeField]
+    private Texture2D _textureCursor;
     private void Start()
     {
+        
+    }
+
+    private void Update()
+    {
+        Cursor.SetCursor(_textureCursor, Vector2.zero, CursorMode.ForceSoftware);
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }
